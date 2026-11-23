@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Copy, Check, X, FileText, Download, ShieldCheck } from 'lucide-react';
-import { PROPOSAL_SECTIONS } from './ProposalViewerModal';
 
 export interface ProposalSection {
   id: number;

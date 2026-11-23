@@ -6,6 +6,7 @@ import { DialysisCapacityPlanner } from './components/DialysisCapacityPlanner';
 import { PatientRiskTriage } from './components/PatientRiskTriage';
 import { PolicySimulator } from './components/PolicySimulator';
 import { ProofOfWorkDocument } from './components/ProofOfWorkDocument';
+import { FigureGallery } from './components/FigureGallery';
 import { ProposalViewerModal, PROPOSAL_SECTIONS } from './components/ProposalViewerModal';
 import { ASSAM_DISTRICTS } from './data/assamDistrictsData';
 import { DistrictMetric, PolicyInterventionParams } from './types';
@@ -14,7 +15,7 @@ import { Download, FileText, ShieldCheck, Check } from 'lucide-react';
 export const App: React.FC = () => {
   const [districts] = useState<DistrictMetric[]>(ASSAM_DISTRICTS);
   const [selectedDistrict, setSelectedDistrict] = useState<DistrictMetric>(ASSAM_DISTRICTS[0]);
-  const [activeTab, setActiveTab] = useState<'overview' | 'forecasting' | 'dialysis' | 'triage' | 'simulator' | 'proposal' | 'pow'>('overview');
+  const [activeTab, setActiveTab] = useState<'overview' | 'forecasting' | 'dialysis' | 'triage' | 'simulator' | 'proposal' | 'pow' | 'gallery'>('overview');
   const [isProposalModalOpen, setIsProposalModalOpen] = useState<boolean>(false);
   const [copiedId, setCopiedId] = useState<number | null>(null);
 
@@ -92,6 +93,10 @@ export const App: React.FC = () => {
 
         {activeTab === 'pow' && (
           <ProofOfWorkDocument />
+        )}
+
+        {activeTab === 'gallery' && (
+          <FigureGallery />
         )}
 
         {activeTab === 'proposal' && (

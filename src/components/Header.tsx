@@ -1,12 +1,12 @@
 import React from 'react';
-import { ShieldAlert, Activity, FileText, Layers, Bell, CheckCircle2, Award, Printer } from 'lucide-react';
+import { ShieldAlert, Activity, FileText, Layers, Bell, CheckCircle2, Award, Printer, Image as ImageIcon } from 'lucide-react';
 import { DistrictMetric } from '../types';
 
 interface HeaderProps {
   districts: DistrictMetric[];
   selectedDistrict: DistrictMetric;
-  activeTab: 'overview' | 'forecasting' | 'dialysis' | 'triage' | 'simulator' | 'proposal' | 'pow';
-  setActiveTab: (tab: 'overview' | 'forecasting' | 'dialysis' | 'triage' | 'simulator' | 'proposal' | 'pow') => void;
+  activeTab: 'overview' | 'forecasting' | 'dialysis' | 'triage' | 'simulator' | 'proposal' | 'pow' | 'gallery';
+  setActiveTab: (tab: 'overview' | 'forecasting' | 'dialysis' | 'triage' | 'simulator' | 'proposal' | 'pow' | 'gallery') => void;
   onOpenProposalModal: () => void;
 }
 
@@ -169,6 +169,18 @@ export const Header: React.FC<HeaderProps> = ({
         >
           <span className="w-2 h-2 rounded-full bg-purple-600"></span>
           Policy "What-If" Simulator
+        </button>
+
+        <button
+          onClick={() => setActiveTab('gallery')}
+          className={`flex items-center gap-1.5 px-3 py-1.5 rounded-md font-medium whitespace-nowrap transition-colors ${
+            activeTab === 'gallery'
+              ? 'bg-teal-50 text-teal-800 border border-teal-300 font-bold'
+              : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100'
+          }`}
+        >
+          <ImageIcon className="w-3.5 h-3.5 text-teal-600" />
+          Visual Blueprints (6 Figures)
         </button>
 
         <button

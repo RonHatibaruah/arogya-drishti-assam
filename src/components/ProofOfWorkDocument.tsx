@@ -103,6 +103,18 @@ export const ProofOfWorkDocument: React.FC = () => {
             While frontline health workers in Assam screen over 5.8 Lakh adults for Hypertension and Diabetes under the CPHC NP-NCD program, these records remain trapped in passive data silos. Patients silently progress through asymptomatic stages of Diabetic Nephropathy over 4 to 6 years, presenting only when kidneys fail irreversibly (CKD Stage 5 / ESRD). Arogya-Drishti closes this loop by connecting primary screening parameters to secondary renal triaging and predictive tertiary dialysis capacity planning.
           </p>
 
+          {/* Embedded High-Resolution Visual Figure 1 */}
+          <div className="my-4 rounded-xl overflow-hidden border border-slate-200 shadow-xs bg-slate-50 p-2">
+            <img 
+              src="/images/figure1_workflow_comparison.svg" 
+              alt="Figure 1: Workflow Comparison" 
+              className="w-full h-auto rounded-lg bg-white" 
+            />
+            <p className="text-center text-[11px] font-semibold text-slate-600 mt-2">
+              Figure 1: Clinical Workflow Transformation — Current Fragmented Siloed Care vs. Arogya-Drishti Cross-Programme Closed Loop
+            </p>
+          </div>
+
           {/* Comparative Grid */}
           <div className="bg-slate-50 p-4 rounded-xl border border-slate-200">
             <div className="text-xs font-bold text-teal-900 mb-3 uppercase tracking-wide">
@@ -167,6 +179,18 @@ export const ProofOfWorkDocument: React.FC = () => {
             The platform is built on a four-tier architecture complying with the Ayushman Bharat Digital Mission (ABDM) and the National Digital Health Blueprint (NDHB). It features a zero-knowledge de-identification gateway ensuring no patient PII is stored centrally.
           </p>
 
+          {/* Embedded High-Resolution Visual Figure 2 */}
+          <div className="my-4 rounded-xl overflow-hidden border border-slate-200 shadow-xs bg-slate-50 p-2">
+            <img 
+              src="/images/figure2_abdm_enterprise_architecture.svg" 
+              alt="Figure 2: ABDM Architecture" 
+              className="w-full h-auto rounded-lg bg-white" 
+            />
+            <p className="text-center text-[11px] font-semibold text-slate-600 mt-2">
+              Figure 2: Arogya-Drishti ABDM-Compliant 4-Tier Sovereign State Cloud Architecture & Data Mesh
+            </p>
+          </div>
+
           <div className="bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-3">
             <div className="text-xs font-bold text-teal-900 uppercase tracking-wide">
               Figure 2: 4-Tier Sovereign State Healthcare Architecture
@@ -229,6 +253,18 @@ export const ProofOfWorkDocument: React.FC = () => {
           <p className="text-xs text-slate-700 leading-relaxed">
             The platform applies the international <strong>KDIGO 2024 Clinical Staging Grid</strong> and the validated <strong>Kidney Failure Risk Equation (KFRE)</strong> adapted for Indian phenotypes. The matrix maps eGFR against urine Albumin-to-Creatinine Ratio (uACR) or dipstick proteinuria to drive automated triage.
           </p>
+
+          {/* Embedded High-Resolution Visual Figure 3 */}
+          <div className="my-4 rounded-xl overflow-hidden border border-slate-200 shadow-xs bg-slate-50 p-2">
+            <img 
+              src="/images/figure3_kdigo_risk_heatmap.svg" 
+              alt="Figure 3: KDIGO 2024 Heatmap Matrix" 
+              className="w-full h-auto rounded-lg bg-white" 
+            />
+            <p className="text-center text-[11px] font-semibold text-slate-600 mt-2">
+              Figure 3: KDIGO 2024 Clinical Prognosis Heatmap Matrix & Assam Standard Operating Procedures
+            </p>
+          </div>
 
           <div className="bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-2">
             <div className="text-xs font-bold text-teal-900 uppercase tracking-wide">
@@ -336,6 +372,18 @@ export const ProofOfWorkDocument: React.FC = () => {
               </tbody>
             </table>
           </div>
+
+          {/* Embedded High-Resolution Visual Figure 5: Patient Referral Flow */}
+          <div className="my-4 rounded-xl overflow-hidden border border-slate-200 shadow-xs bg-slate-50 p-2">
+            <img 
+              src="/images/figure5_patient_referral_flow.svg" 
+              alt="Figure 5: Electronic ABHA Referral Slip" 
+              className="w-full h-auto max-w-xl mx-auto rounded-lg bg-white" 
+            />
+            <p className="text-center text-[11px] font-semibold text-slate-600 mt-2">
+              Figure 5: Electronic ABHA Nephrology Referral Slip & Decision-Support Triage Protocol
+            </p>
+          </div>
         </section>
 
         {/* SECTION 5: PILOT VALIDATION PLAN (KAMRUP METRO & DIBRUGARH) */}
@@ -347,6 +395,18 @@ export const ProofOfWorkDocument: React.FC = () => {
           <p className="text-xs text-slate-700 leading-relaxed">
             The solution is scheduled for a 60-day field validation pilot across two contrasting demographic zones in Assam, achieving readiness for deployment at Month 8:
           </p>
+
+          {/* Embedded High-Resolution Visual Figure 4 */}
+          <div className="my-4 rounded-xl overflow-hidden border border-slate-200 shadow-xs bg-slate-50 p-2">
+            <img 
+              src="/images/figure4_pilot_map_and_timeline.svg" 
+              alt="Figure 4: Geospatial Vulnerability & Two-District Pilot" 
+              className="w-full h-auto rounded-lg bg-white" 
+            />
+            <p className="text-center text-[11px] font-semibold text-slate-600 mt-2">
+              Figure 4: Geospatial Vulnerability Architecture & Kamrup Metro / Dibrugarh Two-District Pilot Blueprint
+            </p>
+          </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
             <div className="bg-slate-50 p-3.5 rounded-xl border border-slate-200 space-y-1.5">
@@ -368,6 +428,18 @@ export const ProofOfWorkDocument: React.FC = () => {
                 Rural and tea-garden worker demographic. Evaluates frontline point-of-care microalbuminuria testing under rural primary health workflows and transit links to Assam Medical College (AMCH).
               </p>
             </div>
+          </div>
+
+          {/* Embedded High-Resolution Visual Figure 6 */}
+          <div className="my-4 rounded-xl overflow-hidden border border-slate-200 shadow-xs bg-slate-50 p-2">
+            <img 
+              src="/images/figure6_implementation_gantt_roadmap.svg" 
+              alt="Figure 6: Implementation Gantt Chart" 
+              className="w-full h-auto rounded-lg bg-white" 
+            />
+            <p className="text-center text-[11px] font-semibold text-slate-600 mt-2">
+              Figure 6: 12-Month Phased Implementation Roadmap & Governance Gantt Chart (Month 8 Validation Benchmark)
+            </p>
           </div>
 
           {/* Implementation Timeline Bar */}
