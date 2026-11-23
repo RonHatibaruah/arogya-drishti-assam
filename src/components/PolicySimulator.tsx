@@ -55,38 +55,38 @@ export const PolicySimulator: React.FC<PolicySimulatorProps> = ({
   return (
     <div className="space-y-6">
       {/* Banner */}
-      <div className="bg-slate-900 border border-slate-800 rounded-xl p-5 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+      <div className="bg-white border border-slate-200 rounded-xl p-5 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 shadow-xs">
         <div>
           <div className="flex items-center gap-2">
-            <Sliders className="w-5 h-5 text-purple-400" />
-            <h2 className="text-base font-semibold text-white">
+            <Sliders className="w-5 h-5 text-purple-700" />
+            <h2 className="text-base font-bold text-slate-900">
               Health Economics & Public Health Policy "What-If" Simulator
             </h2>
           </div>
-          <p className="text-xs text-slate-400 mt-1">
+          <p className="text-xs text-slate-600 mt-1">
             Simulate the clinical and fiscal returns of early interventions versus late-stage dialysis expenditure in{' '}
-            <span className="font-semibold text-teal-300">{selectedDistrict.name}</span>.
+            <span className="font-bold text-teal-800">{selectedDistrict.name}</span>.
           </p>
         </div>
 
         {/* Preset buttons */}
-        <div className="flex flex-wrap items-center gap-2 bg-slate-950 p-1.5 rounded-lg border border-slate-800 text-xs">
-          <span className="text-slate-400 px-1 text-[11px]">Policy Presets:</span>
+        <div className="flex flex-wrap items-center gap-2 bg-slate-100 p-1.5 rounded-lg border border-slate-200 text-xs">
+          <span className="text-slate-600 px-1 text-[11px] font-medium">Policy Presets:</span>
           <button
             onClick={() => applyPreset('statusQuo')}
-            className="px-2.5 py-1 rounded bg-slate-850 hover:bg-slate-800 text-slate-300 transition-colors"
+            className="px-2.5 py-1 rounded bg-white hover:bg-slate-50 text-slate-700 border border-slate-200 transition-colors shadow-2xs font-medium"
           >
             Status Quo
           </button>
           <button
             onClick={() => applyPreset('screening')}
-            className="px-2.5 py-1 rounded bg-teal-950 text-teal-300 border border-teal-800 hover:bg-teal-900 transition-colors"
+            className="px-2.5 py-1 rounded bg-teal-100 text-teal-900 border border-teal-300 hover:bg-teal-200 transition-colors font-bold shadow-2xs"
           >
             PHC Screening Drive
           </button>
           <button
             onClick={() => applyPreset('intensive')}
-            className="px-2.5 py-1 rounded bg-purple-950 text-purple-300 border border-purple-800 hover:bg-purple-900 transition-colors"
+            className="px-2.5 py-1 rounded bg-purple-100 text-purple-900 border border-purple-300 hover:bg-purple-200 transition-colors font-bold shadow-2xs"
           >
             Full Intensive Protocol
           </button>
@@ -96,12 +96,12 @@ export const PolicySimulator: React.FC<PolicySimulatorProps> = ({
       {/* Main Grid: Controls on Left, Real-Time Outcomes on Right */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         {/* Sliders Card */}
-        <div className="bg-slate-900 border border-slate-800 rounded-xl p-5 space-y-5">
-          <h3 className="font-semibold text-white text-sm border-b border-slate-800 pb-2 flex items-center justify-between">
+        <div className="bg-white border border-slate-200 rounded-xl p-5 space-y-5 shadow-xs">
+          <h3 className="font-bold text-slate-900 text-sm border-b border-slate-100 pb-2 flex items-center justify-between">
             <span>Intervention Levers</span>
             <button
               onClick={() => applyPreset('statusQuo')}
-              className="text-xs text-slate-400 hover:text-white flex items-center gap-1 font-normal"
+              className="text-xs text-slate-500 hover:text-slate-800 flex items-center gap-1 font-medium"
             >
               <RefreshCw className="w-3 h-3" /> Reset
             </button>
@@ -110,8 +110,8 @@ export const PolicySimulator: React.FC<PolicySimulatorProps> = ({
           {/* Lever 1: Screening Expansion */}
           <div className="space-y-2">
             <div className="flex justify-between text-xs">
-              <span className="text-slate-200 font-medium">Primary CPHC Screening Coverage Increase:</span>
-              <span className="text-teal-400 font-mono font-bold">
+              <span className="text-slate-800 font-medium">Primary CPHC Screening Coverage Increase:</span>
+              <span className="text-teal-800 font-mono font-bold">
                 +{policyParams.screeningCoverageIncreasePct}%
               </span>
             </div>
@@ -127,7 +127,7 @@ export const PolicySimulator: React.FC<PolicySimulatorProps> = ({
                   screeningCoverageIncreasePct: Number(e.target.value)
                 }))
               }
-              className="w-full accent-teal-500 bg-slate-800 h-2 rounded-lg cursor-pointer"
+              className="w-full accent-teal-600 bg-slate-200 h-2 rounded-lg cursor-pointer"
             />
             <div className="flex justify-between text-[10px] text-slate-500">
               <span>Baseline (Current)</span>
@@ -139,8 +139,8 @@ export const PolicySimulator: React.FC<PolicySimulatorProps> = ({
           {/* Lever 2: SGLT2i / ACEi-ARB adherence */}
           <div className="space-y-2">
             <div className="flex justify-between text-xs">
-              <span className="text-slate-200 font-medium">Early SGLT2i / ACEi-ARB Therapeutic Adherence:</span>
-              <span className="text-purple-400 font-mono font-bold">
+              <span className="text-slate-800 font-medium">Early SGLT2i / ACEi-ARB Therapeutic Adherence:</span>
+              <span className="text-purple-800 font-mono font-bold">
                 {policyParams.earlyACEiSGLT2iAdherencePct}% of high-risk cohort
               </span>
             </div>
@@ -156,7 +156,7 @@ export const PolicySimulator: React.FC<PolicySimulatorProps> = ({
                   earlyACEiSGLT2iAdherencePct: Number(e.target.value)
                 }))
               }
-              className="w-full accent-purple-500 bg-slate-800 h-2 rounded-lg cursor-pointer"
+              className="w-full accent-purple-600 bg-slate-200 h-2 rounded-lg cursor-pointer"
             />
             <div className="flex justify-between text-[10px] text-slate-500">
               <span>0% (Standard care)</span>
@@ -168,9 +168,9 @@ export const PolicySimulator: React.FC<PolicySimulatorProps> = ({
           {/* Lever 3: Lifestyle & Salt reduction */}
           <div className="space-y-2">
             <div className="flex justify-between text-xs">
-              <span className="text-slate-200 font-medium">Dietary Salt & Betel Nut Tobacco Reduction:</span>
-              <span className="text-amber-400 font-mono font-bold">
-                {policyParams.lifestyleAndSaltInterventionPct}% behavioral compliance
+              <span className="text-slate-800 font-medium">Dietary Salt & Betel Nut Tobacco Reduction:</span>
+              <span className="text-amber-800 font-mono font-bold">
+                {policyParams.lifestyleAndSaltInterventionPct}% compliance
               </span>
             </div>
             <input
@@ -185,7 +185,7 @@ export const PolicySimulator: React.FC<PolicySimulatorProps> = ({
                   lifestyleAndSaltInterventionPct: Number(e.target.value)
                 }))
               }
-              className="w-full accent-amber-500 bg-slate-800 h-2 rounded-lg cursor-pointer"
+              className="w-full accent-amber-600 bg-slate-200 h-2 rounded-lg cursor-pointer"
             />
             <div className="flex justify-between text-[10px] text-slate-500">
               <span>0%</span>
@@ -195,74 +195,74 @@ export const PolicySimulator: React.FC<PolicySimulatorProps> = ({
           </div>
 
           {/* Context note */}
-          <div className="bg-slate-950 p-3 rounded-lg border border-slate-800 text-[11px] text-slate-400">
+          <div className="bg-slate-50 p-3 rounded-lg border border-slate-200 text-[11px] text-slate-600">
             <strong>Biological Rationale:</strong> Clinical trials (CREDENCE, DAPA-CKD) confirm SGLT2 inhibitors and ARBs decelerate eGFR decline from -4.5 mL/min/year down to -1.8 mL/min/year in diabetic kidney disease, delaying dialysis onset by 4.2 to 7.8 years.
           </div>
         </div>
 
         {/* Real-time Outcomes Card */}
-        <div className="bg-slate-900 border border-slate-800 rounded-xl p-5 space-y-4">
-          <h3 className="font-semibold text-white text-sm border-b border-slate-800 pb-2">
+        <div className="bg-white border border-slate-200 rounded-xl p-5 space-y-4 shadow-xs">
+          <h3 className="font-bold text-slate-900 text-sm border-b border-slate-100 pb-2">
             5-Year Projected Health Economics Impact
           </h3>
 
           <div className="grid grid-cols-2 gap-3 text-xs">
-            <div className="bg-slate-950 p-4 rounded-xl border border-emerald-900/40 bg-emerald-950/10">
-              <div className="flex items-center gap-1.5 text-emerald-400 text-[11px] mb-1 font-semibold">
-                <Sparkles className="w-4 h-4" /> ESRD Cases Averted
+            <div className="bg-emerald-50/70 p-4 rounded-xl border border-emerald-200">
+              <div className="flex items-center gap-1.5 text-emerald-800 text-[11px] mb-1 font-bold">
+                <Sparkles className="w-4 h-4 text-emerald-600" /> ESRD Cases Averted
               </div>
-              <div className="text-3xl font-extrabold text-emerald-400 font-mono">
+              <div className="text-3xl font-extrabold text-emerald-800 font-mono">
                 {totalAverted.toLocaleString()}
               </div>
-              <div className="text-[10px] text-slate-400 mt-1">
+              <div className="text-[10px] text-slate-600 mt-1">
                 Patients spared from irreversible renal replacement therapy
               </div>
             </div>
 
-            <div className="bg-slate-950 p-4 rounded-xl border border-teal-900/40 bg-teal-950/10">
-              <div className="flex items-center gap-1.5 text-teal-300 text-[11px] mb-1 font-semibold">
-                <DollarSign className="w-4 h-4" /> Gross Subsidy Savings
+            <div className="bg-teal-50/70 p-4 rounded-xl border border-teal-200">
+              <div className="flex items-center gap-1.5 text-teal-800 text-[11px] mb-1 font-bold">
+                <DollarSign className="w-4 h-4 text-teal-600" /> Gross Subsidy Savings
               </div>
-              <div className="text-3xl font-extrabold text-teal-300 font-mono">
+              <div className="text-3xl font-extrabold text-teal-800 font-mono">
                 ₹{totalSavingsCrores.toFixed(2)} Cr
               </div>
-              <div className="text-[10px] text-slate-400 mt-1">
+              <div className="text-[10px] text-slate-600 mt-1">
                 Averted PMNDP & Ayushman Asom claims
               </div>
             </div>
 
-            <div className="bg-slate-950 p-4 rounded-xl border border-purple-900/40 bg-purple-950/10">
-              <div className="flex items-center gap-1.5 text-purple-300 text-[11px] mb-1 font-semibold">
-                <ShieldCheck className="w-4 h-4" /> Dialysis Machine Load
+            <div className="bg-purple-50/70 p-4 rounded-xl border border-purple-200">
+              <div className="flex items-center gap-1.5 text-purple-800 text-[11px] mb-1 font-bold">
+                <ShieldCheck className="w-4 h-4 text-purple-600" /> Dialysis Machine Load
               </div>
-              <div className="text-2xl font-extrabold text-purple-300 font-mono">
+              <div className="text-2xl font-extrabold text-purple-800 font-mono">
                 -{Math.ceil(totalAverted / 7)} Units
               </div>
-              <div className="text-[10px] text-slate-400 mt-1">
+              <div className="text-[10px] text-slate-600 mt-1">
                 Reduced physical capital expenditure
               </div>
             </div>
 
-            <div className="bg-slate-950 p-4 rounded-xl border border-amber-900/40 bg-amber-950/10">
-              <div className="flex items-center gap-1.5 text-amber-300 text-[11px] mb-1 font-semibold">
-                <HeartHandshake className="w-4 h-4" /> Estimated ROI Multiplier
+            <div className="bg-amber-50/70 p-4 rounded-xl border border-amber-200">
+              <div className="flex items-center gap-1.5 text-amber-800 text-[11px] mb-1 font-bold">
+                <HeartHandshake className="w-4 h-4 text-amber-600" /> Estimated ROI Multiplier
               </div>
-              <div className="text-2xl font-extrabold text-amber-300 font-mono">
+              <div className="text-2xl font-extrabold text-amber-800 font-mono">
                 {roiMultiplier}x
               </div>
-              <div className="text-[10px] text-slate-400 mt-1">
+              <div className="text-[10px] text-slate-600 mt-1">
                 ₹ saved per ₹ invested in early detection
               </div>
             </div>
           </div>
 
           {/* Policy Recommendation Box */}
-          <div className="p-4 rounded-xl bg-gradient-to-r from-teal-950/40 to-slate-950 border border-teal-800/80 text-xs space-y-1.5">
-            <div className="font-semibold text-teal-300 text-sm">
+          <div className="p-4 rounded-xl bg-gradient-to-r from-teal-50 to-slate-50 border border-teal-200 text-xs space-y-1.5">
+            <div className="font-bold text-teal-900 text-sm">
               Executive Policy Recommendation for Health & Family Welfare:
             </div>
-            <p className="text-slate-300 text-[11px] leading-relaxed">
-              Investing ₹{totalCostCrores.toFixed(1)} Crores over 5 years in early dipstick microalbuminuria testing and SGLT2i availability at {selectedDistrict.name}'s Ayushman Arogya Mandirs yields a direct return of <strong className="text-emerald-400">₹{totalSavingsCrores.toFixed(2)} Crores</strong> in averted tertiary hemodialysis subsidies, while preserving quality of life for <strong className="text-white">{totalAverted} citizens</strong>.
+            <p className="text-slate-700 text-[11px] leading-relaxed">
+              Investing ₹{totalCostCrores.toFixed(1)} Crores over 5 years in early dipstick microalbuminuria testing and SGLT2i availability at {selectedDistrict.name}'s Ayushman Arogya Mandirs yields a direct return of <strong className="text-emerald-800 font-bold">₹{totalSavingsCrores.toFixed(2)} Crores</strong> in averted tertiary hemodialysis subsidies, while preserving quality of life for <strong className="text-slate-900 font-bold">{totalAverted} citizens</strong>.
             </p>
           </div>
         </div>

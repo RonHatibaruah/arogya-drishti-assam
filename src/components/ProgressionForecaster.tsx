@@ -36,31 +36,31 @@ export const ProgressionForecaster: React.FC<ProgressionForecasterProps> = ({
   return (
     <div className="space-y-6">
       {/* Header Banner */}
-      <div className="bg-slate-900 border border-slate-800 rounded-xl p-5 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+      <div className="bg-white border border-slate-200 rounded-xl p-5 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 shadow-xs">
         <div>
           <div className="flex items-center gap-2">
-            <TrendingUp className="w-5 h-5 text-teal-400" />
-            <h2 className="text-base font-semibold text-white">
+            <TrendingUp className="w-5 h-5 text-teal-700" />
+            <h2 className="text-base font-bold text-slate-900">
               Multi-Year Cross-Programmatic Disease Progression Engine (Markov Model)
             </h2>
           </div>
-          <p className="text-xs text-slate-400 mt-1">
+          <p className="text-xs text-slate-600 mt-1">
             Simulating cohort transitions from baseline Diabetes / Hypertension into Chronic Kidney Disease (Stages 1–5) for{' '}
-            <span className="font-semibold text-teal-300">{selectedDistrict.name}</span>.
+            <span className="font-bold text-teal-800">{selectedDistrict.name}</span>.
           </p>
         </div>
 
         {/* Horizon Picker */}
-        <div className="flex items-center gap-2 bg-slate-950 p-1.5 rounded-lg border border-slate-800 text-xs">
-          <span className="text-slate-400 px-2">Forecasting Horizon:</span>
+        <div className="flex items-center gap-2 bg-slate-100 p-1.5 rounded-lg border border-slate-200 text-xs">
+          <span className="text-slate-600 px-2 font-medium">Forecasting Horizon:</span>
           {[1, 3, 5].map((yrs) => (
             <button
               key={yrs}
               onClick={() => setHorizonYears(yrs)}
-              className={`px-3 py-1 rounded font-medium transition-colors ${
+              className={`px-3 py-1 rounded font-bold transition-colors ${
                 horizonYears === yrs
-                  ? 'bg-teal-600 text-white shadow'
-                  : 'text-slate-400 hover:text-white'
+                  ? 'bg-teal-700 text-white shadow-xs'
+                  : 'text-slate-600 hover:text-slate-900'
               }`}
             >
               {yrs} {yrs === 1 ? 'Year' : 'Years'}
@@ -71,72 +71,72 @@ export const ProgressionForecaster: React.FC<ProgressionForecasterProps> = ({
 
       {/* KPI Cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-xs">
-        <div className="bg-slate-900 border border-slate-800 rounded-xl p-4">
-          <div className="flex items-center justify-between text-slate-400 mb-1">
-            <span>Projected CKD (Stage 3-4)</span>
-            <HeartPulse className="w-4 h-4 text-amber-400" />
+        <div className="bg-white border border-slate-200 rounded-xl p-4 shadow-xs">
+          <div className="flex items-center justify-between text-slate-500 mb-1">
+            <span className="font-medium">Projected CKD (Stage 3-4)</span>
+            <HeartPulse className="w-4 h-4 text-amber-600" />
           </div>
-          <div className="text-2xl font-bold font-mono text-amber-400">
+          <div className="text-2xl font-extrabold font-mono text-amber-800">
             {finalPoint.ckdStage3aAnd3b.toLocaleString()}
           </div>
-          <div className="text-[11px] text-slate-400 mt-1">
+          <div className="text-[11px] text-slate-500 mt-1">
             Up from {initialPoint.ckdStage3aAnd3b.toLocaleString()} at baseline
           </div>
         </div>
 
-        <div className="bg-slate-900 border border-slate-800 rounded-xl p-4">
-          <div className="flex items-center justify-between text-slate-400 mb-1">
-            <span>Predicted ESRD on Dialysis</span>
-            <ShieldAlert className="w-4 h-4 text-rose-400" />
+        <div className="bg-white border border-rose-200 rounded-xl p-4 shadow-xs bg-rose-50/30">
+          <div className="flex items-center justify-between text-rose-800 mb-1">
+            <span className="font-medium">Predicted ESRD on Dialysis</span>
+            <ShieldAlert className="w-4 h-4 text-rose-600" />
           </div>
-          <div className="text-2xl font-bold font-mono text-rose-400">
+          <div className="text-2xl font-extrabold font-mono text-rose-700">
             {finalPoint.ckdStage5ESRD.toLocaleString()}
           </div>
-          <div className="text-[11px] text-rose-300/80 mt-1">
+          <div className="text-[11px] text-rose-600 mt-1 font-medium">
             Requires continuous PMNDP machine capacity
           </div>
         </div>
 
-        <div className="bg-slate-900 border border-slate-800 rounded-xl p-4">
-          <div className="flex items-center justify-between text-slate-400 mb-1">
-            <span>Dialysis Cases Averted</span>
-            <Sparkles className="w-4 h-4 text-emerald-400" />
+        <div className="bg-white border border-emerald-200 rounded-xl p-4 shadow-xs bg-emerald-50/30">
+          <div className="flex items-center justify-between text-emerald-800 mb-1">
+            <span className="font-medium">Dialysis Cases Averted</span>
+            <Sparkles className="w-4 h-4 text-emerald-600" />
           </div>
-          <div className="text-2xl font-bold font-mono text-emerald-400">
+          <div className="text-2xl font-extrabold font-mono text-emerald-700">
             {totalAverted.toLocaleString()}
           </div>
-          <div className="text-[11px] text-emerald-300/80 mt-1">
+          <div className="text-[11px] text-emerald-600 mt-1 font-medium">
             Via early screening & ACEi/SGLT2i adherence
           </div>
         </div>
 
-        <div className="bg-slate-900 border border-slate-800 rounded-xl p-4">
-          <div className="flex items-center justify-between text-slate-400 mb-1">
-            <span>Cumulative Cost Averted</span>
-            <DollarSign className="w-4 h-4 text-teal-400" />
+        <div className="bg-white border border-teal-200 rounded-xl p-4 shadow-xs bg-teal-50/30">
+          <div className="flex items-center justify-between text-teal-800 mb-1">
+            <span className="font-medium">Cumulative Cost Averted</span>
+            <DollarSign className="w-4 h-4 text-teal-600" />
           </div>
-          <div className="text-2xl font-bold font-mono text-teal-300">
+          <div className="text-2xl font-extrabold font-mono text-teal-800">
             ₹{totalSavingsCrores.toFixed(2)} Cr
           </div>
-          <div className="text-[11px] text-teal-400/80 mt-1">
+          <div className="text-[11px] text-teal-700 mt-1 font-medium">
             Ayushman Asom / PMNDP public savings
           </div>
         </div>
       </div>
 
       {/* Main Chart */}
-      <div className="bg-slate-900 border border-slate-800 rounded-xl p-5 space-y-4">
-        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 border-b border-slate-800 pb-3">
+      <div className="bg-white border border-slate-200 rounded-xl p-5 space-y-4 shadow-xs">
+        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 border-b border-slate-100 pb-3">
           <div>
-            <h3 className="text-sm font-semibold text-white">
+            <h3 className="text-sm font-bold text-slate-900">
               Cohort Stage Trajectories ({initialPoint.year} – {finalPoint.year})
             </h3>
-            <p className="text-xs text-slate-400">
+            <p className="text-xs text-slate-500">
               Stacking patient transitions across progressive disease states under current epidemiological velocity.
             </p>
           </div>
-          <div className="text-xs bg-slate-950 border border-slate-800 rounded px-2.5 py-1 text-slate-300">
-            Markov State Transitions: <span className="text-teal-400 font-mono">KDIGO Calibrated</span>
+          <div className="text-xs bg-slate-50 border border-slate-200 rounded px-2.5 py-1 text-slate-700 font-medium">
+            Markov State Transitions: <span className="text-teal-700 font-mono font-bold">KDIGO Calibrated</span>
           </div>
         </div>
 
@@ -161,15 +161,17 @@ export const ProgressionForecaster: React.FC<ProgressionForecasterProps> = ({
                   <stop offset="95%" stopColor="#dc2626" stopOpacity={0}/>
                 </linearGradient>
               </defs>
-              <CartesianGrid strokeDasharray="3 3" stroke="#1e293b" />
-              <XAxis dataKey="year" stroke="#64748b" tick={{ fill: '#94a3b8', fontSize: 12 }} />
-              <YAxis stroke="#64748b" tick={{ fill: '#94a3b8', fontSize: 12 }} />
+              <CartesianGrid strokeDasharray="3 3" stroke="#f1f5f9" />
+              <XAxis dataKey="year" stroke="#94a3b8" tick={{ fill: '#475569', fontSize: 12 }} />
+              <YAxis stroke="#94a3b8" tick={{ fill: '#475569', fontSize: 12 }} />
               <Tooltip
                 contentStyle={{
-                  backgroundColor: '#0f172a',
-                  borderColor: '#334155',
+                  backgroundColor: '#ffffff',
+                  borderColor: '#cbd5e1',
                   borderRadius: '0.5rem',
-                  fontSize: '12px'
+                  fontSize: '12px',
+                  color: '#0f172a',
+                  boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.1)'
                 }}
               />
               <Legend wrapperStyle={{ fontSize: '11px', paddingTop: '10px' }} />
@@ -182,12 +184,12 @@ export const ProgressionForecaster: React.FC<ProgressionForecasterProps> = ({
         </div>
 
         {/* Narrative Clinical Callout */}
-        <div className="bg-slate-950 p-3.5 rounded-lg border border-slate-800 text-xs text-slate-300 flex items-start gap-3">
-          <Sparkles className="w-5 h-5 text-teal-400 shrink-0 mt-0.5" />
+        <div className="bg-teal-50/60 p-3.5 rounded-lg border border-teal-200 text-xs text-slate-800 flex items-start gap-3">
+          <Sparkles className="w-5 h-5 text-teal-700 shrink-0 mt-0.5" />
           <div>
-            <div className="font-semibold text-white">Cross-Programme Clinical Insight:</div>
-            <p className="mt-0.5 text-slate-400 leading-relaxed">
-              Without active intervention, approximately <strong className="text-amber-300">12.5% of CKD Stage 4 patients</strong> in {selectedDistrict.name} will transition to End-Stage Renal Disease (ESRD) annually, requiring continuous hemodialysis. Early identification via urine dipstick / uACR and SGLT2i / ACEi-ARB therapeutic initiation at the Ayushman Arogya Mandir (AAM) level can decelerate this progression curve by up to <strong className="text-emerald-400">34%</strong>.
+            <div className="font-bold text-teal-900">Cross-Programme Clinical Insight:</div>
+            <p className="mt-0.5 text-slate-700 leading-relaxed">
+              Without active intervention, approximately <strong className="text-amber-800">12.5% of CKD Stage 4 patients</strong> in {selectedDistrict.name} will transition to End-Stage Renal Disease (ESRD) annually, requiring continuous hemodialysis. Early identification via urine dipstick / uACR and SGLT2i / ACEi-ARB therapeutic initiation at the Ayushman Arogya Mandir (AAM) level can decelerate this progression curve by up to <strong className="text-emerald-700 font-bold">34%</strong>.
             </p>
           </div>
         </div>

@@ -9,7 +9,7 @@ import { ProofOfWorkDocument } from './components/ProofOfWorkDocument';
 import { ProposalViewerModal, PROPOSAL_SECTIONS } from './components/ProposalViewerModal';
 import { ASSAM_DISTRICTS } from './data/assamDistrictsData';
 import { DistrictMetric, PolicyInterventionParams } from './types';
-import { Download, FileText, ShieldCheck } from 'lucide-react';
+import { Download, FileText, ShieldCheck, Check } from 'lucide-react';
 
 export const App: React.FC = () => {
   const [districts] = useState<DistrictMetric[]>(ASSAM_DISTRICTS);
@@ -45,7 +45,7 @@ export const App: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col font-sans print:bg-white print:text-black">
+    <div className="min-h-screen bg-slate-50 text-slate-900 flex flex-col font-sans">
       {/* Top Header & Navigation */}
       <Header
         districts={districts}
@@ -96,15 +96,15 @@ export const App: React.FC = () => {
 
         {activeTab === 'proposal' && (
           <div className="space-y-6">
-            <div className="bg-slate-900 border border-slate-800 rounded-xl p-5 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+            <div className="bg-white border border-slate-200 rounded-xl p-5 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 shadow-xs">
               <div>
                 <div className="flex items-center gap-2">
-                  <FileText className="w-5 h-5 text-teal-400" />
-                  <h2 className="text-base font-semibold text-white">
+                  <FileText className="w-5 h-5 text-teal-700" />
+                  <h2 className="text-base font-bold text-slate-900">
                     Official NESFIC-D-28 Proposal Document Contents (All 12 Sections)
                   </h2>
                 </div>
-                <p className="text-xs text-slate-400 mt-1">
+                <p className="text-xs text-slate-500 mt-1">
                   Meticulously written and word-count audited (&lt;500 words per section) ready for immediate submission into the portal.
                 </p>
               </div>
@@ -112,7 +112,7 @@ export const App: React.FC = () => {
               <div className="flex items-center gap-2">
                 <button
                   onClick={handleDownloadProposalFile}
-                  className="bg-teal-600 hover:bg-teal-500 text-white text-xs font-medium px-4 py-2 rounded-lg flex items-center gap-1.5 transition-colors shadow-lg shadow-teal-950"
+                  className="bg-teal-700 hover:bg-teal-600 text-white text-xs font-semibold px-4 py-2 rounded-lg flex items-center gap-1.5 transition-colors shadow-sm"
                 >
                   <Download className="w-3.5 h-3.5" />
                   Download Full Proposal (.md)
@@ -121,33 +121,33 @@ export const App: React.FC = () => {
             </div>
 
             {/* Supporting Materials Quick Copy Card */}
-            <div className="bg-slate-900/90 border border-teal-800/60 rounded-xl p-5 space-y-3">
-              <h3 className="text-sm font-semibold text-teal-300 flex items-center gap-2">
-                <ShieldCheck className="w-4 h-4 text-teal-400" />
+            <div className="bg-teal-50/60 border border-teal-200 rounded-xl p-5 space-y-3">
+              <h3 className="text-sm font-bold text-teal-900 flex items-center gap-2">
+                <ShieldCheck className="w-4 h-4 text-teal-700" />
                 Section 03: Supporting Material Uploads & Form URLs
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs">
-                <div className="bg-slate-950 p-3 rounded-lg border border-slate-800 space-y-1">
-                  <div className="text-[10px] text-slate-400 font-medium">Upload Proof of Work / Solution Evidence (PDF)</div>
-                  <div className="font-mono text-teal-300 font-semibold">NESFIC_D28_Proof_of_Work_Arogya_Drishti.pdf</div>
+                <div className="bg-white p-3 rounded-lg border border-teal-200/80 shadow-2xs space-y-1">
+                  <div className="text-[10px] text-slate-500 font-semibold uppercase">Upload Proof of Work / Solution Evidence (PDF)</div>
+                  <div className="font-mono text-teal-800 font-bold">NESFIC_D28_Proof_of_Work_Arogya_Drishti.pdf</div>
                   <div className="text-[10px] text-slate-500">Includes system schematics, prototype screenshots, and pilot protocol.</div>
                 </div>
 
-                <div className="bg-slate-950 p-3 rounded-lg border border-slate-800 space-y-1">
-                  <div className="text-[10px] text-slate-400 font-medium">Product / Website URL (Live Prototype)</div>
-                  <div className="font-mono text-teal-300 font-semibold">https://arogya-drishti-assam.pages.dev</div>
+                <div className="bg-white p-3 rounded-lg border border-teal-200/80 shadow-2xs space-y-1">
+                  <div className="text-[10px] text-slate-500 font-semibold uppercase">Product / Website URL (Live Prototype)</div>
+                  <div className="font-mono text-teal-800 font-bold">https://arogya-drishti-assam.pages.dev</div>
                   <div className="text-[10px] text-slate-500">Interactive live deployment of this application.</div>
                 </div>
 
-                <div className="bg-slate-950 p-3 rounded-lg border border-slate-800 space-y-1">
-                  <div className="text-[10px] text-slate-400 font-medium">Demo / Product Video URL</div>
-                  <div className="font-mono text-teal-300 font-semibold">https://youtu.be/example-nesfic-d28-demo</div>
+                <div className="bg-white p-3 rounded-lg border border-teal-200/80 shadow-2xs space-y-1">
+                  <div className="text-[10px] text-slate-500 font-semibold uppercase">Demo / Product Video URL</div>
+                  <div className="font-mono text-teal-800 font-bold">https://youtu.be/example-nesfic-d28-demo</div>
                   <div className="text-[10px] text-slate-500">3-minute video walkthrough of the command center.</div>
                 </div>
 
-                <div className="bg-slate-950 p-3 rounded-lg border border-slate-800 space-y-1">
-                  <div className="text-[10px] text-slate-400 font-medium">Additional Supporting Material (PDF)</div>
-                  <div className="font-mono text-teal-300 font-semibold">NESFIC_D28_Clinical_Validation_And_ABDM_Architecture.pdf</div>
+                <div className="bg-white p-3 rounded-lg border border-teal-200/80 shadow-2xs space-y-1">
+                  <div className="text-[10px] text-slate-500 font-semibold uppercase">Additional Supporting Material (PDF)</div>
+                  <div className="font-mono text-teal-800 font-bold">NESFIC_D28_Clinical_Validation_And_ABDM_Architecture.pdf</div>
                   <div className="text-[10px] text-slate-500">ABDM FHIR schema mapping and clinical references.</div>
                 </div>
               </div>
@@ -158,27 +158,27 @@ export const App: React.FC = () => {
               {PROPOSAL_SECTIONS.map((section) => (
                 <div
                   key={section.id}
-                  className="bg-slate-900 border border-slate-800 rounded-xl overflow-hidden shadow-md"
+                  className="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-xs"
                 >
-                  <div className="bg-slate-950/80 px-5 py-3 border-b border-slate-800 flex items-center justify-between">
+                  <div className="bg-slate-50 px-5 py-3 border-b border-slate-200 flex items-center justify-between">
                     <div>
-                      <h4 className="font-semibold text-white text-sm">{section.title}</h4>
-                      <span className="text-[11px] font-mono text-emerald-400">
+                      <h4 className="font-bold text-slate-900 text-sm">{section.title}</h4>
+                      <span className="text-[11px] font-mono font-semibold text-emerald-700">
                         Word count: ~{section.wordCount} words (Passes &lt;500 word limit)
                       </span>
                     </div>
 
                     <button
                       onClick={() => handleCopySection(section.id, section.content)}
-                      className={`flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg font-medium transition-colors ${
+                      className={`flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg font-semibold transition-colors ${
                         copiedId === section.id
                           ? 'bg-emerald-600 text-white'
-                          : 'bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700'
+                          : 'bg-white hover:bg-slate-100 text-slate-700 border border-slate-300 shadow-2xs'
                       }`}
                     >
                       {copiedId === section.id ? (
                         <>
-                          <ShieldCheck className="w-3.5 h-3.5" />
+                          <Check className="w-3.5 h-3.5" />
                           Copied!
                         </>
                       ) : (
@@ -189,7 +189,7 @@ export const App: React.FC = () => {
                     </button>
                   </div>
 
-                  <div className="p-5 text-xs text-slate-300 whitespace-pre-wrap leading-relaxed font-sans selection:bg-teal-500 selection:text-white">
+                  <div className="p-5 text-xs text-slate-700 whitespace-pre-wrap leading-relaxed font-sans selection:bg-teal-500 selection:text-white">
                     {section.content}
                   </div>
                 </div>
@@ -200,9 +200,9 @@ export const App: React.FC = () => {
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-slate-800/80 bg-slate-950 py-4 px-6 text-xs text-slate-400 flex flex-col sm:flex-row items-center justify-between gap-3 mt-10 print:hidden">
+      <footer className="border-t border-slate-200 bg-white py-4 px-6 text-xs text-slate-500 flex flex-col sm:flex-row items-center justify-between gap-3 mt-10 print:hidden">
         <div>
-          <span className="font-semibold text-slate-300">আৰোগ্য-দৃষ্টি অসম (Arogya-Drishti Assam)</span> • Developed for NESFIC-2026 Innovation Challenge (Track NESFIC-D-28)
+          <span className="font-semibold text-slate-700">আৰোগ্য-দৃষ্টি অসম (Arogya-Drishti Assam)</span> • Developed for NESFIC-2026 Innovation Challenge (Track NESFIC-D-28)
         </div>
         <div className="flex items-center gap-4 text-[11px]">
           <span>Health & Family Welfare Dept, Assam</span>

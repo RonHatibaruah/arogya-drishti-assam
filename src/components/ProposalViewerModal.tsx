@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import { Copy, Check, X, FileText, Download, ShieldCheck, Sparkles } from 'lucide-react';
+import { Copy, Check, X, FileText, Download, ShieldCheck } from 'lucide-react';
+import { PROPOSAL_SECTIONS } from './ProposalViewerModal';
 
-interface ProposalSection {
+export interface ProposalSection {
   id: number;
   title: string;
   wordCount: number;
@@ -81,7 +82,7 @@ Supporting artifacts, high-resolution wireframe schematics, model validation met
     content: `The architecture of Arogya-Drishti Assam is built on a modular, enterprise-grade, cloud-native paradigm adhering to India’s Ayushman Bharat Digital Mission (ABDM) and National Digital Health Blueprint (NDHB) standards.
 
 Key Technical Components:
-1. Frontend Presentation: Modern Single Page Application (SPA) built using React 18, TypeScript, and Tailwind CSS. Provides sub-second rendering of complex geospatial choropleths and multi-series disease transition charts without external plugin dependencies.
+1. Frontend Presentation: Modern Single Page Application (SPA) built using React 18/19, TypeScript, and Tailwind CSS. Provides sub-second rendering of complex geospatial choropleths and multi-series disease transition charts without external plugin dependencies.
 2. AI/ML & Epidemiological Modeling Algorithms:
    - KFRE (Kidney Failure Risk Equation): Validated 4-variable equation (Age, Sex, eGFR, uACR) calibrated for Indian phenotypes to calculate 2- and 5-year probability of ESRD.
    - Markov State-Transition Model: Discrete-time multi-state cohort simulation modeling patient transitions between health states: Normal -> Impaired Glucose/Pre-HTN -> Controlled NCD -> Uncontrolled NCD -> CKD 1-2 -> CKD 3-4 -> CKD 5 (Dialysis) -> Mortality.
@@ -202,7 +203,7 @@ Core Roles & Expertise:
 3. Lead AI/ML & Data Science Engineer (1 Person — 100% FTE):
    - Expertise: M.Tech/Ph.D. with 7+ years in predictive biostatistical modeling, survival analysis, Markov state-transition models, and longitudinal cohort tracking using Python, PyTorch, and XGBoost. Designs KFRE integration and resource forecasting algorithms.
 4. Senior Full-Stack & GIS Dashboard Engineer (1 Person — 100% FTE):
-   - Expertise: Senior engineer with expertise in React 18, TypeScript, Tailwind CSS, Leaflet/MapLibre, and Recharts. Responsible for high-performance interactive visual analytics, sub-second map rendering, and responsive UI design.
+   - Expertise: Senior engineer with expertise in React 18/19, TypeScript, Tailwind CSS, Leaflet/MapLibre, and Recharts. Responsible for high-performance interactive visual analytics, sub-second map rendering, and responsive UI design.
 5. Backend & ABDM Interoperability Architect (1 Person — 100% FTE):
    - Expertise: Enterprise systems architect specializing in PostgreSQL/TimescaleDB, FHIR R4 data models, microservices architecture, ABDM milestone compliance, and data security engineering.
 6. Field Implementation Coordinator & Clinical Trainer (1 Person — 100% FTE during Phases 4–6):
@@ -275,7 +276,7 @@ The breakthrough innovation of Arogya-Drishti Assam is its cross-programmatic, b
 
 3. Intellectual Property & Dependencies:
 - Proprietary Innovation: Our proprietary Cross-Programme Cohort Progression Engine (CPCPE) and the Dialysis Logistics Demand Forecaster (DLDF) will be protected via Indian copyright and software patent filings covering the algorithmic linking of primary screening features to tertiary dialysis consumption.
-- Open-Source Foundations: Built on battle-tested open-source libraries: React 18, TypeScript, Tailwind CSS, Leaflet GIS, PostgreSQL/TimescaleDB, Scikit-learn, and FastAPI.
+- Open-Source Foundations: Built on battle-tested open-source libraries: React 18/19, TypeScript, Tailwind CSS, Leaflet GIS, PostgreSQL/TimescaleDB, Scikit-learn, and FastAPI.
 - Zero Vendor Lock-In: Complete data sovereignty and zero recurring commercial software licensing fees for the Government of Assam.`
   },
   {
@@ -341,22 +342,22 @@ export const ProposalViewerModal: React.FC<ProposalViewerModalProps> = ({ isOpen
   };
 
   return (
-    <div className="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm flex items-center justify-center p-3 sm:p-6">
-      <div className="bg-slate-900 border border-slate-700 rounded-2xl max-w-5xl w-full h-[90vh] flex flex-col shadow-2xl overflow-hidden">
+    <div className="fixed inset-0 z-50 bg-black/60 backdrop-blur-xs flex items-center justify-center p-3 sm:p-6">
+      <div className="bg-white border border-slate-300 rounded-2xl max-w-5xl w-full h-[90vh] flex flex-col shadow-2xl overflow-hidden">
         {/* Modal Top Header */}
-        <div className="bg-slate-950 px-6 py-4 border-b border-slate-800 flex items-center justify-between">
+        <div className="bg-slate-50 px-6 py-4 border-b border-slate-200 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-8 h-8 rounded-lg bg-teal-600/20 border border-teal-500/40 flex items-center justify-center">
-              <FileText className="w-4 h-4 text-teal-400" />
+            <div className="w-8 h-8 rounded-lg bg-teal-100 border border-teal-300 flex items-center justify-center">
+              <FileText className="w-4 h-4 text-teal-800" />
             </div>
             <div>
-              <h2 className="text-base font-bold text-white flex items-center gap-2">
+              <h2 className="text-base font-bold text-slate-900 flex items-center gap-2">
                 NESFIC-D-28 Official Proposal Content Generator
-                <span className="text-[10px] bg-emerald-500/20 text-emerald-400 border border-emerald-500/40 px-2 py-0.5 rounded font-mono">
+                <span className="text-[10px] bg-emerald-100 text-emerald-800 border border-emerald-300 px-2 py-0.5 rounded font-mono font-bold">
                   12 Sections Ready • Strict &lt;500 Words Limit
                 </span>
               </h2>
-              <p className="text-xs text-slate-400">
+              <p className="text-xs text-slate-500">
                 Department of Health & Family Welfare / National Health Mission (NHM), Govt of Assam
               </p>
             </div>
@@ -365,25 +366,25 @@ export const ProposalViewerModal: React.FC<ProposalViewerModalProps> = ({ isOpen
           <div className="flex items-center gap-2">
             <button
               onClick={handleDownloadAll}
-              className="flex items-center gap-1.5 bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs px-3 py-1.5 rounded-lg border border-slate-700 transition-colors"
+              className="flex items-center gap-1.5 bg-white hover:bg-slate-100 text-slate-700 text-xs px-3 py-1.5 rounded-lg border border-slate-300 transition-colors shadow-2xs font-semibold"
             >
-              <Download className="w-3.5 h-3.5 text-teal-400" />
+              <Download className="w-3.5 h-3.5 text-teal-700" />
               Download All (.md)
             </button>
             <button
               onClick={onClose}
-              className="text-slate-400 hover:text-white p-1.5 rounded-lg hover:bg-slate-800 transition-colors"
+              className="text-slate-400 hover:text-slate-800 p-1.5 rounded-lg hover:bg-slate-100 transition-colors"
             >
               <X className="w-5 h-5" />
             </button>
           </div>
         </div>
 
-        {/* Modal Body: Left Section List, Right Content */}
+        {/* Modal Body */}
         <div className="flex-1 flex overflow-hidden">
           {/* Section List Sidebar */}
-          <div className="w-72 border-r border-slate-800 bg-slate-950/60 overflow-y-auto p-3 space-y-1.5 text-xs">
-            <div className="text-[10px] font-semibold text-slate-400 uppercase px-2 mb-2">
+          <div className="w-72 border-r border-slate-200 bg-slate-50/70 overflow-y-auto p-3 space-y-1.5 text-xs">
+            <div className="text-[10px] font-bold text-slate-500 uppercase px-2 mb-2 tracking-wider">
               Proposal Sections (1 – 12)
             </div>
             {PROPOSAL_SECTIONS.map((sec) => (
@@ -392,12 +393,12 @@ export const ProposalViewerModal: React.FC<ProposalViewerModalProps> = ({ isOpen
                 onClick={() => setSelectedSectionId(sec.id)}
                 className={`w-full text-left p-2.5 rounded-lg transition-colors flex items-start justify-between gap-2 ${
                   selectedSectionId === sec.id
-                    ? 'bg-teal-950/60 text-teal-300 border border-teal-700/60 font-medium'
-                    : 'text-slate-400 hover:text-slate-200 hover:bg-slate-900'
+                    ? 'bg-teal-100 text-teal-900 border border-teal-300 font-bold shadow-2xs'
+                    : 'text-slate-600 hover:text-slate-900 hover:bg-white'
                 }`}
               >
                 <span className="line-clamp-2">{sec.title}</span>
-                <span className="shrink-0 text-[10px] font-mono text-slate-500 bg-slate-900 px-1.5 py-0.5 rounded">
+                <span className="shrink-0 text-[10px] font-mono text-slate-500 bg-white px-1.5 py-0.5 rounded border border-slate-200">
                   {sec.wordCount}/500
                 </span>
               </button>
@@ -405,15 +406,15 @@ export const ProposalViewerModal: React.FC<ProposalViewerModalProps> = ({ isOpen
           </div>
 
           {/* Active Section Content View */}
-          <div className="flex-1 flex flex-col overflow-hidden bg-slate-900/60">
+          <div className="flex-1 flex flex-col overflow-hidden bg-white">
             {/* Action Bar */}
-            <div className="px-6 py-3 border-b border-slate-800 flex items-center justify-between bg-slate-900">
+            <div className="px-6 py-3 border-b border-slate-200 flex items-center justify-between bg-slate-50/50">
               <div>
-                <h3 className="font-bold text-white text-sm">{activeSection.title}</h3>
-                <div className="flex items-center gap-2 mt-0.5 text-xs text-slate-400">
+                <h3 className="font-bold text-slate-900 text-sm">{activeSection.title}</h3>
+                <div className="flex items-center gap-2 mt-0.5 text-xs text-slate-500">
                   <span>Target Portal Field: 0/500 words</span>
                   <span>•</span>
-                  <span className="text-emerald-400 font-mono font-semibold">
+                  <span className="text-emerald-700 font-mono font-bold">
                     Current Word Count: ~{activeSection.wordCount} words (Passes limit)
                   </span>
                 </div>
@@ -421,10 +422,10 @@ export const ProposalViewerModal: React.FC<ProposalViewerModalProps> = ({ isOpen
 
               <button
                 onClick={() => handleCopy(activeSection.id, activeSection.content)}
-                className={`flex items-center gap-1.5 text-xs px-3.5 py-2 rounded-lg font-medium transition-all ${
+                className={`flex items-center gap-1.5 text-xs px-3.5 py-2 rounded-lg font-bold transition-all shadow-sm ${
                   copiedSectionId === activeSection.id
-                    ? 'bg-emerald-600 text-white shadow-lg shadow-emerald-900/40'
-                    : 'bg-teal-600 hover:bg-teal-500 text-white shadow-lg shadow-teal-900/40'
+                    ? 'bg-emerald-600 text-white'
+                    : 'bg-teal-700 hover:bg-teal-600 text-white'
                 }`}
               >
                 {copiedSectionId === activeSection.id ? (
@@ -442,14 +443,14 @@ export const ProposalViewerModal: React.FC<ProposalViewerModalProps> = ({ isOpen
             </div>
 
             {/* Scrollable Content Box */}
-            <div className="flex-1 overflow-y-auto p-6 text-sm text-slate-200 font-sans leading-relaxed whitespace-pre-wrap selection:bg-teal-500 selection:text-white">
+            <div className="flex-1 overflow-y-auto p-6 text-sm text-slate-800 font-sans leading-relaxed whitespace-pre-wrap selection:bg-teal-500 selection:text-white">
               {activeSection.content}
             </div>
 
             {/* Bottom Support Info */}
-            <div className="px-6 py-2.5 bg-slate-950 border-t border-slate-800 text-xs text-slate-400 flex items-center justify-between">
-              <span className="flex items-center gap-1.5">
-                <ShieldCheck className="w-3.5 h-3.5 text-teal-400" />
+            <div className="px-6 py-2.5 bg-slate-50 border-t border-slate-200 text-xs text-slate-500 flex items-center justify-between">
+              <span className="flex items-center gap-1.5 font-medium">
+                <ShieldCheck className="w-3.5 h-3.5 text-teal-700" />
                 Audited against NESFIC-D-28 rubric & Assam NHM CPHC framework.
               </span>
               <button
@@ -457,7 +458,7 @@ export const ProposalViewerModal: React.FC<ProposalViewerModalProps> = ({ isOpen
                   const nextId = selectedSectionId < 12 ? selectedSectionId + 1 : 1;
                   setSelectedSectionId(nextId);
                 }}
-                className="text-teal-400 hover:underline"
+                className="text-teal-700 font-bold hover:underline"
               >
                 Next Section →
               </button>
