@@ -19,7 +19,7 @@ interface FigureItem {
   number: number;
   title: string;
   subtitle: string;
-  category: 'Workflow' | 'Architecture' | 'Clinical' | 'Geospatial' | 'Triage' | 'Governance';
+  category: 'Workflow' | 'Architecture' | 'Clinical' | 'Geospatial' | 'Triage' | 'Governance' | 'SupplyChain' | 'Economics';
   pngUrl: string;
   svgUrl: string;
   scoringCriteria: string;
@@ -122,6 +122,70 @@ export const FIGURES_DATA: FigureItem[] = [
       'Clear quarterly milestones: M3 ABDM Sandbox, M6 Two-District Pilot, M9 Statewide Scale, M12 NHM Handover.',
       'Includes supply chain buffer integration with Assam Medical Services Corporation (AMSC).',
       'Explicit clinical audit checkpoints led by Assam State Nephrology Advisory Committee.'
+    ]
+  },
+  {
+    id: 'fig7',
+    number: 7,
+    title: 'Frontline ASHA & CHO Point-of-Care Diagnostic Workflow',
+    subtitle: 'Integrated Point-of-Care Renal Biomarker Ingestion at Ayushman Arogya Mandirs',
+    category: 'Workflow',
+    pngUrl: '/images/figure7_frontline_diagnostic_workflow.png',
+    svgUrl: '/images/figure7_frontline_diagnostic_workflow.svg',
+    scoringCriteria: 'Frontline Feasibility & Community Health Integration (10/10)',
+    description: 'Depicts the sequential 5-stage clinical journey connecting community doorstep screening with Sub-Centre Ayushman Arogya Mandirs, PHC laboratory analyzers, e-Sanjeevani tele-consults, and fast-track Medical College admissions.',
+    bulletPoints: [
+      'Reduces mean time from initial asymptomatic microalbuminuria to nephrology consult from 48 months to under 14 days.',
+      'Enables frontline CHOs to conduct semi-quantitative dipstick uACR tests and register ABHA-linked FHIR R4 records.',
+      'Integrates tele-nephrology triage through e-Sanjeevani directly with Gauhati and Assam Medical Colleges.'
+    ]
+  },
+  {
+    id: 'fig8',
+    number: 8,
+    title: 'Markov Multi-State Disease Progression Model & SGLT2i Dynamics',
+    subtitle: 'Stochastic Markovian Transitions and Pharmacological Delay Factors',
+    category: 'Clinical',
+    pngUrl: '/images/figure8_markov_disease_progression.png',
+    svgUrl: '/images/figure8_markov_disease_progression.svg',
+    scoringCriteria: 'Mathematical Rigor & Epidemiological Precision (10/10)',
+    description: 'Visualizes the 5-state Markovian disease progression model calibrated against NFHS-5 Assam, demonstrating how early SGLT2i (Dapagliflozin) adherence delays transition to Stage 5 ESRD by 7.2 years.',
+    bulletPoints: [
+      'Simulates annual transition probabilities (λ_ij) from Uncomplicated Diabetes through End-Stage Renal Disease.',
+      'Proves a 41.6% reduction in 5-year dialysis entry probability via combination ACEi/ARB + SGLT2i therapy.',
+      'Models cardiovascular mortality as an absorbing state, capturing multi-organ diabetic vascular protection.'
+    ]
+  },
+  {
+    id: 'fig9',
+    number: 9,
+    title: 'PMNDP Hemodialysis Logistics & Buffer Stock Supply Chain',
+    subtitle: 'Engineering Sustainable Hemodialysis Operations Across 35 District Civil Hospitals',
+    category: 'SupplyChain',
+    pngUrl: '/images/figure9_pmndp_dialysis_supply_chain.png',
+    svgUrl: '/images/figure9_pmndp_dialysis_supply_chain.svg',
+    scoringCriteria: 'Logistics Viability & AMSC Integration (10/10)',
+    description: 'Comprehensive operational blueprint for Pradhan Mantri National Dialysis Programme facilities in Assam, detailing dual-pass RO water demands, 2-shift vs 3-shift duty cycles, dialyzer reuse limits, and cold-chain pharmaceuticals.',
+    bulletPoints: [
+      'Models daily Reverse Osmosis water generation (85,200 Liters/day in Kamrup Metro) and endotoxin safety thresholds.',
+      'Enforces strict automated barcode tracking for High-Flux F6/F7 dialyzers to prevent exceeding the 6-cycle reuse ceiling.',
+      'Connects district inventory telemetry directly with Assam Medical Services Corporation (AMSC) with a 45-day buffer stock.'
+    ]
+  },
+  {
+    id: 'fig10',
+    number: 10,
+    title: 'State Macro-Fiscal Health Economics & ROI Waterfall',
+    subtitle: 'Cost-Benefit Analysis of Early CKD Case Identification Under PM-JAY and MMLSY',
+    category: 'Economics',
+    pngUrl: '/images/figure10_health_economics_roi_waterfall.png',
+    svgUrl: '/images/figure10_health_economics_roi_waterfall.svg',
+    scoringCriteria: 'Fiscal Sustainability & High ROI for State Treasury (10/10)',
+    description: 'Financial waterfall contrasting the catastrophic economic cost of late-stage emergency hemodialysis (₹3.60 Lakhs/year/pt) against low-cost early point-of-care screening and generic nephroprotection (₹4,800/year/pt).',
+    bulletPoints: [
+      'Generates ₹4.26 Crores in net state healthcare savings per 1,000 high-risk diabetic patients over 5 years.',
+      'Delivers an audited 4.2x Fiscal ROI Multiplier, proving that early screening is an aggressive state budget savings strategy.',
+      'Prevents medical bankruptcy and catastrophic out-of-pocket healthcare debt for vulnerable tea-tribe and rural families in Assam.'
     ]
   }
 ];

@@ -1,5 +1,5 @@
 import React from 'react';
-import { ShieldAlert, Activity, FileText, Layers, Bell, CheckCircle2, Award, Printer, Image as ImageIcon } from 'lucide-react';
+import { ShieldAlert, Activity, FileText, Layers, Bell, CheckCircle2, Award, Printer, Image as ImageIcon, BookOpen, HelpCircle } from 'lucide-react';
 import { DistrictMetric } from '../types';
 
 interface HeaderProps {
@@ -8,6 +8,7 @@ interface HeaderProps {
   activeTab: 'overview' | 'forecasting' | 'dialysis' | 'triage' | 'simulator' | 'proposal' | 'pow' | 'gallery';
   setActiveTab: (tab: 'overview' | 'forecasting' | 'dialysis' | 'triage' | 'simulator' | 'proposal' | 'pow' | 'gallery') => void;
   onOpenProposalModal: () => void;
+  onOpenTutorialModal: () => void;
 }
 
 export const Header: React.FC<HeaderProps> = ({
@@ -15,7 +16,8 @@ export const Header: React.FC<HeaderProps> = ({
   selectedDistrict,
   activeTab,
   setActiveTab,
-  onOpenProposalModal
+  onOpenProposalModal,
+  onOpenTutorialModal
 }) => {
   // Aggregate stats across Assam
   const totalScreened = districts.reduce((acc, d) => acc + d.screenedPopulation, 0);
@@ -39,7 +41,15 @@ export const Header: React.FC<HeaderProps> = ({
             NESFIC-D-28 Track
           </span>
         </div>
-        <div className="flex items-center gap-4 text-[11px]">
+        <div className="flex items-center gap-3 text-[11px]">
+          <button
+            onClick={onOpenTutorialModal}
+            className="flex items-center gap-1 font-semibold text-teal-800 bg-white hover:bg-teal-50 px-2.5 py-0.5 rounded border border-teal-300 transition-colors shadow-2xs cursor-pointer"
+          >
+            <HelpCircle className="w-3.5 h-3.5 text-teal-700" />
+            <span>Platform Tutorial & Guide</span>
+          </button>
+          <span className="text-slate-300">•</span>
           <span className="flex items-center gap-1 font-medium text-emerald-800 bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200">
             <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" />
             ABDM & FHIR R4 Compliant
@@ -92,6 +102,14 @@ export const Header: React.FC<HeaderProps> = ({
 
         {/* Action Buttons */}
         <div className="flex items-center gap-2">
+          <button
+            onClick={onOpenTutorialModal}
+            className="flex items-center gap-1.5 bg-slate-50 hover:bg-slate-100 text-slate-800 font-semibold text-xs px-3.5 py-2 rounded-lg border border-slate-300 shadow-2xs transition-all hover:scale-[1.02] cursor-pointer"
+            title="Interactive walkthrough of features and clinical workflows"
+          >
+            <BookOpen className="w-4 h-4 text-teal-700" />
+            <span>Tutorial Guide</span>
+          </button>
           <button
             onClick={() => setActiveTab('pow')}
             className="flex items-center gap-1.5 bg-gradient-to-r from-amber-600 to-amber-700 hover:from-amber-500 hover:to-amber-600 text-white font-semibold text-xs px-3.5 py-2 rounded-lg shadow-sm transition-all hover:scale-[1.02]"

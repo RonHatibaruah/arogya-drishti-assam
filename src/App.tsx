@@ -8,6 +8,7 @@ import { PolicySimulator } from './components/PolicySimulator';
 import { ProofOfWorkDocument } from './components/ProofOfWorkDocument';
 import { FigureGallery } from './components/FigureGallery';
 import { ProposalViewerModal, PROPOSAL_SECTIONS } from './components/ProposalViewerModal';
+import { TutorialModal } from './components/TutorialModal';
 import { ASSAM_DISTRICTS } from './data/assamDistrictsData';
 import { DistrictMetric, PolicyInterventionParams } from './types';
 import { Download, FileText, ShieldCheck, Check } from 'lucide-react';
@@ -17,6 +18,7 @@ export const App: React.FC = () => {
   const [selectedDistrict, setSelectedDistrict] = useState<DistrictMetric>(ASSAM_DISTRICTS[0]);
   const [activeTab, setActiveTab] = useState<'overview' | 'forecasting' | 'dialysis' | 'triage' | 'simulator' | 'proposal' | 'pow' | 'gallery'>('overview');
   const [isProposalModalOpen, setIsProposalModalOpen] = useState<boolean>(false);
+  const [isTutorialModalOpen, setIsTutorialModalOpen] = useState<boolean>(false);
   const [copiedId, setCopiedId] = useState<number | null>(null);
 
   const [policyParams, setPolicyParams] = useState<PolicyInterventionParams>({
@@ -54,6 +56,7 @@ export const App: React.FC = () => {
         activeTab={activeTab}
         setActiveTab={setActiveTab}
         onOpenProposalModal={() => setIsProposalModalOpen(true)}
+        onOpenTutorialModal={() => setIsTutorialModalOpen(true)}
       />
 
       {/* Main Container */}
@@ -222,6 +225,13 @@ export const App: React.FC = () => {
       <ProposalViewerModal
         isOpen={isProposalModalOpen}
         onClose={() => setIsProposalModalOpen(false)}
+      />
+
+      {/* Interactive Platform Tutorial Modal */}
+      <TutorialModal
+        isOpen={isTutorialModalOpen}
+        onClose={() => setIsTutorialModalOpen(false)}
+        onNavigateTab={(tab) => setActiveTab(tab)}
       />
     </div>
   );

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1022.4pt" height="626.4pt" viewBox="0 0 1022.4 626.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1166.4pt" height="662.4pt" viewBox="0 0 1166.4 662.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
  <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-24T01:48:05.961852</dc:date>
+    <dc:date>2026-11-24T02:06:29.588736</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -21,92 +21,207 @@
  </defs>
  <g id="figure_1">
   <g id="patch_1">
-   <path d="M 0 626.4 
-L 1022.4 626.4 
-L 1022.4 0 
+   <path d="M 0 662.4 
+L 1166.4 662.4 
+L 1166.4 0 
 L 0 0 
 z
 " style="fill: #ffffff"/>
   </g>
   <g id="axes_1">
-   <g id="patch_2">
-    <path d="M 59.04 538.56 
-L 473.76 538.56 
-Q 488.16 538.56 488.16 524.16 
-L 488.16 95.04 
-Q 488.16 80.64 473.76 80.64 
-L 59.04 80.64 
-Q 44.64 80.64 44.64 95.04 
-L 44.64 524.16 
-Q 44.64 538.56 59.04 538.56 
-z
-" clip-path="url(#p42335cd740)" style="fill: #f8fafc; stroke: #cbd5e1; stroke-width: 1.5; stroke-linejoin: miter"/>
-   </g>
-   <g id="patch_3">
-    <path d="M 70.56 154.08 
-L 462.24 154.08 
-Q 470.88 154.08 470.88 145.44 
-L 470.88 106.56 
-Q 470.88 97.92 462.24 97.92 
-L 70.56 97.92 
-Q 61.92 97.92 61.92 106.56 
-L 61.92 145.44 
-Q 61.92 154.08 70.56 154.08 
-z
-" clip-path="url(#p42335cd740)" style="fill: #0f766e"/>
-   </g>
-   <g id="patch_4">
-    <path d="M 548.64 538.56 
-L 963.36 538.56 
-Q 977.76 538.56 977.76 524.16 
-L 977.76 95.04 
-Q 977.76 80.64 963.36 80.64 
-L 548.64 80.64 
-Q 534.24 80.64 534.24 95.04 
-L 534.24 524.16 
-Q 534.24 538.56 548.64 538.56 
-z
-" clip-path="url(#p42335cd740)" style="fill: #f8fafc; stroke: #cbd5e1; stroke-width: 1.5; stroke-linejoin: miter"/>
-   </g>
-   <g id="patch_5">
-    <path d="M 560.16 154.08 
-L 951.84 154.08 
-Q 960.48 154.08 960.48 145.44 
-L 960.48 106.56 
-Q 960.48 97.92 951.84 97.92 
-L 560.16 97.92 
-Q 551.52 97.92 551.52 106.56 
-L 551.52 145.44 
-Q 551.52 154.08 560.16 154.08 
-z
-" clip-path="url(#p42335cd740)" style="fill: #1e293b"/>
-   </g>
-   <g id="patch_6">
-    <path d="M 54.72 600.48 
-L 967.68 600.48 
-Q 974.88 600.48 974.88 593.28 
-L 974.88 555.12 
-Q 974.88 547.92 967.68 547.92 
-L 54.72 547.92 
-Q 47.52 547.92 47.52 555.12 
-L 47.52 593.28 
-Q 47.52 600.48 54.72 600.48 
-z
-" clip-path="url(#p42335cd740)" style="fill: #f0fdfa; stroke: #99f6e4; stroke-width: 1.2; stroke-linejoin: miter"/>
-   </g>
    <g id="line2d_1">
-    <path d="M 79.2 489.6 
-L 453.6 489.6 
-" clip-path="url(#p42335cd740)" style="fill: none; stroke: #cbd5e1; stroke-linecap: square"/>
+    <path d="M 79.2 655.2 
+L 79.2 7.2 
+" clip-path="url(#p18ccbe89ba)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
    </g>
    <g id="line2d_2">
-    <path d="M 568.8 489.6 
-L 943.2 489.6 
-" clip-path="url(#p42335cd740)" style="fill: none; stroke: #cbd5e1; stroke-linecap: square"/>
+    <path d="M 151.2 655.2 
+L 151.2 7.2 
+" clip-path="url(#p18ccbe89ba)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 223.2 655.2 
+L 223.2 7.2 
+" clip-path="url(#p18ccbe89ba)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 295.2 655.2 
+L 295.2 7.2 
+" clip-path="url(#p18ccbe89ba)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 367.2 655.2 
+L 367.2 7.2 
+" clip-path="url(#p18ccbe89ba)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_6">
+    <path d="M 439.2 655.2 
+L 439.2 7.2 
+" clip-path="url(#p18ccbe89ba)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_7">
+    <path d="M 511.2 655.2 
+L 511.2 7.2 
+" clip-path="url(#p18ccbe89ba)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_8">
+    <path d="M 583.2 655.2 
+L 583.2 7.2 
+" clip-path="url(#p18ccbe89ba)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_9">
+    <path d="M 655.2 655.2 
+L 655.2 7.2 
+" clip-path="url(#p18ccbe89ba)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_10">
+    <path d="M 727.2 655.2 
+L 727.2 7.2 
+" clip-path="url(#p18ccbe89ba)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_11">
+    <path d="M 799.2 655.2 
+L 799.2 7.2 
+" clip-path="url(#p18ccbe89ba)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_12">
+    <path d="M 871.2 655.2 
+L 871.2 7.2 
+" clip-path="url(#p18ccbe89ba)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_13">
+    <path d="M 943.2 655.2 
+L 943.2 7.2 
+" clip-path="url(#p18ccbe89ba)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_14">
+    <path d="M 1015.2 655.2 
+L 1015.2 7.2 
+" clip-path="url(#p18ccbe89ba)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_15">
+    <path d="M 1087.2 655.2 
+L 1087.2 7.2 
+" clip-path="url(#p18ccbe89ba)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_16">
+    <path d="M 7.2 583.2 
+L 1159.2 583.2 
+" clip-path="url(#p18ccbe89ba)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_17">
+    <path d="M 7.2 511.2 
+L 1159.2 511.2 
+" clip-path="url(#p18ccbe89ba)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_18">
+    <path d="M 7.2 439.2 
+L 1159.2 439.2 
+" clip-path="url(#p18ccbe89ba)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_19">
+    <path d="M 7.2 367.2 
+L 1159.2 367.2 
+" clip-path="url(#p18ccbe89ba)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_20">
+    <path d="M 7.2 295.2 
+L 1159.2 295.2 
+" clip-path="url(#p18ccbe89ba)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_21">
+    <path d="M 7.2 223.2 
+L 1159.2 223.2 
+" clip-path="url(#p18ccbe89ba)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_22">
+    <path d="M 7.2 151.2 
+L 1159.2 151.2 
+" clip-path="url(#p18ccbe89ba)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_23">
+    <path d="M 7.2 79.2 
+L 1159.2 79.2 
+" clip-path="url(#p18ccbe89ba)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="patch_2">
+    <path d="M 73.44 560.16 
+L 560.16 560.16 
+Q 574.56 560.16 574.56 545.76 
+L 574.56 95.04 
+Q 574.56 80.64 560.16 80.64 
+L 73.44 80.64 
+Q 59.04 80.64 59.04 95.04 
+L 59.04 545.76 
+Q 59.04 560.16 73.44 560.16 
+z
+" clip-path="url(#p18ccbe89ba)" style="fill: #f8fafc; stroke: #cbd5e1; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 84.96 146.88 
+L 548.64 146.88 
+Q 557.28 146.88 557.28 138.24 
+L 557.28 95.76 
+Q 557.28 87.12 548.64 87.12 
+L 84.96 87.12 
+Q 76.32 87.12 76.32 95.76 
+L 76.32 138.24 
+Q 76.32 146.88 84.96 146.88 
+z
+" clip-path="url(#p18ccbe89ba)" style="fill: #0f766e"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 606.24 560.16 
+L 1092.96 560.16 
+Q 1107.36 560.16 1107.36 545.76 
+L 1107.36 95.04 
+Q 1107.36 80.64 1092.96 80.64 
+L 606.24 80.64 
+Q 591.84 80.64 591.84 95.04 
+L 591.84 545.76 
+Q 591.84 560.16 606.24 560.16 
+z
+" clip-path="url(#p18ccbe89ba)" style="fill: #f8fafc; stroke: #cbd5e1; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 617.76 146.88 
+L 1081.44 146.88 
+Q 1090.08 146.88 1090.08 138.24 
+L 1090.08 95.76 
+Q 1090.08 87.12 1081.44 87.12 
+L 617.76 87.12 
+Q 609.12 87.12 609.12 95.76 
+L 609.12 138.24 
+Q 609.12 146.88 617.76 146.88 
+z
+" clip-path="url(#p18ccbe89ba)" style="fill: #1e293b"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 69.12 629.28 
+L 1097.28 629.28 
+Q 1104.48 629.28 1104.48 622.08 
+L 1104.48 580.32 
+Q 1104.48 573.12 1097.28 573.12 
+L 69.12 573.12 
+Q 61.92 573.12 61.92 580.32 
+L 61.92 622.08 
+Q 61.92 629.28 69.12 629.28 
+z
+" clip-path="url(#p18ccbe89ba)" style="fill: #f0fdfa; stroke: #99f6e4; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_24">
+    <path d="M 93.6 518.4 
+L 540 518.4 
+" clip-path="url(#p18ccbe89ba)" style="fill: none; stroke: #cbd5e1; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_25">
+    <path d="M 626.4 518.4 
+L 1072.8 518.4 
+" clip-path="url(#p18ccbe89ba)" style="fill: none; stroke: #cbd5e1; stroke-linecap: square"/>
    </g>
    <g id="text_1">
     <!-- GEOSPATIAL VULNERABILITY ARCHITECTURE &amp; TWO-DISTRICT PILOT BLUEPRINT -->
-    <g style="fill: #0f172a" transform="translate(207.435938 36.750586) scale(0.15 -0.15)">
+    <g style="fill: #0f172a" transform="translate(259.185 40.640625) scale(0.16 -0.16)">
      <defs>
       <path id="Helvetica-Bold-2a" d="M 3313 113 
 Q 2931 -122 2375 -122 
@@ -592,7 +707,7 @@ z
    </g>
    <g id="text_2">
     <!-- Targeted Field Validation in Kamrup Metropolitan and Dibrugarh Districts (Assam) -->
-    <g style="fill: #0f766e" transform="translate(322.224609 60.375937) scale(0.105 -0.105)">
+    <g style="fill: #0f766e" transform="translate(385.225781 64.108125) scale(0.11 -0.11)">
      <defs>
       <path id="Helvetica-37" d="M 3828 4591 
 L 3828 4044 
@@ -1245,7 +1360,7 @@ z
    </g>
    <g id="text_3">
     <!-- PILOT DISTRICT 1: KAMRUP METROPOLITAN -->
-    <g style="fill: #ffffff" transform="translate(151.676016 129.04541) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(196.612969 120.55043) scale(0.11 -0.11)">
      <defs>
       <path id="Helvetica-Bold-14" d="M 2422 0 
 L 1509 0 
@@ -1350,7 +1465,7 @@ z
    </g>
    <g id="text_4">
     <!-- Characteristics: Urban &amp; Peri-urban Tertiary Healthcare Hub -->
-    <g style="fill: #0f172a" transform="translate(93.6 180) scale(0.085 -0.085)">
+    <g style="fill: #0f172a" transform="translate(108 176.4) scale(0.09 -0.09)">
      <defs>
       <path id="Helvetica-Bold-4b" d="M 3494 2000 
 L 3494 0 
@@ -1698,7 +1813,7 @@ z
    </g>
    <g id="text_5">
     <!-- Tertiary Anchor: Gauhati Medical College &amp; Hospital (GMCH) -->
-    <g style="fill: #0f766e" transform="translate(93.6 201.6) scale(0.08 -0.08)">
+    <g style="fill: #0f766e" transform="translate(108 198) scale(0.085 -0.085)">
      <defs>
       <path id="Helvetica-5c" d="M 2503 3347 
 L 3125 3347 
@@ -1913,7 +2028,7 @@ z
    </g>
    <g id="text_6">
     <!-- • Total Population: -->
-    <g style="fill: #334155" transform="translate(93.6 234) scale(0.078 -0.078)">
+    <g style="fill: #334155" transform="translate(108 237.6) scale(0.082 -0.082)">
      <defs>
       <path id="Helvetica-Bold-87" d="M 453 2294 
 Q 453 2594 648 2787 
@@ -1997,7 +2112,7 @@ z
    </g>
    <g id="text_7">
     <!-- 11.5 Lakhs (Census / NHM 2026) -->
-    <g style="fill: #475569" transform="translate(280.8 234) scale(0.078 -0.078)">
+    <g style="fill: #475569" transform="translate(331.2 237.6) scale(0.082 -0.082)">
      <defs>
       <path id="Helvetica-14" d="M 613 3169 
 L 613 3600 
@@ -2201,7 +2316,7 @@ z
    </g>
    <g id="text_8">
     <!-- • Adult HTN / DM Prevalence: -->
-    <g style="fill: #334155" transform="translate(93.6 267.12) scale(0.078 -0.078)">
+    <g style="fill: #334155" transform="translate(108 275.04) scale(0.082 -0.082)">
      <defs>
       <path id="Helvetica-Bold-47" d="M 3516 4600 
 L 3516 0 
@@ -2279,7 +2394,7 @@ z
    </g>
    <g id="text_9">
     <!-- 34.2% (Highest urban concentration) -->
-    <g style="fill: #475569" transform="translate(280.8 267.12) scale(0.078 -0.078)">
+    <g style="fill: #475569" transform="translate(331.2 275.04) scale(0.082 -0.082)">
      <defs>
       <path id="Helvetica-16" d="M 1663 -122 
 Q 869 -122 511 314 
@@ -2421,7 +2536,7 @@ z
    </g>
    <g id="text_10">
     <!-- • Identified CKD Stage 3-5: -->
-    <g style="fill: #334155" transform="translate(93.6 300.24) scale(0.078 -0.078)">
+    <g style="fill: #334155" transform="translate(108 312.48) scale(0.082 -0.082)">
      <defs>
       <path id="Helvetica-Bold-c0" d="M 1472 0 
 L 584 0 
@@ -2581,7 +2696,7 @@ z
    </g>
    <g id="text_11">
     <!-- 1,280 Active Patients -->
-    <g style="fill: #475569" transform="translate(280.8 300.24) scale(0.078 -0.078)">
+    <g style="fill: #475569" transform="translate(331.2 312.48) scale(0.082 -0.082)">
      <defs>
       <path id="Helvetica-f" d="M 531 -653 
 Q 747 -616 834 -350 
@@ -2693,7 +2808,7 @@ z
    </g>
    <g id="text_12">
     <!-- • Operational PMNDP Stations: -->
-    <g style="fill: #334155" transform="translate(93.6 333.36) scale(0.078 -0.078)">
+    <g style="fill: #334155" transform="translate(108 349.92) scale(0.082 -0.082)">
      <use xlink:href="#Helvetica-Bold-87"/>
      <use xlink:href="#Helvetica-Bold-3" transform="translate(35.015625 0)"/>
      <use xlink:href="#Helvetica-Bold-32" transform="translate(62.796875 0)"/>
@@ -2727,7 +2842,7 @@ z
    </g>
    <g id="text_13">
     <!-- 48 Dialysis Stations (Across GMCH &amp; DH) -->
-    <g style="fill: #475569" transform="translate(280.8 333.36) scale(0.078 -0.078)">
+    <g style="fill: #475569" transform="translate(331.2 349.92) scale(0.082 -0.082)">
      <defs>
       <path id="Helvetica-36" d="M 894 1481 
 Q 916 1091 1078 847 
@@ -2807,7 +2922,7 @@ z
    </g>
    <g id="text_14">
     <!-- • Current Station Load: -->
-    <g style="fill: #334155" transform="translate(93.6 366.48) scale(0.078 -0.078)">
+    <g style="fill: #334155" transform="translate(108 387.36) scale(0.082 -0.082)">
      <use xlink:href="#Helvetica-Bold-87"/>
      <use xlink:href="#Helvetica-Bold-3" transform="translate(35.015625 0)"/>
      <use xlink:href="#Helvetica-Bold-26" transform="translate(62.796875 0)"/>
@@ -2835,7 +2950,7 @@ z
    </g>
    <g id="text_15">
     <!-- 4.8 Sessions / Station / Day (Severe Strain) -->
-    <g style="fill: #475569" transform="translate(280.8 366.48) scale(0.078 -0.078)">
+    <g style="fill: #475569" transform="translate(331.2 387.36) scale(0.082 -0.082)">
      <use xlink:href="#Helvetica-17"/>
      <use xlink:href="#Helvetica-11" transform="translate(55.609375 0)"/>
      <use xlink:href="#Helvetica-1b" transform="translate(83.390625 0)"/>
@@ -2884,7 +2999,7 @@ z
    </g>
    <g id="text_16">
     <!-- • Simulated Machine Deficit: -->
-    <g style="fill: #334155" transform="translate(93.6 399.6) scale(0.078 -0.078)">
+    <g style="fill: #334155" transform="translate(108 424.8) scale(0.082 -0.082)">
      <defs>
       <path id="Helvetica-Bold-50" d="M 2328 2469 
 Q 2216 2716 1888 2716 
@@ -2950,7 +3065,7 @@ z
    </g>
    <g id="text_17">
     <!-- +18 Additional Hemodialysis Machines Needed -->
-    <g style="fill: #0f766e" transform="translate(280.8 399.6) scale(0.078 -0.078)">
+    <g style="fill: #0f766e" transform="translate(331.2 424.8) scale(0.082 -0.082)">
      <defs>
       <path id="Helvetica-e" d="M 288 1369 
 L 288 1894 
@@ -3015,7 +3130,7 @@ z
    </g>
    <g id="text_18">
     <!-- • Primary Goal of Pilot: -->
-    <g style="fill: #334155" transform="translate(93.6 432.72) scale(0.078 -0.078)">
+    <g style="fill: #334155" transform="translate(108 462.24) scale(0.082 -0.082)">
      <defs>
       <path id="Helvetica-Bold-49" d="M 2013 4634 
 L 2013 3909 
@@ -3068,7 +3183,7 @@ z
    </g>
    <g id="text_19">
     <!-- Validate 12-PHC Digital Referral Loop to GMCH -->
-    <g style="fill: #0f766e" transform="translate(280.8 432.72) scale(0.078 -0.078)">
+    <g style="fill: #0f766e" transform="translate(331.2 462.24) scale(0.082 -0.082)">
      <defs>
       <path id="Helvetica-10" d="M 266 2072 
 L 1834 2072 
@@ -3182,7 +3297,7 @@ z
    </g>
    <g id="text_20">
     <!-- Deploy 48 HWC-ANMOL tablet kits • 12 Semi-auto PHC lab connectors -->
-    <g style="fill: #0f766e" transform="translate(141.805078 513.205078) scale(0.075 -0.075)">
+    <g style="fill: #0f766e" transform="translate(183.89875 542.13875) scale(0.08 -0.08)">
      <defs>
       <path id="Helvetica-Bold-17" d="M 3347 1672 
 L 3347 975 
@@ -3351,7 +3466,7 @@ z
    </g>
    <g id="text_21">
     <!-- PILOT DISTRICT 2: DIBRUGARH (UPPER ASSAM) -->
-    <g style="fill: #ffffff" transform="translate(631.940859 128.878477) scale(0.105 -0.105)">
+    <g style="fill: #ffffff" transform="translate(719.633281 120.375547) scale(0.11 -0.11)">
      <defs>
       <path id="Helvetica-Bold-b" d="M 1394 -1291 
 L 1172 -988 
@@ -3429,7 +3544,7 @@ z
    </g>
    <g id="text_22">
     <!-- Characteristics: Tea Garden Community &amp; Rural Agro-Ecosystem -->
-    <g style="fill: #0f172a" transform="translate(583.2 180) scale(0.085 -0.085)">
+    <g style="fill: #0f172a" transform="translate(640.8 176.4) scale(0.09 -0.09)">
      <use xlink:href="#Helvetica-Bold-26"/>
      <use xlink:href="#Helvetica-Bold-4b" transform="translate(72.21875 0)"/>
      <use xlink:href="#Helvetica-Bold-44" transform="translate(133.296875 0)"/>
@@ -3494,7 +3609,7 @@ z
    </g>
    <g id="text_23">
     <!-- Tertiary Anchor: Assam Medical College &amp; Hospital (AMCH) -->
-    <g style="fill: #0f766e" transform="translate(583.2 201.6) scale(0.08 -0.08)">
+    <g style="fill: #0f766e" transform="translate(640.8 198) scale(0.085 -0.085)">
      <use xlink:href="#Helvetica-37"/>
      <use xlink:href="#Helvetica-48" transform="translate(50 0)"/>
      <use xlink:href="#Helvetica-55" transform="translate(105.609375 0)"/>
@@ -3555,7 +3670,7 @@ z
    </g>
    <g id="text_24">
     <!-- • Total Population: -->
-    <g style="fill: #334155" transform="translate(583.2 234) scale(0.078 -0.078)">
+    <g style="fill: #334155" transform="translate(640.8 237.6) scale(0.082 -0.082)">
      <use xlink:href="#Helvetica-Bold-87"/>
      <use xlink:href="#Helvetica-Bold-3" transform="translate(35.015625 0)"/>
      <use xlink:href="#Helvetica-Bold-37" transform="translate(62.796875 0)"/>
@@ -3579,7 +3694,7 @@ z
    </g>
    <g id="text_25">
     <!-- 13.2 Lakhs (Large Tea Tribe Population) -->
-    <g style="fill: #475569" transform="translate(770.4 234) scale(0.078 -0.078)">
+    <g style="fill: #475569" transform="translate(871.2 237.6) scale(0.082 -0.082)">
      <use xlink:href="#Helvetica-14"/>
      <use xlink:href="#Helvetica-16" transform="translate(55.609375 0)"/>
      <use xlink:href="#Helvetica-11" transform="translate(111.21875 0)"/>
@@ -3623,7 +3738,7 @@ z
    </g>
    <g id="text_26">
     <!-- • Vulnerability Factor: -->
-    <g style="fill: #334155" transform="translate(583.2 267.12) scale(0.078 -0.078)">
+    <g style="fill: #334155" transform="translate(640.8 275.04) scale(0.082 -0.082)">
      <defs>
       <path id="Helvetica-Bold-29" d="M 3753 3791 
 L 1444 3791 
@@ -3666,7 +3781,7 @@ z
    </g>
    <g id="text_27">
     <!-- High agricultural pesticide &amp; OTC NSAID use -->
-    <g style="fill: #dc2626" transform="translate(770.4 267.12) scale(0.078 -0.078)">
+    <g style="fill: #dc2626" transform="translate(871.2 275.04) scale(0.082 -0.082)">
      <defs>
       <path id="Helvetica-32" d="M 2469 4716 
 Q 3684 4716 4269 3934 
@@ -3747,7 +3862,7 @@ z
    </g>
    <g id="text_28">
     <!-- • Identified CKD Stage 3-5: -->
-    <g style="fill: #334155" transform="translate(583.2 300.24) scale(0.078 -0.078)">
+    <g style="fill: #334155" transform="translate(640.8 312.48) scale(0.082 -0.082)">
      <use xlink:href="#Helvetica-Bold-87"/>
      <use xlink:href="#Helvetica-Bold-3" transform="translate(35.015625 0)"/>
      <use xlink:href="#Helvetica-Bold-2c" transform="translate(62.796875 0)"/>
@@ -3778,7 +3893,7 @@ z
    </g>
    <g id="text_29">
     <!-- 1,140 Active Patients (High Late-Presentation) -->
-    <g style="fill: #475569" transform="translate(770.4 300.24) scale(0.078 -0.078)">
+    <g style="fill: #475569" transform="translate(871.2 312.48) scale(0.082 -0.082)">
      <use xlink:href="#Helvetica-14"/>
      <use xlink:href="#Helvetica-f" transform="translate(55.609375 0)"/>
      <use xlink:href="#Helvetica-14" transform="translate(83.390625 0)"/>
@@ -3829,7 +3944,7 @@ z
    </g>
    <g id="text_30">
     <!-- • Operational PMNDP Stations: -->
-    <g style="fill: #334155" transform="translate(583.2 333.36) scale(0.078 -0.078)">
+    <g style="fill: #334155" transform="translate(640.8 349.92) scale(0.082 -0.082)">
      <use xlink:href="#Helvetica-Bold-87"/>
      <use xlink:href="#Helvetica-Bold-3" transform="translate(35.015625 0)"/>
      <use xlink:href="#Helvetica-Bold-32" transform="translate(62.796875 0)"/>
@@ -3863,7 +3978,7 @@ z
    </g>
    <g id="text_31">
     <!-- 32 Dialysis Stations (AMCH &amp; Sub-divisional) -->
-    <g style="fill: #475569" transform="translate(770.4 333.36) scale(0.078 -0.078)">
+    <g style="fill: #475569" transform="translate(871.2 349.92) scale(0.082 -0.082)">
      <use xlink:href="#Helvetica-16"/>
      <use xlink:href="#Helvetica-15" transform="translate(55.609375 0)"/>
      <use xlink:href="#Helvetica-3" transform="translate(111.21875 0)"/>
@@ -3912,7 +4027,7 @@ z
    </g>
    <g id="text_32">
     <!-- • Current Station Load: -->
-    <g style="fill: #334155" transform="translate(583.2 366.48) scale(0.078 -0.078)">
+    <g style="fill: #334155" transform="translate(640.8 387.36) scale(0.082 -0.082)">
      <use xlink:href="#Helvetica-Bold-87"/>
      <use xlink:href="#Helvetica-Bold-3" transform="translate(35.015625 0)"/>
      <use xlink:href="#Helvetica-Bold-26" transform="translate(62.796875 0)"/>
@@ -3940,7 +4055,7 @@ z
    </g>
    <g id="text_33">
     <!-- 4.2 Sessions / Station / Day -->
-    <g style="fill: #475569" transform="translate(770.4 366.48) scale(0.078 -0.078)">
+    <g style="fill: #475569" transform="translate(871.2 387.36) scale(0.082 -0.082)">
      <use xlink:href="#Helvetica-17"/>
      <use xlink:href="#Helvetica-11" transform="translate(55.609375 0)"/>
      <use xlink:href="#Helvetica-15" transform="translate(83.390625 0)"/>
@@ -3973,7 +4088,7 @@ z
    </g>
    <g id="text_34">
     <!-- • Simulated Machine Deficit: -->
-    <g style="fill: #334155" transform="translate(583.2 399.6) scale(0.078 -0.078)">
+    <g style="fill: #334155" transform="translate(640.8 424.8) scale(0.082 -0.082)">
      <use xlink:href="#Helvetica-Bold-87"/>
      <use xlink:href="#Helvetica-Bold-3" transform="translate(35.015625 0)"/>
      <use xlink:href="#Helvetica-Bold-36" transform="translate(62.796875 0)"/>
@@ -4005,7 +4120,7 @@ z
    </g>
    <g id="text_35">
     <!-- +14 Additional Hemodialysis Machines Needed -->
-    <g style="fill: #dc2626" transform="translate(770.4 399.6) scale(0.078 -0.078)">
+    <g style="fill: #dc2626" transform="translate(871.2 424.8) scale(0.082 -0.082)">
      <use xlink:href="#Helvetica-e"/>
      <use xlink:href="#Helvetica-14" transform="translate(58.40625 0)"/>
      <use xlink:href="#Helvetica-17" transform="translate(114.015625 0)"/>
@@ -4053,7 +4168,7 @@ z
    </g>
    <g id="text_36">
     <!-- • Primary Goal of Pilot: -->
-    <g style="fill: #334155" transform="translate(583.2 432.72) scale(0.078 -0.078)">
+    <g style="fill: #334155" transform="translate(640.8 462.24) scale(0.082 -0.082)">
      <use xlink:href="#Helvetica-Bold-87"/>
      <use xlink:href="#Helvetica-Bold-3" transform="translate(35.015625 0)"/>
      <use xlink:href="#Helvetica-Bold-33" transform="translate(62.796875 0)"/>
@@ -4082,7 +4197,7 @@ z
    </g>
    <g id="text_37">
     <!-- Bridge Tea Garden Hospital Labs to AMCH Network -->
-    <g style="fill: #475569" transform="translate(770.4 432.72) scale(0.078 -0.078)">
+    <g style="fill: #475569" transform="translate(871.2 462.24) scale(0.082 -0.082)">
      <defs>
       <path id="Helvetica-25" d="M 2213 2650 
 Q 2606 2650 2825 2759 
@@ -4184,7 +4299,7 @@ z
    </g>
    <g id="text_38">
     <!-- Deploy Tea Garden Hospital Bridge • Portable Dipstick uACR in 36 HWCs -->
-    <g style="fill: #1e293b" transform="translate(626.196094 513.195703) scale(0.075 -0.075)">
+    <g style="fill: #1e293b" transform="translate(711.1425 542.12875) scale(0.08 -0.08)">
      <defs>
       <path id="Helvetica-Bold-19" d="M 1956 2941 
 Q 2559 2941 2945 2531 
@@ -4292,7 +4407,7 @@ z
    </g>
    <g id="text_39">
     <!-- Statewide Rollout Scope: Following 6-Month Pilot Validation, Arogya-Drishti scales across all 35 Districts of Assam covering 140+ PMNDP stations and 4,800+ Sub-Centers. -->
-    <g style="fill: #0f766e" transform="translate(185.05625 576.68875) scale(0.08 -0.08)">
+    <g style="fill: #0f766e" transform="translate(236.672266 603.461797) scale(0.085 -0.085)">
      <defs>
       <path id="Helvetica-Bold-5a" d="M 3000 0 
 L 2466 2481 
@@ -4541,8 +4656,8 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p42335cd740">
-   <rect x="7.2" y="7.2" width="1008" height="612"/>
+  <clipPath id="p18ccbe89ba">
+   <rect x="7.2" y="7.2" width="1152" height="648"/>
   </clipPath>
  </defs>
 </svg>

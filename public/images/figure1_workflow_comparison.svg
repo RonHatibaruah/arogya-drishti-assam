@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1022.4pt" height="590.4pt" viewBox="0 0 1022.4 590.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1166.4pt" height="662.4pt" viewBox="0 0 1166.4 662.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
  <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-24T01:48:03.905566</dc:date>
+    <dc:date>2026-11-24T02:06:27.263931</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -21,223 +21,338 @@
  </defs>
  <g id="figure_1">
   <g id="patch_1">
-   <path d="M 0 590.4 
-L 1022.4 590.4 
-L 1022.4 0 
+   <path d="M 0 662.4 
+L 1166.4 662.4 
+L 1166.4 0 
 L 0 0 
 z
 " style="fill: #ffffff"/>
   </g>
   <g id="axes_1">
-   <g id="patch_2">
-    <path d="M 43.2 305.364706 
-L 979.2 305.364706 
-Q 993.6 305.364706 993.6 291.811765 
-L 993.6 95.294118 
-Q 993.6 81.741176 979.2 81.741176 
-L 43.2 81.741176 
-Q 28.8 81.741176 28.8 95.294118 
-L 28.8 291.811765 
-Q 28.8 305.364706 43.2 305.364706 
-z
-" clip-path="url(#pcbc5866734)" style="fill: #fff5f5; stroke: #fecaca; stroke-width: 1.5; stroke-linejoin: miter"/>
-   </g>
-   <g id="patch_3">
-    <path d="M 31.68 282.324706 
-L 184.32 282.324706 
-Q 195.12 282.324706 195.12 272.16 
-L 195.12 142.051765 
-Q 195.12 131.887059 184.32 131.887059 
-L 31.68 131.887059 
-Q 20.88 131.887059 20.88 142.051765 
-L 20.88 272.16 
-Q 20.88 282.324706 31.68 282.324706 
-z
-" clip-path="url(#pcbc5866734)" style="fill: #ffffff; stroke: #f87171; stroke-width: 1.2; stroke-linejoin: miter"/>
-   </g>
-   <g id="patch_4">
-    <path d="M 226.08 282.324706 
-L 378.72 282.324706 
-Q 389.52 282.324706 389.52 272.16 
-L 389.52 142.051765 
-Q 389.52 131.887059 378.72 131.887059 
-L 226.08 131.887059 
-Q 215.28 131.887059 215.28 142.051765 
-L 215.28 272.16 
-Q 215.28 282.324706 226.08 282.324706 
-z
-" clip-path="url(#pcbc5866734)" style="fill: #ffffff; stroke: #f87171; stroke-width: 1.2; stroke-linejoin: miter"/>
-   </g>
-   <g id="patch_5">
-    <path d="M 420.48 282.324706 
-L 573.12 282.324706 
-Q 583.92 282.324706 583.92 272.16 
-L 583.92 142.051765 
-Q 583.92 131.887059 573.12 131.887059 
-L 420.48 131.887059 
-Q 409.68 131.887059 409.68 142.051765 
-L 409.68 272.16 
-Q 409.68 282.324706 420.48 282.324706 
-z
-" clip-path="url(#pcbc5866734)" style="fill: #ffffff; stroke: #f87171; stroke-width: 1.2; stroke-linejoin: miter"/>
-   </g>
-   <g id="patch_6">
-    <path d="M 614.88 282.324706 
-L 767.52 282.324706 
-Q 778.32 282.324706 778.32 272.16 
-L 778.32 142.051765 
-Q 778.32 131.887059 767.52 131.887059 
-L 614.88 131.887059 
-Q 604.08 131.887059 604.08 142.051765 
-L 604.08 272.16 
-Q 604.08 282.324706 614.88 282.324706 
-z
-" clip-path="url(#pcbc5866734)" style="fill: #ffffff; stroke: #f87171; stroke-width: 1.2; stroke-linejoin: miter"/>
-   </g>
-   <g id="patch_7">
-    <path d="M 809.28 282.324706 
-L 961.92 282.324706 
-Q 972.72 282.324706 972.72 272.16 
-L 972.72 142.051765 
-Q 972.72 131.887059 961.92 131.887059 
-L 809.28 131.887059 
-Q 798.48 131.887059 798.48 142.051765 
-L 798.48 272.16 
-Q 798.48 282.324706 809.28 282.324706 
-z
-" clip-path="url(#pcbc5866734)" style="fill: #ffffff; stroke: #f87171; stroke-width: 1.2; stroke-linejoin: miter"/>
-   </g>
-   <g id="patch_8">
-    <path d="M 43.2 562.870588 
-L 979.2 562.870588 
-Q 993.6 562.870588 993.6 549.317647 
-L 993.6 332.470588 
-Q 993.6 318.917647 979.2 318.917647 
-L 43.2 318.917647 
-Q 28.8 318.917647 28.8 332.470588 
-L 28.8 549.317647 
-Q 28.8 562.870588 43.2 562.870588 
-z
-" clip-path="url(#pcbc5866734)" style="fill: #f0fdfa; stroke: #99f6e4; stroke-width: 1.5; stroke-linejoin: miter"/>
-   </g>
-   <g id="patch_9">
-    <path d="M 31.68 539.830588 
-L 184.32 539.830588 
-Q 195.12 539.830588 195.12 529.665882 
-L 195.12 379.228235 
-Q 195.12 369.063529 184.32 369.063529 
-L 31.68 369.063529 
-Q 20.88 369.063529 20.88 379.228235 
-L 20.88 529.665882 
-Q 20.88 539.830588 31.68 539.830588 
-z
-" clip-path="url(#pcbc5866734)" style="fill: #ffffff; stroke: #14b8a6; stroke-width: 1.2; stroke-linejoin: miter"/>
-   </g>
-   <g id="patch_10">
-    <path d="M 226.08 539.830588 
-L 378.72 539.830588 
-Q 389.52 539.830588 389.52 529.665882 
-L 389.52 379.228235 
-Q 389.52 369.063529 378.72 369.063529 
-L 226.08 369.063529 
-Q 215.28 369.063529 215.28 379.228235 
-L 215.28 529.665882 
-Q 215.28 539.830588 226.08 539.830588 
-z
-" clip-path="url(#pcbc5866734)" style="fill: #ffffff; stroke: #14b8a6; stroke-width: 1.2; stroke-linejoin: miter"/>
-   </g>
-   <g id="patch_11">
-    <path d="M 420.48 539.830588 
-L 573.12 539.830588 
-Q 583.92 539.830588 583.92 529.665882 
-L 583.92 379.228235 
-Q 583.92 369.063529 573.12 369.063529 
-L 420.48 369.063529 
-Q 409.68 369.063529 409.68 379.228235 
-L 409.68 529.665882 
-Q 409.68 539.830588 420.48 539.830588 
-z
-" clip-path="url(#pcbc5866734)" style="fill: #ffffff; stroke: #14b8a6; stroke-width: 1.2; stroke-linejoin: miter"/>
-   </g>
-   <g id="patch_12">
-    <path d="M 614.88 539.830588 
-L 767.52 539.830588 
-Q 778.32 539.830588 778.32 529.665882 
-L 778.32 379.228235 
-Q 778.32 369.063529 767.52 369.063529 
-L 614.88 369.063529 
-Q 604.08 369.063529 604.08 379.228235 
-L 604.08 529.665882 
-Q 604.08 539.830588 614.88 539.830588 
-z
-" clip-path="url(#pcbc5866734)" style="fill: #ffffff; stroke: #14b8a6; stroke-width: 1.2; stroke-linejoin: miter"/>
-   </g>
-   <g id="patch_13">
-    <path d="M 809.28 539.830588 
-L 961.92 539.830588 
-Q 972.72 539.830588 972.72 529.665882 
-L 972.72 379.228235 
-Q 972.72 369.063529 961.92 369.063529 
-L 809.28 369.063529 
-Q 798.48 369.063529 798.48 379.228235 
-L 798.48 529.665882 
-Q 798.48 539.830588 809.28 539.830588 
-z
-" clip-path="url(#pcbc5866734)" style="fill: #ffffff; stroke: #14b8a6; stroke-width: 1.2; stroke-linejoin: miter"/>
-   </g>
    <g id="line2d_1">
-    <path d="M 43.2 173.223529 
-L 172.8 173.223529 
-" clip-path="url(#pcbc5866734)" style="fill: none; stroke: #fca5a5; stroke-linecap: square"/>
+    <path d="M 79.2 655.2 
+L 79.2 7.2 
+" clip-path="url(#pef8904c149)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
    </g>
    <g id="line2d_2">
-    <path d="M 237.6 173.223529 
-L 367.2 173.223529 
-" clip-path="url(#pcbc5866734)" style="fill: none; stroke: #fca5a5; stroke-linecap: square"/>
+    <path d="M 151.2 655.2 
+L 151.2 7.2 
+" clip-path="url(#pef8904c149)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
    </g>
    <g id="line2d_3">
-    <path d="M 432 173.223529 
-L 561.6 173.223529 
-" clip-path="url(#pcbc5866734)" style="fill: none; stroke: #fca5a5; stroke-linecap: square"/>
+    <path d="M 223.2 655.2 
+L 223.2 7.2 
+" clip-path="url(#pef8904c149)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
    </g>
    <g id="line2d_4">
-    <path d="M 626.4 173.223529 
-L 756 173.223529 
-" clip-path="url(#pcbc5866734)" style="fill: none; stroke: #fca5a5; stroke-linecap: square"/>
+    <path d="M 295.2 655.2 
+L 295.2 7.2 
+" clip-path="url(#pef8904c149)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
    </g>
    <g id="line2d_5">
-    <path d="M 820.8 173.223529 
-L 950.4 173.223529 
-" clip-path="url(#pcbc5866734)" style="fill: none; stroke: #fca5a5; stroke-linecap: square"/>
+    <path d="M 367.2 655.2 
+L 367.2 7.2 
+" clip-path="url(#pef8904c149)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
    </g>
    <g id="line2d_6">
-    <path d="M 43.2 410.4 
-L 172.8 410.4 
-" clip-path="url(#pcbc5866734)" style="fill: none; stroke: #99f6e4; stroke-linecap: square"/>
+    <path d="M 439.2 655.2 
+L 439.2 7.2 
+" clip-path="url(#pef8904c149)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
    </g>
    <g id="line2d_7">
-    <path d="M 237.6 410.4 
-L 367.2 410.4 
-" clip-path="url(#pcbc5866734)" style="fill: none; stroke: #99f6e4; stroke-linecap: square"/>
+    <path d="M 511.2 655.2 
+L 511.2 7.2 
+" clip-path="url(#pef8904c149)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
    </g>
    <g id="line2d_8">
-    <path d="M 432 410.4 
-L 561.6 410.4 
-" clip-path="url(#pcbc5866734)" style="fill: none; stroke: #99f6e4; stroke-linecap: square"/>
+    <path d="M 583.2 655.2 
+L 583.2 7.2 
+" clip-path="url(#pef8904c149)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
    </g>
    <g id="line2d_9">
-    <path d="M 626.4 410.4 
-L 756 410.4 
-" clip-path="url(#pcbc5866734)" style="fill: none; stroke: #99f6e4; stroke-linecap: square"/>
+    <path d="M 655.2 655.2 
+L 655.2 7.2 
+" clip-path="url(#pef8904c149)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
    </g>
    <g id="line2d_10">
-    <path d="M 820.8 410.4 
-L 950.4 410.4 
-" clip-path="url(#pcbc5866734)" style="fill: none; stroke: #99f6e4; stroke-linecap: square"/>
+    <path d="M 727.2 655.2 
+L 727.2 7.2 
+" clip-path="url(#pef8904c149)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_11">
+    <path d="M 799.2 655.2 
+L 799.2 7.2 
+" clip-path="url(#pef8904c149)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_12">
+    <path d="M 871.2 655.2 
+L 871.2 7.2 
+" clip-path="url(#pef8904c149)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_13">
+    <path d="M 943.2 655.2 
+L 943.2 7.2 
+" clip-path="url(#pef8904c149)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_14">
+    <path d="M 1015.2 655.2 
+L 1015.2 7.2 
+" clip-path="url(#pef8904c149)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_15">
+    <path d="M 1087.2 655.2 
+L 1087.2 7.2 
+" clip-path="url(#pef8904c149)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_16">
+    <path d="M 7.2 583.2 
+L 1159.2 583.2 
+" clip-path="url(#pef8904c149)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_17">
+    <path d="M 7.2 511.2 
+L 1159.2 511.2 
+" clip-path="url(#pef8904c149)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_18">
+    <path d="M 7.2 439.2 
+L 1159.2 439.2 
+" clip-path="url(#pef8904c149)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_19">
+    <path d="M 7.2 367.2 
+L 1159.2 367.2 
+" clip-path="url(#pef8904c149)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_20">
+    <path d="M 7.2 295.2 
+L 1159.2 295.2 
+" clip-path="url(#pef8904c149)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_21">
+    <path d="M 7.2 223.2 
+L 1159.2 223.2 
+" clip-path="url(#pef8904c149)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_22">
+    <path d="M 7.2 151.2 
+L 1159.2 151.2 
+" clip-path="url(#pef8904c149)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_23">
+    <path d="M 7.2 79.2 
+L 1159.2 79.2 
+" clip-path="url(#pef8904c149)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="patch_2">
+    <path d="M 50.4 338.4 
+L 1116 338.4 
+Q 1130.4 338.4 1130.4 324 
+L 1130.4 100.8 
+Q 1130.4 86.4 1116 86.4 
+L 50.4 86.4 
+Q 36 86.4 36 100.8 
+L 36 324 
+Q 36 338.4 50.4 338.4 
+z
+" clip-path="url(#pef8904c149)" style="fill: #fff5f5; stroke: #fecaca; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 64.08 313.92 
+L 238.32 313.92 
+Q 249.12 313.92 249.12 303.12 
+L 249.12 157.68 
+Q 249.12 146.88 238.32 146.88 
+L 64.08 146.88 
+Q 53.28 146.88 53.28 157.68 
+L 53.28 303.12 
+Q 53.28 313.92 64.08 313.92 
+z
+" clip-path="url(#pef8904c149)" style="fill: #ffffff; stroke: #f87171; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 280.08 313.92 
+L 454.32 313.92 
+Q 465.12 313.92 465.12 303.12 
+L 465.12 157.68 
+Q 465.12 146.88 454.32 146.88 
+L 280.08 146.88 
+Q 269.28 146.88 269.28 157.68 
+L 269.28 303.12 
+Q 269.28 313.92 280.08 313.92 
+z
+" clip-path="url(#pef8904c149)" style="fill: #ffffff; stroke: #f87171; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 496.08 313.92 
+L 670.32 313.92 
+Q 681.12 313.92 681.12 303.12 
+L 681.12 157.68 
+Q 681.12 146.88 670.32 146.88 
+L 496.08 146.88 
+Q 485.28 146.88 485.28 157.68 
+L 485.28 303.12 
+Q 485.28 313.92 496.08 313.92 
+z
+" clip-path="url(#pef8904c149)" style="fill: #ffffff; stroke: #f87171; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 712.08 313.92 
+L 886.32 313.92 
+Q 897.12 313.92 897.12 303.12 
+L 897.12 157.68 
+Q 897.12 146.88 886.32 146.88 
+L 712.08 146.88 
+Q 701.28 146.88 701.28 157.68 
+L 701.28 303.12 
+Q 701.28 313.92 712.08 313.92 
+z
+" clip-path="url(#pef8904c149)" style="fill: #ffffff; stroke: #f87171; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 928.08 313.92 
+L 1102.32 313.92 
+Q 1113.12 313.92 1113.12 303.12 
+L 1113.12 157.68 
+Q 1113.12 146.88 1102.32 146.88 
+L 928.08 146.88 
+Q 917.28 146.88 917.28 157.68 
+L 917.28 303.12 
+Q 917.28 313.92 928.08 313.92 
+z
+" clip-path="url(#pef8904c149)" style="fill: #ffffff; stroke: #f87171; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 50.4 626.4 
+L 1116 626.4 
+Q 1130.4 626.4 1130.4 612 
+L 1130.4 367.2 
+Q 1130.4 352.8 1116 352.8 
+L 50.4 352.8 
+Q 36 352.8 36 367.2 
+L 36 612 
+Q 36 626.4 50.4 626.4 
+z
+" clip-path="url(#pef8904c149)" style="fill: #f0fdfa; stroke: #99f6e4; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 64.08 601.92 
+L 238.32 601.92 
+Q 249.12 601.92 249.12 591.12 
+L 249.12 424.08 
+Q 249.12 413.28 238.32 413.28 
+L 64.08 413.28 
+Q 53.28 413.28 53.28 424.08 
+L 53.28 591.12 
+Q 53.28 601.92 64.08 601.92 
+z
+" clip-path="url(#pef8904c149)" style="fill: #ffffff; stroke: #14b8a6; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 280.08 601.92 
+L 454.32 601.92 
+Q 465.12 601.92 465.12 591.12 
+L 465.12 424.08 
+Q 465.12 413.28 454.32 413.28 
+L 280.08 413.28 
+Q 269.28 413.28 269.28 424.08 
+L 269.28 591.12 
+Q 269.28 601.92 280.08 601.92 
+z
+" clip-path="url(#pef8904c149)" style="fill: #ffffff; stroke: #14b8a6; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 496.08 601.92 
+L 670.32 601.92 
+Q 681.12 601.92 681.12 591.12 
+L 681.12 424.08 
+Q 681.12 413.28 670.32 413.28 
+L 496.08 413.28 
+Q 485.28 413.28 485.28 424.08 
+L 485.28 591.12 
+Q 485.28 601.92 496.08 601.92 
+z
+" clip-path="url(#pef8904c149)" style="fill: #ffffff; stroke: #14b8a6; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 712.08 601.92 
+L 886.32 601.92 
+Q 897.12 601.92 897.12 591.12 
+L 897.12 424.08 
+Q 897.12 413.28 886.32 413.28 
+L 712.08 413.28 
+Q 701.28 413.28 701.28 424.08 
+L 701.28 591.12 
+Q 701.28 601.92 712.08 601.92 
+z
+" clip-path="url(#pef8904c149)" style="fill: #ffffff; stroke: #14b8a6; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 928.08 601.92 
+L 1102.32 601.92 
+Q 1113.12 601.92 1113.12 591.12 
+L 1113.12 424.08 
+Q 1113.12 413.28 1102.32 413.28 
+L 928.08 413.28 
+Q 917.28 413.28 917.28 424.08 
+L 917.28 591.12 
+Q 917.28 601.92 928.08 601.92 
+z
+" clip-path="url(#pef8904c149)" style="fill: #ffffff; stroke: #14b8a6; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_24">
+    <path d="M 79.2 194.4 
+L 223.2 194.4 
+" clip-path="url(#pef8904c149)" style="fill: none; stroke: #fca5a5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_25">
+    <path d="M 295.2 194.4 
+L 439.2 194.4 
+" clip-path="url(#pef8904c149)" style="fill: none; stroke: #fca5a5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_26">
+    <path d="M 511.2 194.4 
+L 655.2 194.4 
+" clip-path="url(#pef8904c149)" style="fill: none; stroke: #fca5a5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_27">
+    <path d="M 727.2 194.4 
+L 871.2 194.4 
+" clip-path="url(#pef8904c149)" style="fill: none; stroke: #fca5a5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_28">
+    <path d="M 943.2 194.4 
+L 1087.2 194.4 
+" clip-path="url(#pef8904c149)" style="fill: none; stroke: #fca5a5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_29">
+    <path d="M 79.2 460.8 
+L 223.2 460.8 
+" clip-path="url(#pef8904c149)" style="fill: none; stroke: #99f6e4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_30">
+    <path d="M 295.2 460.8 
+L 439.2 460.8 
+" clip-path="url(#pef8904c149)" style="fill: none; stroke: #99f6e4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_31">
+    <path d="M 511.2 460.8 
+L 655.2 460.8 
+" clip-path="url(#pef8904c149)" style="fill: none; stroke: #99f6e4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_32">
+    <path d="M 727.2 460.8 
+L 871.2 460.8 
+" clip-path="url(#pef8904c149)" style="fill: none; stroke: #99f6e4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_33">
+    <path d="M 943.2 460.8 
+L 1087.2 460.8 
+" clip-path="url(#pef8904c149)" style="fill: none; stroke: #99f6e4; stroke-linecap: square"/>
    </g>
    <g id="text_1">
     <!-- CLINICAL WORKFLOW TRANSFORMATION: CURRENT SILOED CARE VS. AROGYA-DRISHTI -->
-    <g style="fill: #0f172a" transform="translate(158.30875 38.946507) scale(0.16 -0.16)">
+    <g style="fill: #0f172a" transform="translate(230.30875 47.840625) scale(0.16 -0.16)">
      <defs>
       <path id="Helvetica-Bold-26" d="M 3738 344 
 Q 3222 -128 2419 -128 
@@ -694,7 +809,7 @@ z
    </g>
    <g id="text_2">
     <!-- National Health Mission Assam • Challenge NESFIC-D-28: Cross-Programme NCD &amp; Renal Care Integration -->
-    <g style="fill: #0f766e" transform="translate(246.712734 60.931654) scale(0.11 -0.11)">
+    <g style="fill: #0f766e" transform="translate(318.712734 71.308125) scale(0.11 -0.11)">
      <defs>
       <path id="Helvetica-31" d="M 488 4591 
 L 1222 4591 
@@ -1484,7 +1599,7 @@ z
    </g>
    <g id="text_3">
     <!-- CURRENT SCENARIO: FRAGMENTED, UNLINKED NCD &amp; DIALYSIS PATHWAY (STATUS QUO) -->
-    <g style="fill: #991b1b" transform="translate(64.8 111.862606) scale(0.11 -0.11)">
+    <g style="fill: #991b1b" transform="translate(79.2 121.815547) scale(0.11 -0.11)">
      <defs>
       <path id="Helvetica-Bold-f" d="M 1275 -319 
 Q 1219 -550 1066 -719 
@@ -1707,7 +1822,7 @@ z
    </g>
    <g id="text_4">
     <!-- Step 1: Isolated Screening -->
-    <g style="fill: #991b1b" transform="translate(54.864375 158.54415) scale(0.085 -0.085)">
+    <g style="fill: #991b1b" transform="translate(98.064375 178.661797) scale(0.085 -0.085)">
      <defs>
       <path id="Helvetica-Bold-57" d="M 1975 634 
 L 1975 -31 
@@ -2055,7 +2170,7 @@ z
    </g>
    <g id="text_5">
     <!-- ASHA / CHO records BP &amp; glucose in physical register -->
-    <g style="fill: #475569" transform="translate(21.029625 220.681075) scale(0.072 -0.072)">
+    <g style="fill: #475569" transform="translate(64.229625 248.845781) scale(0.072 -0.072)">
      <defs>
       <path id="Helvetica-12" d="M 1456 4591 
 L 1931 4591 
@@ -2297,7 +2412,7 @@ z
      <use xlink:href="#Helvetica-55" transform="translate(2382.546875 0)"/>
     </g>
     <!-- • No digital linkage to district labs -->
-    <g style="fill: #475569" transform="translate(55.317375 229.229669) scale(0.072 -0.072)">
+    <g style="fill: #475569" transform="translate(98.517375 257.394375) scale(0.072 -0.072)">
      <defs>
       <path id="Helvetica-4e" d="M 400 4591 
 L 941 4591 
@@ -2380,7 +2495,7 @@ z
      <use xlink:href="#Helvetica-56" transform="translate(1413.40625 0)"/>
     </g>
     <!-- • Urine protein tests rarely done -->
-    <g style="fill: #475569" transform="translate(57.519 237.864888) scale(0.072 -0.072)">
+    <g style="fill: #475569" transform="translate(100.719 266.029594) scale(0.072 -0.072)">
      <defs>
       <path id="Helvetica-38" d="M 1163 4591 
 L 1163 1753 
@@ -2440,7 +2555,7 @@ z
    </g>
    <g id="text_6">
     <!-- Step 2: Silent Progression -->
-    <g style="fill: #991b1b" transform="translate(249.502109 158.54415) scale(0.085 -0.085)">
+    <g style="fill: #991b1b" transform="translate(314.302109 178.661797) scale(0.085 -0.085)">
      <defs>
       <path id="Helvetica-Bold-15" d="M 2225 3609 
 Q 2066 3800 1769 3800 
@@ -2497,7 +2612,7 @@ z
    </g>
    <g id="text_7">
     <!-- Diabetic / Hypertensive patient remains unmonitored -->
-    <g style="fill: #475569" transform="translate(218.763562 220.64395) scale(0.072 -0.072)">
+    <g style="fill: #475569" transform="translate(283.563562 248.808656) scale(0.072 -0.072)">
      <defs>
       <path id="Helvetica-59" d="M 688 3347 
 L 1581 622 
@@ -2563,7 +2678,7 @@ z
      <use xlink:href="#Helvetica-47" transform="translate(2267.625 0)"/>
     </g>
     <!-- • Serum creatinine never checked -->
-    <g style="fill: #475569" transform="translate(248.515875 230.012669) scale(0.072 -0.072)">
+    <g style="fill: #475569" transform="translate(313.315875 258.177375) scale(0.072 -0.072)">
      <use xlink:href="#Helvetica-87"/>
      <use xlink:href="#Helvetica-3" transform="translate(35.015625 0)"/>
      <use xlink:href="#Helvetica-36" transform="translate(62.796875 0)"/>
@@ -2598,7 +2713,7 @@ z
      <use xlink:href="#Helvetica-47" transform="translate(1441.171875 0)"/>
     </g>
     <!-- • eGFR drops silently from G1 to G4 -->
-    <g style="fill: #475569" transform="translate(244.724062 237.926763) scale(0.072 -0.072)">
+    <g style="fill: #475569" transform="translate(309.524063 266.091469) scale(0.072 -0.072)">
      <defs>
       <path id="Helvetica-2a" d="M 2472 4709 
 Q 3119 4709 3591 4459 
@@ -2721,7 +2836,7 @@ z
    </g>
    <g id="text_8">
     <!-- Step 3: No Early Alert -->
-    <g style="fill: #991b1b" transform="translate(453.500469 158.554775) scale(0.085 -0.085)">
+    <g style="fill: #991b1b" transform="translate(539.900469 178.672422) scale(0.085 -0.085)">
      <defs>
       <path id="Helvetica-Bold-16" d="M 1225 3628 
 Q 1075 3428 1081 3094 
@@ -2801,7 +2916,7 @@ z
    </g>
    <g id="text_9">
     <!-- Zero risk scoring (No KFRE calculation) -->
-    <g style="fill: #475569" transform="translate(433.585125 220.65295) scale(0.072 -0.072)">
+    <g style="fill: #475569" transform="translate(519.985125 248.817656) scale(0.072 -0.072)">
      <defs>
       <path id="Helvetica-3d" d="M 147 516 
 L 2963 4044 
@@ -2906,7 +3021,7 @@ z
      <use xlink:href="#Helvetica-c" transform="translate(1722.671875 0)"/>
     </g>
     <!-- • No nephrology referral or SGLT2i -->
-    <g style="fill: #475569" transform="translate(441.583875 229.291544) scale(0.072 -0.072)">
+    <g style="fill: #475569" transform="translate(527.983875 257.45625) scale(0.072 -0.072)">
      <defs>
       <path id="Helvetica-2f" d="M 488 4591 
 L 1109 4591 
@@ -2965,7 +3080,7 @@ z
      <use xlink:href="#Helvetica-4c" transform="translate(1511.5625 0)"/>
     </g>
     <!-- • Silent loss of nephrons over 5-7 years -->
-    <g style="fill: #475569" transform="translate(434.111625 237.926763) scale(0.072 -0.072)">
+    <g style="fill: #475569" transform="translate(520.511625 266.091469) scale(0.072 -0.072)">
      <defs>
       <path id="Helvetica-18" d="M 791 1141 
 Q 847 659 1238 475 
@@ -3052,7 +3167,7 @@ z
    </g>
    <g id="text_10">
     <!-- Step 4: Emergency Crash -->
-    <g style="fill: #991b1b" transform="translate(639.710586 158.54415) scale(0.085 -0.085)">
+    <g style="fill: #991b1b" transform="translate(747.710586 178.661797) scale(0.085 -0.085)">
      <defs>
       <path id="Helvetica-Bold-17" d="M 3347 1672 
 L 3347 975 
@@ -3154,7 +3269,7 @@ z
    </g>
    <g id="text_11">
     <!-- Patient arrives in fluid overload &amp; uremic encephalopathy -->
-    <g style="fill: #475569" transform="translate(600.355125 220.672075) scale(0.072 -0.072)">
+    <g style="fill: #475569" transform="translate(708.355125 248.836781) scale(0.072 -0.072)">
      <defs>
       <path id="Helvetica-c1" d="M 2763 0 
 L 2200 0 
@@ -3244,7 +3359,7 @@ z
      <use xlink:href="#Helvetica-5c" transform="translate(2473.46875 0)"/>
     </g>
     <!-- • Emergency ICU admission at GMCH/AMCH -->
-    <g style="fill: #475569" transform="translate(618.725813 229.291544) scale(0.072 -0.072)">
+    <g style="fill: #475569" transform="translate(726.725813 257.45625) scale(0.072 -0.072)">
      <use xlink:href="#Helvetica-87"/>
      <use xlink:href="#Helvetica-3" transform="translate(35.015625 0)"/>
      <use xlink:href="#Helvetica-28" transform="translate(62.796875 0)"/>
@@ -3285,7 +3400,7 @@ z
      <use xlink:href="#Helvetica-2b" transform="translate(1940.953125 0)"/>
     </g>
     <!-- • Crash central venous catheter insertion -->
-    <g style="fill: #475569" transform="translate(626.311125 238.626513) scale(0.072 -0.072)">
+    <g style="fill: #475569" transform="translate(734.311125 266.791219) scale(0.072 -0.072)">
      <use xlink:href="#Helvetica-87"/>
      <use xlink:href="#Helvetica-3" transform="translate(35.015625 0)"/>
      <use xlink:href="#Helvetica-26" transform="translate(62.796875 0)"/>
@@ -3331,7 +3446,7 @@ z
    </g>
    <g id="text_12">
     <!-- Step 5: Crisis Dialysis -->
-    <g style="fill: #991b1b" transform="translate(841.193477 158.554775) scale(0.085 -0.085)">
+    <g style="fill: #991b1b" transform="translate(970.793477 178.672422) scale(0.085 -0.085)">
      <defs>
       <path id="Helvetica-Bold-18" d="M 1706 2250 
 Q 1544 2250 1425 2209 
@@ -3387,7 +3502,7 @@ z
    </g>
    <g id="text_13">
     <!-- Urgent PMNDP hemodialysis with zero bed planning -->
-    <g style="fill: #475569" transform="translate(802.027125 220.6192) scale(0.072 -0.072)">
+    <g style="fill: #475569" transform="translate(931.627125 248.783906) scale(0.072 -0.072)">
      <defs>
       <path id="Helvetica-5a" d="M 672 3347 
 L 1316 709 
@@ -3472,7 +3587,7 @@ z
      <use xlink:href="#Helvetica-4a" transform="translate(2265.859375 0)"/>
     </g>
     <!-- • ₹4.8 Lakhs/year catastrophic household expense -->
-    <g style="fill: #475569" transform="translate(805.224375 229.254419) scale(0.072 -0.072)">
+    <g style="fill: #475569" transform="translate(934.824375 257.419125) scale(0.072 -0.072)">
      <defs>
       <path id="Helvetica-869" d="M 409 2444 
 Q 556 2434 714 2434 
@@ -3595,7 +3710,7 @@ z
      <use xlink:href="#Helvetica-48" transform="translate(2177.046875 0)"/>
     </g>
     <!-- • 42% 1-year mortality on emergency hemodialysis -->
-    <g style="fill: #475569" transform="translate(804.71025 237.840138) scale(0.072 -0.072)">
+    <g style="fill: #475569" transform="translate(934.31025 266.004844) scale(0.072 -0.072)">
      <defs>
       <path id="Helvetica-8" d="M 4363 2175 
 Q 4813 2175 5131 1856 
@@ -3696,44 +3811,44 @@ z
     </g>
    </g>
    <g id="patch_14">
-    <path d="M 192.800391 207.105882 
-Q 205.200771 207.105882 215.365084 207.105882 
+    <path d="M 246.800391 230.4 
+Q 259.200771 230.4 269.365084 230.4 
 " style="fill: none; stroke: #ef4444; stroke-width: 2; stroke-linecap: round"/>
-    <path d="M 209.365084 204.105882 
-L 215.365084 207.105882 
-L 209.365084 210.105882 
+    <path d="M 263.365084 227.4 
+L 269.365084 230.4 
+L 263.365084 233.4 
 " style="fill: none; stroke: #ef4444; stroke-width: 2; stroke-linecap: round"/>
    </g>
    <g id="patch_15">
-    <path d="M 387.200391 207.105882 
-Q 399.600771 207.105882 409.765084 207.105882 
+    <path d="M 462.800391 230.4 
+Q 475.200771 230.4 485.365084 230.4 
 " style="fill: none; stroke: #ef4444; stroke-width: 2; stroke-linecap: round"/>
-    <path d="M 403.765084 204.105882 
-L 409.765084 207.105882 
-L 403.765084 210.105882 
+    <path d="M 479.365084 227.4 
+L 485.365084 230.4 
+L 479.365084 233.4 
 " style="fill: none; stroke: #ef4444; stroke-width: 2; stroke-linecap: round"/>
    </g>
    <g id="patch_16">
-    <path d="M 581.600391 207.105882 
-Q 594.000771 207.105882 604.165084 207.105882 
+    <path d="M 678.800391 230.4 
+Q 691.200771 230.4 701.365084 230.4 
 " style="fill: none; stroke: #ef4444; stroke-width: 2; stroke-linecap: round"/>
-    <path d="M 598.165084 204.105882 
-L 604.165084 207.105882 
-L 598.165084 210.105882 
+    <path d="M 695.365084 227.4 
+L 701.365084 230.4 
+L 695.365084 233.4 
 " style="fill: none; stroke: #ef4444; stroke-width: 2; stroke-linecap: round"/>
    </g>
    <g id="patch_17">
-    <path d="M 776.000391 207.105882 
-Q 788.400771 207.105882 798.565084 207.105882 
+    <path d="M 894.800391 230.4 
+Q 907.200771 230.4 917.365084 230.4 
 " style="fill: none; stroke: #ef4444; stroke-width: 2; stroke-linecap: round"/>
-    <path d="M 792.565084 204.105882 
-L 798.565084 207.105882 
-L 792.565084 210.105882 
+    <path d="M 911.365084 227.4 
+L 917.365084 230.4 
+L 911.365084 233.4 
 " style="fill: none; stroke: #ef4444; stroke-width: 2; stroke-linecap: round"/>
    </g>
    <g id="text_14">
     <!-- PROPOSED AROGYA-DRISHTI: CROSS-PROGRAMME CLOSED-LOOP CLINICAL INTELLIGENCE -->
-    <g style="fill: #0f766e" transform="translate(64.8 349.213959) scale(0.11 -0.11)">
+    <g style="fill: #0f766e" transform="translate(79.2 388.39043) scale(0.11 -0.11)">
      <use xlink:href="#Helvetica-Bold-33"/>
      <use xlink:href="#Helvetica-Bold-35" transform="translate(66.703125 0)"/>
      <use xlink:href="#Helvetica-Bold-32" transform="translate(138.921875 0)"/>
@@ -3812,7 +3927,7 @@ L 792.565084 210.105882
    </g>
    <g id="text_15">
     <!-- 1. CPHC &amp; e-Kavach -->
-    <g style="fill: #0f766e" transform="translate(66.904492 395.924156) scale(0.085 -0.085)">
+    <g style="fill: #0f766e" transform="translate(110.104492 445.265332) scale(0.085 -0.085)">
      <defs>
       <path id="Helvetica-Bold-59" d="M 81 3406 
 L 1081 3406 
@@ -3847,7 +3962,7 @@ z
    </g>
    <g id="text_16">
     <!-- ASHA captures BP/sugar on ANMOL / e-Kavach with ABHA ID -->
-    <g style="fill: #334155" transform="translate(8.681062 464.634017) scale(0.072 -0.072)">
+    <g style="fill: #334155" transform="translate(51.881062 522.445781) scale(0.072 -0.072)">
      <use xlink:href="#Helvetica-24"/>
      <use xlink:href="#Helvetica-36" transform="translate(66.703125 0)"/>
      <use xlink:href="#Helvetica-2b" transform="translate(133.40625 0)"/>
@@ -3905,7 +4020,7 @@ z
      <use xlink:href="#Helvetica-27" transform="translate(2686.640625 0)"/>
     </g>
     <!-- • Protocol prompts spot uACR dipstick -->
-    <g style="fill: #334155" transform="translate(47.118937 473.29061) scale(0.072 -0.072)">
+    <g style="fill: #334155" transform="translate(90.318937 531.102375) scale(0.072 -0.072)">
      <use xlink:href="#Helvetica-87"/>
      <use xlink:href="#Helvetica-3" transform="translate(35.015625 0)"/>
      <use xlink:href="#Helvetica-33" transform="translate(62.796875 0)"/>
@@ -3945,7 +4060,7 @@ z
      <use xlink:href="#Helvetica-4e" transform="translate(1641.140625 0)"/>
     </g>
     <!-- • Instant FHIR R4 cloud sync -->
-    <g style="fill: #334155" transform="translate(61.9245 481.817829) scale(0.072 -0.072)">
+    <g style="fill: #334155" transform="translate(105.1245 539.629594) scale(0.072 -0.072)">
      <use xlink:href="#Helvetica-87"/>
      <use xlink:href="#Helvetica-3" transform="translate(35.015625 0)"/>
      <use xlink:href="#Helvetica-2c" transform="translate(62.796875 0)"/>
@@ -3978,7 +4093,7 @@ z
    </g>
    <g id="text_17">
     <!-- 2. Cloud KFRE Engine -->
-    <g style="fill: #0f766e" transform="translate(257.540586 395.72062) scale(0.085 -0.085)">
+    <g style="fill: #0f766e" transform="translate(322.340586 445.061797) scale(0.085 -0.085)">
      <defs>
       <path id="Helvetica-Bold-58" d="M 2600 481 
 Q 2588 466 2538 387 
@@ -4026,7 +4141,7 @@ z
    </g>
    <g id="text_18">
     <!-- Automated 4-Variable KFRE score computed instantly -->
-    <g style="fill: #334155" transform="translate(216.428625 464.596892) scale(0.072 -0.072)">
+    <g style="fill: #334155" transform="translate(281.228625 522.408656) scale(0.072 -0.072)">
      <defs>
       <path id="Helvetica-39" d="M 850 4591 
 L 2169 681 
@@ -4091,7 +4206,7 @@ z
      <use xlink:href="#Helvetica-5c" transform="translate(2338.09375 0)"/>
     </g>
     <!-- • eGFR &amp; uACR cross-indexed with KDIGO matrix -->
-    <g style="fill: #334155" transform="translate(222.321937 473.96561) scale(0.072 -0.072)">
+    <g style="fill: #334155" transform="translate(287.121937 531.777375) scale(0.072 -0.072)">
      <use xlink:href="#Helvetica-87"/>
      <use xlink:href="#Helvetica-3" transform="translate(35.015625 0)"/>
      <use xlink:href="#Helvetica-48" transform="translate(62.796875 0)"/>
@@ -4139,7 +4254,7 @@ z
      <use xlink:href="#Helvetica-5b" transform="translate(2174.390625 0)"/>
     </g>
     <!-- • High-risk flag raised (Risk &gt;15%) -->
-    <g style="fill: #334155" transform="translate(247.624875 481.826829) scale(0.072 -0.072)">
+    <g style="fill: #334155" transform="translate(312.424875 539.638594) scale(0.072 -0.072)">
      <defs>
       <path id="Helvetica-21" d="M 3741 1369 
 L 88 -59 
@@ -4190,7 +4305,7 @@ z
    </g>
    <g id="text_19">
     <!-- 3. Digital Referral Slip -->
-    <g style="fill: #0f766e" transform="translate(452.872266 395.72062) scale(0.085 -0.085)">
+    <g style="fill: #0f766e" transform="translate(539.272266 445.061797) scale(0.085 -0.085)">
      <defs>
       <path id="Helvetica-Bold-49" d="M 2013 4634 
 L 2013 3909 
@@ -4243,7 +4358,7 @@ z
    </g>
    <g id="text_20">
     <!-- Automated ABHA-linked referral with QR code -->
-    <g style="fill: #334155" transform="translate(423.16875 465.224642) scale(0.072 -0.072)">
+    <g style="fill: #334155" transform="translate(509.56875 523.036406) scale(0.072 -0.072)">
      <defs>
       <path id="Helvetica-34" d="M 4688 13 
 L 4375 -366 
@@ -4322,7 +4437,7 @@ z
      <use xlink:href="#Helvetica-48" transform="translate(1989.703125 0)"/>
     </g>
     <!-- • MO-PHC alerted with decision-support -->
-    <g style="fill: #334155" transform="translate(433.119375 473.29061) scale(0.072 -0.072)">
+    <g style="fill: #334155" transform="translate(519.519375 531.102375) scale(0.072 -0.072)">
      <use xlink:href="#Helvetica-87"/>
      <use xlink:href="#Helvetica-3" transform="translate(35.015625 0)"/>
      <use xlink:href="#Helvetica-30" transform="translate(62.796875 0)"/>
@@ -4363,7 +4478,7 @@ z
      <use xlink:href="#Helvetica-57" transform="translate(1741.125 0)"/>
     </g>
     <!-- • Initiates Telmisartan + Dapagliflozin -->
-    <g style="fill: #334155" transform="translate(438.07725 481.821204) scale(0.072 -0.072)">
+    <g style="fill: #334155" transform="translate(524.47725 539.632969) scale(0.072 -0.072)">
      <defs>
       <path id="Helvetica-e" d="M 288 1369 
 L 288 1894 
@@ -4423,7 +4538,7 @@ z
    </g>
    <g id="text_21">
     <!-- 4. Predictive Dialysis -->
-    <g style="fill: #0f766e" transform="translate(648.914492 395.731245) scale(0.085 -0.085)">
+    <g style="fill: #0f766e" transform="translate(756.914492 445.072422) scale(0.085 -0.085)">
      <use xlink:href="#Helvetica-Bold-17"/>
      <use xlink:href="#Helvetica-Bold-11" transform="translate(55.609375 0)"/>
      <use xlink:href="#Helvetica-Bold-3" transform="translate(83.390625 0)"/>
@@ -4450,7 +4565,7 @@ z
    </g>
    <g id="text_22">
     <!-- Markov progression model forecasts ESKD trajectory -->
-    <g style="fill: #334155" transform="translate(606.573 464.634017) scale(0.072 -0.072)">
+    <g style="fill: #334155" transform="translate(714.573 522.445781) scale(0.072 -0.072)">
      <defs>
       <path id="Helvetica-4d" d="M 975 3941 
 L 413 3941 
@@ -4524,7 +4639,7 @@ z
      <use xlink:href="#Helvetica-5c" transform="translate(2300.75 0)"/>
     </g>
     <!-- • Pre-emptive AV fistula creation at DH/Medical College -->
-    <g style="fill: #334155" transform="translate(603.169313 473.244485) scale(0.072 -0.072)">
+    <g style="fill: #334155" transform="translate(711.169313 531.05625) scale(0.072 -0.072)">
      <defs>
       <path id="Helvetica-c0" d="M 553 3856 
 Q 566 4206 675 4369 
@@ -4617,7 +4732,7 @@ z
      <use xlink:href="#Helvetica-48" transform="translate(2389.6875 0)"/>
     </g>
     <!-- • Avoids emergency temporary catheter -->
-    <g style="fill: #334155" transform="translate(628.376062 481.793079) scale(0.072 -0.072)">
+    <g style="fill: #334155" transform="translate(736.376062 539.604844) scale(0.072 -0.072)">
      <use xlink:href="#Helvetica-87"/>
      <use xlink:href="#Helvetica-3" transform="translate(35.015625 0)"/>
      <use xlink:href="#Helvetica-24" transform="translate(57.328125 0)"/>
@@ -4659,7 +4774,7 @@ z
    </g>
    <g id="text_23">
     <!-- 5. Scheduled PMNDP -->
-    <g style="fill: #0f766e" transform="translate(842.856953 395.924156) scale(0.085 -0.085)">
+    <g style="fill: #0f766e" transform="translate(972.456953 445.265332) scale(0.085 -0.085)">
      <use xlink:href="#Helvetica-Bold-18"/>
      <use xlink:href="#Helvetica-Bold-11" transform="translate(55.609375 0)"/>
      <use xlink:href="#Helvetica-Bold-3" transform="translate(83.390625 0)"/>
@@ -4682,7 +4797,7 @@ z
    </g>
    <g id="text_24">
     <!-- 3-shift dialysis capacity dynamically allocated -->
-    <g style="fill: #334155" transform="translate(813.571875 464.625017) scale(0.072 -0.072)">
+    <g style="fill: #334155" transform="translate(943.171875 522.436781) scale(0.072 -0.072)">
      <defs>
       <path id="Helvetica-16" d="M 1663 -122 
 Q 869 -122 511 314 
@@ -4768,7 +4883,7 @@ z
      <use xlink:href="#Helvetica-47" transform="translate(1945.171875 0)"/>
     </g>
     <!-- • Zero waitlist crash; consumable supply assured -->
-    <g style="fill: #334155" transform="translate(807.710625 473.20736) scale(0.072 -0.072)">
+    <g style="fill: #334155" transform="translate(937.310625 531.019125) scale(0.072 -0.072)">
      <defs>
       <path id="Helvetica-1e" d="M 709 -653 
 Q 928 -613 1013 -363 
@@ -4841,7 +4956,7 @@ z
      <use xlink:href="#Helvetica-47" transform="translate(2107.984375 0)"/>
     </g>
     <!-- • 81.3% reduction in emergency admissions -->
-    <g style="fill: #334155" transform="translate(815.70825 481.793079) scale(0.072 -0.072)">
+    <g style="fill: #334155" transform="translate(945.30825 539.604844) scale(0.072 -0.072)">
      <use xlink:href="#Helvetica-87"/>
      <use xlink:href="#Helvetica-3" transform="translate(35.015625 0)"/>
      <use xlink:href="#Helvetica-1b" transform="translate(62.796875 0)"/>
@@ -4886,46 +5001,46 @@ z
     </g>
    </g>
    <g id="patch_18">
-    <path d="M 192.800391 454.447059 
-Q 205.200771 454.447059 215.141477 454.447059 
+    <path d="M 246.800391 507.6 
+Q 259.200771 507.6 269.141477 507.6 
 " style="fill: none; stroke: #0d9488; stroke-width: 2.2; stroke-linecap: round"/>
-    <path d="M 209.141477 451.447059 
-L 215.141477 454.447059 
-L 209.141477 457.447059 
+    <path d="M 263.141477 504.6 
+L 269.141477 507.6 
+L 263.141477 510.6 
 " style="fill: none; stroke: #0d9488; stroke-width: 2.2; stroke-linecap: round"/>
    </g>
    <g id="patch_19">
-    <path d="M 387.200391 454.447059 
-Q 399.600771 454.447059 409.541477 454.447059 
+    <path d="M 462.800391 507.6 
+Q 475.200771 507.6 485.141477 507.6 
 " style="fill: none; stroke: #0d9488; stroke-width: 2.2; stroke-linecap: round"/>
-    <path d="M 403.541477 451.447059 
-L 409.541477 454.447059 
-L 403.541477 457.447059 
+    <path d="M 479.141477 504.6 
+L 485.141477 507.6 
+L 479.141477 510.6 
 " style="fill: none; stroke: #0d9488; stroke-width: 2.2; stroke-linecap: round"/>
    </g>
    <g id="patch_20">
-    <path d="M 581.600391 454.447059 
-Q 594.000771 454.447059 603.941477 454.447059 
+    <path d="M 678.800391 507.6 
+Q 691.200771 507.6 701.141477 507.6 
 " style="fill: none; stroke: #0d9488; stroke-width: 2.2; stroke-linecap: round"/>
-    <path d="M 597.941477 451.447059 
-L 603.941477 454.447059 
-L 597.941477 457.447059 
+    <path d="M 695.141477 504.6 
+L 701.141477 507.6 
+L 695.141477 510.6 
 " style="fill: none; stroke: #0d9488; stroke-width: 2.2; stroke-linecap: round"/>
    </g>
    <g id="patch_21">
-    <path d="M 776.000391 454.447059 
-Q 788.400771 454.447059 798.341477 454.447059 
+    <path d="M 894.800391 507.6 
+Q 907.200771 507.6 917.141477 507.6 
 " style="fill: none; stroke: #0d9488; stroke-width: 2.2; stroke-linecap: round"/>
-    <path d="M 792.341477 451.447059 
-L 798.341477 454.447059 
-L 792.341477 457.447059 
+    <path d="M 911.141477 504.6 
+L 917.141477 507.6 
+L 911.141477 510.6 
 " style="fill: none; stroke: #0d9488; stroke-width: 2.2; stroke-linecap: round"/>
    </g>
   </g>
  </g>
  <defs>
-  <clipPath id="pcbc5866734">
-   <rect x="7.2" y="7.2" width="1008" height="576"/>
+  <clipPath id="pef8904c149">
+   <rect x="7.2" y="7.2" width="1152" height="648"/>
   </clipPath>
  </defs>
 </svg>

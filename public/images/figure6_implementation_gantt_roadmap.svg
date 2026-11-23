@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1168.216016pt" height="590.4pt" viewBox="0 0 1168.216016 590.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1298.011094pt" height="662.4pt" viewBox="0 0 1298.011094 662.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
  <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-24T01:48:07.170616</dc:date>
+    <dc:date>2026-11-24T02:06:30.992792</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -21,173 +21,288 @@
  </defs>
  <g id="figure_1">
   <g id="patch_1">
-   <path d="M 0 590.4 
-L 1168.216016 590.4 
-L 1168.216016 0 
+   <path d="M 0 662.4 
+L 1298.011094 662.4 
+L 1298.011094 0 
 L 0 0 
 z
 " style="fill: #ffffff"/>
   </g>
   <g id="axes_1">
    <g id="line2d_1">
-    <path d="M 309.6 496.8 
-L 309.6 115.2 
-" clip-path="url(#pd70af13ca3)" style="fill: none; stroke: #f1f5f9; stroke-linecap: square"/>
+    <path d="M 79.2 655.2 
+L 79.2 7.2 
+" clip-path="url(#p29a56ddb7f)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
    </g>
    <g id="line2d_2">
-    <path d="M 367.2 496.8 
-L 367.2 115.2 
-" clip-path="url(#pd70af13ca3)" style="fill: none; stroke: #f1f5f9; stroke-linecap: square"/>
+    <path d="M 151.2 655.2 
+L 151.2 7.2 
+" clip-path="url(#p29a56ddb7f)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
    </g>
    <g id="line2d_3">
-    <path d="M 424.8 496.8 
-L 424.8 115.2 
-" clip-path="url(#pd70af13ca3)" style="fill: none; stroke: #f1f5f9; stroke-linecap: square"/>
+    <path d="M 223.2 655.2 
+L 223.2 7.2 
+" clip-path="url(#p29a56ddb7f)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
    </g>
    <g id="line2d_4">
-    <path d="M 482.4 496.8 
-L 482.4 115.2 
-" clip-path="url(#pd70af13ca3)" style="fill: none; stroke: #f1f5f9; stroke-linecap: square"/>
+    <path d="M 295.2 655.2 
+L 295.2 7.2 
+" clip-path="url(#p29a56ddb7f)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
    </g>
    <g id="line2d_5">
-    <path d="M 540 496.8 
-L 540 115.2 
-" clip-path="url(#pd70af13ca3)" style="fill: none; stroke: #f1f5f9; stroke-linecap: square"/>
+    <path d="M 367.2 655.2 
+L 367.2 7.2 
+" clip-path="url(#p29a56ddb7f)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
    </g>
    <g id="line2d_6">
-    <path d="M 597.6 496.8 
-L 597.6 115.2 
-" clip-path="url(#pd70af13ca3)" style="fill: none; stroke: #f1f5f9; stroke-linecap: square"/>
+    <path d="M 439.2 655.2 
+L 439.2 7.2 
+" clip-path="url(#p29a56ddb7f)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
    </g>
    <g id="line2d_7">
-    <path d="M 655.2 496.8 
-L 655.2 115.2 
-" clip-path="url(#pd70af13ca3)" style="fill: none; stroke: #f1f5f9; stroke-linecap: square"/>
+    <path d="M 511.2 655.2 
+L 511.2 7.2 
+" clip-path="url(#p29a56ddb7f)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
    </g>
    <g id="line2d_8">
-    <path d="M 712.8 496.8 
-L 712.8 115.2 
-" clip-path="url(#pd70af13ca3)" style="fill: none; stroke: #f1f5f9; stroke-linecap: square"/>
+    <path d="M 583.2 655.2 
+L 583.2 7.2 
+" clip-path="url(#p29a56ddb7f)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
    </g>
    <g id="line2d_9">
-    <path d="M 770.4 496.8 
-L 770.4 115.2 
-" clip-path="url(#pd70af13ca3)" style="fill: none; stroke: #f1f5f9; stroke-linecap: square"/>
+    <path d="M 655.2 655.2 
+L 655.2 7.2 
+" clip-path="url(#p29a56ddb7f)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
    </g>
    <g id="line2d_10">
-    <path d="M 828 496.8 
-L 828 115.2 
-" clip-path="url(#pd70af13ca3)" style="fill: none; stroke: #f1f5f9; stroke-linecap: square"/>
+    <path d="M 727.2 655.2 
+L 727.2 7.2 
+" clip-path="url(#p29a56ddb7f)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
    </g>
    <g id="line2d_11">
-    <path d="M 885.6 496.8 
-L 885.6 115.2 
-" clip-path="url(#pd70af13ca3)" style="fill: none; stroke: #f1f5f9; stroke-linecap: square"/>
+    <path d="M 799.2 655.2 
+L 799.2 7.2 
+" clip-path="url(#p29a56ddb7f)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
    </g>
    <g id="line2d_12">
-    <path d="M 943.2 496.8 
-L 943.2 115.2 
-" clip-path="url(#pd70af13ca3)" style="fill: none; stroke: #f1f5f9; stroke-linecap: square"/>
-   </g>
-   <g id="patch_2">
-    <path d="M 290.16 175.68 
-L 451.44 175.68 
-Q 458.64 175.68 458.64 168.48 
-L 458.64 148.32 
-Q 458.64 141.12 451.44 141.12 
-L 290.16 141.12 
-Q 282.96 141.12 282.96 148.32 
-L 282.96 168.48 
-Q 282.96 175.68 290.16 175.68 
-z
-" clip-path="url(#pd70af13ca3)" style="fill: #0f766e"/>
-   </g>
-   <g id="patch_3">
-    <path d="M 347.76 226.08 
-L 509.04 226.08 
-Q 516.24 226.08 516.24 218.88 
-L 516.24 198.72 
-Q 516.24 191.52 509.04 191.52 
-L 347.76 191.52 
-Q 340.56 191.52 340.56 198.72 
-L 340.56 218.88 
-Q 340.56 226.08 347.76 226.08 
-z
-" clip-path="url(#pd70af13ca3)" style="fill: #0d9488"/>
-   </g>
-   <g id="patch_4">
-    <path d="M 462.96 276.48 
-L 624.24 276.48 
-Q 631.44 276.48 631.44 269.28 
-L 631.44 249.12 
-Q 631.44 241.92 624.24 241.92 
-L 462.96 241.92 
-Q 455.76 241.92 455.76 249.12 
-L 455.76 269.28 
-Q 455.76 276.48 462.96 276.48 
-z
-" clip-path="url(#pd70af13ca3)" style="fill: #0284c7"/>
-   </g>
-   <g id="patch_5">
-    <path d="M 578.16 326.88 
-L 681.84 326.88 
-Q 689.04 326.88 689.04 319.68 
-L 689.04 299.52 
-Q 689.04 292.32 681.84 292.32 
-L 578.16 292.32 
-Q 570.96 292.32 570.96 299.52 
-L 570.96 319.68 
-Q 570.96 326.88 578.16 326.88 
-z
-" clip-path="url(#pd70af13ca3)" style="fill: #0369a1"/>
-   </g>
-   <g id="patch_6">
-    <path d="M 635.76 377.28 
-L 854.64 377.28 
-Q 861.84 377.28 861.84 370.08 
-L 861.84 349.92 
-Q 861.84 342.72 854.64 342.72 
-L 635.76 342.72 
-Q 628.56 342.72 628.56 349.92 
-L 628.56 370.08 
-Q 628.56 377.28 635.76 377.28 
-z
-" clip-path="url(#pd70af13ca3)" style="fill: #4f46e5"/>
-   </g>
-   <g id="patch_7">
-    <path d="M 693.36 427.68 
-L 912.24 427.68 
-Q 919.44 427.68 919.44 420.48 
-L 919.44 400.32 
-Q 919.44 393.12 912.24 393.12 
-L 693.36 393.12 
-Q 686.16 393.12 686.16 400.32 
-L 686.16 420.48 
-Q 686.16 427.68 693.36 427.68 
-z
-" clip-path="url(#pd70af13ca3)" style="fill: #7c3aed"/>
-   </g>
-   <g id="patch_8">
-    <path d="M 808.56 478.08 
-L 969.84 478.08 
-Q 977.04 478.08 977.04 470.88 
-L 977.04 450.72 
-Q 977.04 443.52 969.84 443.52 
-L 808.56 443.52 
-Q 801.36 443.52 801.36 450.72 
-L 801.36 470.88 
-Q 801.36 478.08 808.56 478.08 
-z
-" clip-path="url(#pd70af13ca3)" style="fill: #059669"/>
+    <path d="M 871.2 655.2 
+L 871.2 7.2 
+" clip-path="url(#p29a56ddb7f)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
    </g>
    <g id="line2d_13">
-    <path d="M 36 511.2 
-L 986.4 511.2 
-" clip-path="url(#pd70af13ca3)" style="fill: none; stroke: #cbd5e1; stroke-linecap: square"/>
+    <path d="M 943.2 655.2 
+L 943.2 7.2 
+" clip-path="url(#p29a56ddb7f)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_14">
+    <path d="M 1015.2 655.2 
+L 1015.2 7.2 
+" clip-path="url(#p29a56ddb7f)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_15">
+    <path d="M 1087.2 655.2 
+L 1087.2 7.2 
+" clip-path="url(#p29a56ddb7f)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_16">
+    <path d="M 7.2 583.2 
+L 1159.2 583.2 
+" clip-path="url(#p29a56ddb7f)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_17">
+    <path d="M 7.2 511.2 
+L 1159.2 511.2 
+" clip-path="url(#p29a56ddb7f)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_18">
+    <path d="M 7.2 439.2 
+L 1159.2 439.2 
+" clip-path="url(#p29a56ddb7f)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_19">
+    <path d="M 7.2 367.2 
+L 1159.2 367.2 
+" clip-path="url(#p29a56ddb7f)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_20">
+    <path d="M 7.2 295.2 
+L 1159.2 295.2 
+" clip-path="url(#p29a56ddb7f)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_21">
+    <path d="M 7.2 223.2 
+L 1159.2 223.2 
+" clip-path="url(#p29a56ddb7f)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_22">
+    <path d="M 7.2 151.2 
+L 1159.2 151.2 
+" clip-path="url(#p29a56ddb7f)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_23">
+    <path d="M 7.2 79.2 
+L 1159.2 79.2 
+" clip-path="url(#p29a56ddb7f)" style="fill: none; stroke: #f1f5f9; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_24">
+    <path d="M 381.6 547.2 
+L 381.6 129.6 
+" clip-path="url(#p29a56ddb7f)" style="fill: none; stroke: #f1f5f9; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_25">
+    <path d="M 442.8 547.2 
+L 442.8 129.6 
+" clip-path="url(#p29a56ddb7f)" style="fill: none; stroke: #f1f5f9; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_26">
+    <path d="M 504 547.2 
+L 504 129.6 
+" clip-path="url(#p29a56ddb7f)" style="fill: none; stroke: #f1f5f9; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_27">
+    <path d="M 565.2 547.2 
+L 565.2 129.6 
+" clip-path="url(#p29a56ddb7f)" style="fill: none; stroke: #f1f5f9; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_28">
+    <path d="M 626.4 547.2 
+L 626.4 129.6 
+" clip-path="url(#p29a56ddb7f)" style="fill: none; stroke: #f1f5f9; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_29">
+    <path d="M 687.6 547.2 
+L 687.6 129.6 
+" clip-path="url(#p29a56ddb7f)" style="fill: none; stroke: #f1f5f9; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_30">
+    <path d="M 748.8 547.2 
+L 748.8 129.6 
+" clip-path="url(#p29a56ddb7f)" style="fill: none; stroke: #f1f5f9; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_31">
+    <path d="M 810 547.2 
+L 810 129.6 
+" clip-path="url(#p29a56ddb7f)" style="fill: none; stroke: #f1f5f9; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_32">
+    <path d="M 871.2 547.2 
+L 871.2 129.6 
+" clip-path="url(#p29a56ddb7f)" style="fill: none; stroke: #f1f5f9; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_33">
+    <path d="M 932.4 547.2 
+L 932.4 129.6 
+" clip-path="url(#p29a56ddb7f)" style="fill: none; stroke: #f1f5f9; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_34">
+    <path d="M 993.6 547.2 
+L 993.6 129.6 
+" clip-path="url(#p29a56ddb7f)" style="fill: none; stroke: #f1f5f9; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_35">
+    <path d="M 1054.8 547.2 
+L 1054.8 129.6 
+" clip-path="url(#p29a56ddb7f)" style="fill: none; stroke: #f1f5f9; stroke-linecap: square"/>
+   </g>
+   <g id="patch_2">
+    <path d="M 360 199.44 
+L 532.08 199.44 
+Q 539.28 199.44 539.28 192.24 
+L 539.28 167.76 
+Q 539.28 160.56 532.08 160.56 
+L 360 160.56 
+Q 352.8 160.56 352.8 167.76 
+L 352.8 192.24 
+Q 352.8 199.44 360 199.44 
+z
+" clip-path="url(#p29a56ddb7f)" style="fill: #0f766e"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 421.2 253.44 
+L 593.28 253.44 
+Q 600.48 253.44 600.48 246.24 
+L 600.48 221.76 
+Q 600.48 214.56 593.28 214.56 
+L 421.2 214.56 
+Q 414 214.56 414 221.76 
+L 414 246.24 
+Q 414 253.44 421.2 253.44 
+z
+" clip-path="url(#p29a56ddb7f)" style="fill: #0d9488"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 543.6 307.44 
+L 715.68 307.44 
+Q 722.88 307.44 722.88 300.24 
+L 722.88 275.76 
+Q 722.88 268.56 715.68 268.56 
+L 543.6 268.56 
+Q 536.4 268.56 536.4 275.76 
+L 536.4 300.24 
+Q 536.4 307.44 543.6 307.44 
+z
+" clip-path="url(#p29a56ddb7f)" style="fill: #0284c7"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 666 361.44 
+L 776.88 361.44 
+Q 784.08 361.44 784.08 354.24 
+L 784.08 329.76 
+Q 784.08 322.56 776.88 322.56 
+L 666 322.56 
+Q 658.8 322.56 658.8 329.76 
+L 658.8 354.24 
+Q 658.8 361.44 666 361.44 
+z
+" clip-path="url(#p29a56ddb7f)" style="fill: #0369a1"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 727.2 415.44 
+L 960.48 415.44 
+Q 967.68 415.44 967.68 408.24 
+L 967.68 383.76 
+Q 967.68 376.56 960.48 376.56 
+L 727.2 376.56 
+Q 720 376.56 720 383.76 
+L 720 408.24 
+Q 720 415.44 727.2 415.44 
+z
+" clip-path="url(#p29a56ddb7f)" style="fill: #4f46e5"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 788.4 469.44 
+L 1021.68 469.44 
+Q 1028.88 469.44 1028.88 462.24 
+L 1028.88 437.76 
+Q 1028.88 430.56 1021.68 430.56 
+L 788.4 430.56 
+Q 781.2 430.56 781.2 437.76 
+L 781.2 462.24 
+Q 781.2 469.44 788.4 469.44 
+z
+" clip-path="url(#p29a56ddb7f)" style="fill: #7c3aed"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 910.8 523.44 
+L 1082.88 523.44 
+Q 1090.08 523.44 1090.08 516.24 
+L 1090.08 491.76 
+Q 1090.08 484.56 1082.88 484.56 
+L 910.8 484.56 
+Q 903.6 484.56 903.6 491.76 
+L 903.6 516.24 
+Q 903.6 523.44 910.8 523.44 
+z
+" clip-path="url(#p29a56ddb7f)" style="fill: #059669"/>
+   </g>
+   <g id="line2d_36">
+    <path d="M 50.4 561.6 
+L 1116 561.6 
+" clip-path="url(#p29a56ddb7f)" style="fill: none; stroke: #cbd5e1; stroke-linecap: square"/>
    </g>
    <g id="text_1">
     <!-- 12-MONTH PHASED IMPLEMENTATION ROADMAP &amp; GOVERNANCE GANTT CHART -->
-    <g style="fill: #0f172a" transform="translate(210.76875 36.750586) scale(0.15 -0.15)">
+    <g style="fill: #0f172a" transform="translate(262.74 40.640625) scale(0.16 -0.16)">
      <defs>
       <path id="Helvetica-Bold-14" d="M 2422 0 
 L 1509 0 
@@ -640,7 +755,7 @@ z
    </g>
    <g id="text_2">
     <!-- North East Seva First Innovation Challenge (NESFIC-D-28) • NHM Assam Deployment Plan -->
-    <g style="fill: #0f766e" transform="translate(307.991406 60.24375) scale(0.1 -0.1)">
+    <g style="fill: #0f766e" transform="translate(359.670547 64.108125) scale(0.11 -0.11)">
      <defs>
       <path id="Helvetica-31" d="M 488 4591 
 L 1222 4591 
@@ -1414,7 +1529,7 @@ z
    </g>
    <g id="text_3">
     <!-- Month 1 -->
-    <g style="fill: #475569" transform="translate(295.229297 102.975293) scale(0.075 -0.075)">
+    <g style="fill: #475569" transform="translate(366.27125 117.520312) scale(0.08 -0.08)">
      <defs>
       <path id="Helvetica-Bold-52" d="M 3256 2975 
 Q 3688 2434 3688 1697 
@@ -1511,7 +1626,7 @@ z
    </g>
    <g id="text_4">
     <!-- Month 2 -->
-    <g style="fill: #475569" transform="translate(352.829297 102.975293) scale(0.075 -0.075)">
+    <g style="fill: #475569" transform="translate(427.47125 117.520312) scale(0.08 -0.08)">
      <use xlink:href="#Helvetica-Bold-30"/>
      <use xlink:href="#Helvetica-Bold-52" transform="translate(83.296875 0)"/>
      <use xlink:href="#Helvetica-Bold-51" transform="translate(144.375 0)"/>
@@ -1523,7 +1638,7 @@ z
    </g>
    <g id="text_5">
     <!-- Month 3 -->
-    <g style="fill: #475569" transform="translate(410.429297 102.975293) scale(0.075 -0.075)">
+    <g style="fill: #475569" transform="translate(488.67125 117.520312) scale(0.08 -0.08)">
      <defs>
       <path id="Helvetica-Bold-16" d="M 1225 3628 
 Q 1075 3428 1081 3094 
@@ -1569,7 +1684,7 @@ z
    </g>
    <g id="text_6">
     <!-- Month 4 -->
-    <g style="fill: #475569" transform="translate(468.029297 102.975293) scale(0.075 -0.075)">
+    <g style="fill: #475569" transform="translate(549.87125 117.520312) scale(0.08 -0.08)">
      <defs>
       <path id="Helvetica-Bold-17" d="M 3347 1672 
 L 3347 975 
@@ -1602,7 +1717,7 @@ z
    </g>
    <g id="text_7">
     <!-- Month 5 -->
-    <g style="fill: #475569" transform="translate(525.629297 102.975293) scale(0.075 -0.075)">
+    <g style="fill: #475569" transform="translate(611.07125 117.520312) scale(0.08 -0.08)">
      <defs>
       <path id="Helvetica-Bold-18" d="M 1706 2250 
 Q 1544 2250 1425 2209 
@@ -1642,7 +1757,7 @@ z
    </g>
    <g id="text_8">
     <!-- Month 6 -->
-    <g style="fill: #475569" transform="translate(583.229297 102.975293) scale(0.075 -0.075)">
+    <g style="fill: #475569" transform="translate(672.27125 117.520312) scale(0.08 -0.08)">
      <defs>
       <path id="Helvetica-Bold-19" d="M 1956 2941 
 Q 2559 2941 2945 2531 
@@ -1688,7 +1803,7 @@ z
    </g>
    <g id="text_9">
     <!-- Month 7 -->
-    <g style="fill: #475569" transform="translate(640.829297 102.975293) scale(0.075 -0.075)">
+    <g style="fill: #475569" transform="translate(733.47125 117.520312) scale(0.08 -0.08)">
      <defs>
       <path id="Helvetica-Bold-1a" d="M 2819 3075 
 Q 2463 2569 2222 2031 
@@ -1716,7 +1831,7 @@ z
    </g>
    <g id="text_10">
     <!-- Month 8 -->
-    <g style="fill: #475569" transform="translate(698.429297 102.975293) scale(0.075 -0.075)">
+    <g style="fill: #475569" transform="translate(794.67125 117.520312) scale(0.08 -0.08)">
      <defs>
       <path id="Helvetica-Bold-1b" d="M 559 284 
 Q 169 684 169 1256 
@@ -1769,7 +1884,7 @@ z
    </g>
    <g id="text_11">
     <!-- Month 9 -->
-    <g style="fill: #475569" transform="translate(756.029297 102.975293) scale(0.075 -0.075)">
+    <g style="fill: #475569" transform="translate(855.87125 117.520312) scale(0.08 -0.08)">
      <defs>
       <path id="Helvetica-Bold-1c" d="M 1663 -131 
 Q 1153 -131 747 170 
@@ -1813,7 +1928,7 @@ z
    </g>
    <g id="text_12">
     <!-- Month 10 -->
-    <g style="fill: #475569" transform="translate(811.543945 102.975293) scale(0.075 -0.075)">
+    <g style="fill: #475569" transform="translate(914.846875 117.520312) scale(0.08 -0.08)">
      <defs>
       <path id="Helvetica-Bold-13" d="M 1763 -113 
 Q 897 -113 548 493 
@@ -1849,7 +1964,7 @@ z
    </g>
    <g id="text_13">
     <!-- Month 11 -->
-    <g style="fill: #475569" transform="translate(869.349023 102.975293) scale(0.075 -0.075)">
+    <g style="fill: #475569" transform="translate(976.265625 117.520312) scale(0.08 -0.08)">
      <use xlink:href="#Helvetica-Bold-30"/>
      <use xlink:href="#Helvetica-Bold-52" transform="translate(83.296875 0)"/>
      <use xlink:href="#Helvetica-Bold-51" transform="translate(144.375 0)"/>
@@ -1862,7 +1977,7 @@ z
    </g>
    <g id="text_14">
     <!-- Month 12 -->
-    <g style="fill: #475569" transform="translate(926.743945 102.975293) scale(0.075 -0.075)">
+    <g style="fill: #475569" transform="translate(1037.246875 117.520312) scale(0.08 -0.08)">
      <use xlink:href="#Helvetica-Bold-30"/>
      <use xlink:href="#Helvetica-Bold-52" transform="translate(83.296875 0)"/>
      <use xlink:href="#Helvetica-Bold-51" transform="translate(144.375 0)"/>
@@ -1875,7 +1990,7 @@ z
    </g>
    <g id="text_15">
     <!-- 1. Architecture &amp; Sandbox Setup -->
-    <g style="fill: #1e293b" transform="translate(36 160.615922) scale(0.082 -0.082)">
+    <g style="fill: #1e293b" transform="translate(50.4 182.296992) scale(0.085 -0.085)">
      <defs>
       <path id="Helvetica-Bold-11" d="M 400 931 
 L 1347 931 
@@ -2152,7 +2267,7 @@ z
    </g>
    <g id="text_16">
     <!-- M1-M3 -->
-    <g style="fill: #ffffff" transform="translate(359.911172 160.430273) scale(0.07 -0.07)">
+    <g style="fill: #ffffff" transform="translate(434.373398 182.175293) scale(0.075 -0.075)">
      <use xlink:href="#Helvetica-Bold-30"/>
      <use xlink:href="#Helvetica-Bold-14" transform="translate(83.296875 0)"/>
      <use xlink:href="#Helvetica-Bold-10" transform="translate(138.90625 0)"/>
@@ -2162,7 +2277,7 @@ z
    </g>
    <g id="text_17">
     <!-- ABDM M1-M3, FHIR R4 Bundles, e-Kavach API Sandbox, IRB Approval -->
-    <g style="fill: #64748b" transform="translate(471.6 160.160078) scale(0.065 -0.065)">
+    <g style="fill: #64748b" transform="translate(555.84 181.895469) scale(0.07 -0.07)">
      <defs>
       <path id="Helvetica-25" d="M 2213 2650 
 Q 2606 2650 2825 2759 
@@ -2503,7 +2618,7 @@ z
    </g>
    <g id="text_18">
     <!-- 2. AI Engine &amp; Algorithm Tuning -->
-    <g style="fill: #1e293b" transform="translate(36 210.981969) scale(0.082 -0.082)">
+    <g style="fill: #1e293b" transform="translate(50.4 236.261797) scale(0.085 -0.085)">
      <defs>
       <path id="Helvetica-Bold-4a" d="M 1378 -597 
 Q 1522 -719 1863 -719 
@@ -2614,7 +2729,7 @@ z
    </g>
    <g id="text_19">
     <!-- M2-M4 -->
-    <g style="fill: #ffffff" transform="translate(417.511172 210.830273) scale(0.07 -0.07)">
+    <g style="fill: #ffffff" transform="translate(495.573398 236.175293) scale(0.075 -0.075)">
      <use xlink:href="#Helvetica-Bold-30"/>
      <use xlink:href="#Helvetica-Bold-15" transform="translate(83.296875 0)"/>
      <use xlink:href="#Helvetica-Bold-10" transform="translate(138.90625 0)"/>
@@ -2624,7 +2739,7 @@ z
    </g>
    <g id="text_20">
     <!-- Assam cohort calibration for KFRE, Markov model parameterization -->
-    <g style="fill: #64748b" transform="translate(529.2 210.560078) scale(0.065 -0.065)">
+    <g style="fill: #64748b" transform="translate(617.04 235.895469) scale(0.07 -0.07)">
      <defs>
       <path id="Helvetica-49" d="M 553 3856 
 Q 566 4206 675 4369 
@@ -2748,7 +2863,7 @@ z
    </g>
    <g id="text_21">
     <!-- 3. Two-District Pilot Deployment -->
-    <g style="fill: #1e293b" transform="translate(36 261.392219) scale(0.082 -0.082)">
+    <g style="fill: #1e293b" transform="translate(50.4 290.272422) scale(0.085 -0.085)">
      <defs>
       <path id="Helvetica-Bold-5a" d="M 3000 0 
 L 2466 2481 
@@ -2851,7 +2966,7 @@ z
    </g>
    <g id="text_22">
     <!-- M4-M6 -->
-    <g style="fill: #ffffff" transform="translate(532.711172 261.230273) scale(0.07 -0.07)">
+    <g style="fill: #ffffff" transform="translate(617.973398 290.175293) scale(0.075 -0.075)">
      <use xlink:href="#Helvetica-Bold-30"/>
      <use xlink:href="#Helvetica-Bold-17" transform="translate(83.296875 0)"/>
      <use xlink:href="#Helvetica-Bold-10" transform="translate(138.90625 0)"/>
@@ -2861,7 +2976,7 @@ z
    </g>
    <g id="text_23">
     <!-- Kamrup Metro &amp; Dibrugarh: 48 HWCs, 12 PHCs, GMCH &amp; AMCH hubs -->
-    <g style="fill: #64748b" transform="translate(644.4 260.918437) scale(0.065 -0.065)">
+    <g style="fill: #64748b" transform="translate(739.44 289.850625) scale(0.07 -0.07)">
      <defs>
       <path id="Helvetica-9" d="M 1828 2806 
 Q 2125 3016 2238 3147 
@@ -3031,7 +3146,7 @@ z
    </g>
    <g id="text_24">
     <!-- 4. Pilot Clinical Audit &amp; Review -->
-    <g style="fill: #1e293b" transform="translate(36 311.97832) scale(0.082 -0.082)">
+    <g style="fill: #1e293b" transform="translate(50.4 344.465332) scale(0.085 -0.085)">
      <defs>
       <path id="Helvetica-Bold-59" d="M 81 3406 
 L 1081 3406 
@@ -3080,7 +3195,7 @@ z
    </g>
    <g id="text_25">
     <!-- M6-M7 -->
-    <g style="fill: #ffffff" transform="translate(619.111172 311.630273) scale(0.07 -0.07)">
+    <g style="fill: #ffffff" transform="translate(709.773398 344.175293) scale(0.075 -0.075)">
      <use xlink:href="#Helvetica-Bold-30"/>
      <use xlink:href="#Helvetica-Bold-19" transform="translate(83.296875 0)"/>
      <use xlink:href="#Helvetica-Bold-10" transform="translate(138.90625 0)"/>
@@ -3090,7 +3205,7 @@ z
    </g>
    <g id="text_26">
     <!-- Nephrology committee audit, referral completion rate assessment -->
-    <g style="fill: #64748b" transform="translate(702 311.318437) scale(0.065 -0.065)">
+    <g style="fill: #64748b" transform="translate(800.64 343.850625) scale(0.07 -0.07)">
      <use xlink:href="#Helvetica-31"/>
      <use xlink:href="#Helvetica-48" transform="translate(72.21875 0)"/>
      <use xlink:href="#Helvetica-53" transform="translate(127.828125 0)"/>
@@ -3158,7 +3273,7 @@ z
    </g>
    <g id="text_27">
     <!-- 5. Statewide Scale-up (35 Districts) -->
-    <g style="fill: #1e293b" transform="translate(36 362.215922) scale(0.082 -0.082)">
+    <g style="fill: #1e293b" transform="translate(50.4 398.296992) scale(0.085 -0.085)">
      <defs>
       <path id="Helvetica-Bold-b" d="M 1394 -1291 
 L 1172 -988 
@@ -3231,7 +3346,7 @@ z
    </g>
    <g id="text_28">
     <!-- M7-M10 -->
-    <g style="fill: #ffffff" transform="translate(732.364844 362.030273) scale(0.07 -0.07)">
+    <g style="fill: #ffffff" transform="translate(830.088047 398.175293) scale(0.075 -0.075)">
      <use xlink:href="#Helvetica-Bold-30"/>
      <use xlink:href="#Helvetica-Bold-1a" transform="translate(83.296875 0)"/>
      <use xlink:href="#Helvetica-Bold-10" transform="translate(138.90625 0)"/>
@@ -3242,7 +3357,7 @@ z
    </g>
    <g id="text_29">
     <!-- Integration with all 140+ PMNDP stations across Assam -->
-    <g style="fill: #64748b" transform="translate(874.8 361.718437) scale(0.065 -0.065)">
+    <g style="fill: #64748b" transform="translate(984.24 397.850625) scale(0.07 -0.07)">
      <defs>
       <path id="Helvetica-5a" d="M 672 3347 
 L 1316 709 
@@ -3354,7 +3469,7 @@ z
    </g>
    <g id="text_30">
     <!-- 6. Supply Chain &amp; Consumable Link -->
-    <g style="fill: #1e293b" transform="translate(36 412.592219) scale(0.082 -0.082)">
+    <g style="fill: #1e293b" transform="translate(50.4 452.272422) scale(0.085 -0.085)">
      <defs>
       <path id="Helvetica-Bold-4e" d="M 3541 0 
 L 2466 0 
@@ -3409,7 +3524,7 @@ z
    </g>
    <g id="text_31">
     <!-- M8-M11 -->
-    <g style="fill: #ffffff" transform="translate(790.15625 412.430273) scale(0.07 -0.07)">
+    <g style="fill: #ffffff" transform="translate(891.493125 452.175293) scale(0.075 -0.075)">
      <use xlink:href="#Helvetica-Bold-30"/>
      <use xlink:href="#Helvetica-Bold-1b" transform="translate(83.296875 0)"/>
      <use xlink:href="#Helvetica-Bold-10" transform="translate(138.90625 0)"/>
@@ -3420,7 +3535,7 @@ z
    </g>
    <g id="text_32">
     <!-- Buffer stock model linked to Assam Medical Services Corp (AMSC) -->
-    <g style="fill: #64748b" transform="translate(932.4 412.160078) scale(0.065 -0.065)">
+    <g style="fill: #64748b" transform="translate(1045.44 451.895469) scale(0.07 -0.07)">
      <use xlink:href="#Helvetica-25"/>
      <use xlink:href="#Helvetica-58" transform="translate(66.703125 0)"/>
      <use xlink:href="#Helvetica-49" transform="translate(122.3125 0)"/>
@@ -3488,7 +3603,7 @@ z
    </g>
    <g id="text_33">
     <!-- 7. NHM Full Handover &amp; Governance -->
-    <g style="fill: #1e293b" transform="translate(36 463.17832) scale(0.082 -0.082)">
+    <g style="fill: #1e293b" transform="translate(50.4 506.465332) scale(0.085 -0.085)">
      <defs>
       <path id="Helvetica-Bold-29" d="M 3753 3791 
 L 1444 3791 
@@ -3541,7 +3656,7 @@ z
    </g>
    <g id="text_34">
     <!-- M10-M12 -->
-    <g style="fill: #ffffff" transform="translate(874.418516 462.830273) scale(0.07 -0.07)">
+    <g style="fill: #ffffff" transform="translate(981.002695 506.175293) scale(0.075 -0.075)">
      <use xlink:href="#Helvetica-Bold-30"/>
      <use xlink:href="#Helvetica-Bold-14" transform="translate(83.296875 0)"/>
      <use xlink:href="#Helvetica-Bold-13" transform="translate(138.90625 0)"/>
@@ -3553,7 +3668,7 @@ z
    </g>
    <g id="text_35">
     <!-- SOP institutionalization, technical training of state IT cadres -->
-    <g style="fill: #64748b" transform="translate(990 462.518438) scale(0.065 -0.065)">
+    <g style="fill: #64748b" transform="translate(1106.64 505.850625) scale(0.07 -0.07)">
      <defs>
       <path id="Helvetica-32" d="M 2469 4716 
 Q 3684 4716 4269 3934 
@@ -3658,7 +3773,7 @@ z
    </g>
    <g id="text_36">
     <!-- Checkpoint Alpha (M3) -->
-    <g style="fill: #0f766e" transform="translate(96.314648 538.426758) scale(0.075 -0.075)">
+    <g style="fill: #0f766e" transform="translate(136.815625 592.561875) scale(0.08 -0.08)">
      <use xlink:href="#Helvetica-Bold-26"/>
      <use xlink:href="#Helvetica-Bold-4b" transform="translate(72.21875 0)"/>
      <use xlink:href="#Helvetica-Bold-48" transform="translate(133.296875 0)"/>
@@ -3684,7 +3799,7 @@ z
    </g>
    <g id="text_37">
     <!-- ABDM Sandbox Passed &amp; State Health Ethics Clearance secured -->
-    <g style="fill: #475569" transform="translate(42.143242 559.885254) scale(0.065 -0.065)">
+    <g style="fill: #475569" transform="translate(78.061953 617.630273) scale(0.07 -0.07)">
      <use xlink:href="#Helvetica-24"/>
      <use xlink:href="#Helvetica-25" transform="translate(66.703125 0)"/>
      <use xlink:href="#Helvetica-27" transform="translate(133.40625 0)"/>
@@ -3748,7 +3863,7 @@ z
    </g>
    <g id="text_38">
     <!-- Checkpoint Beta (M6) -->
-    <g style="fill: #0f766e" transform="translate(328.866211 538.426758) scale(0.075 -0.075)">
+    <g style="fill: #0f766e" transform="translate(398.310625 592.561875) scale(0.08 -0.08)">
      <defs>
       <path id="Helvetica-Bold-25" d="M 2591 0 
 L 503 0 
@@ -3809,7 +3924,7 @@ z
    </g>
    <g id="text_39">
     <!-- Two-District Pilot complete; &gt;80% referral compliance at GMCH/AMCH -->
-    <g style="fill: #475569" transform="translate(265.249531 559.760078) scale(0.065 -0.065)">
+    <g style="fill: #475569" transform="translate(329.407187 617.495469) scale(0.07 -0.07)">
      <defs>
       <path id="Helvetica-1e" d="M 709 -653 
 Q 928 -613 1013 -363 
@@ -3966,7 +4081,7 @@ z
    </g>
    <g id="text_40">
     <!-- Checkpoint Gamma (M9) -->
-    <g style="fill: #0f766e" transform="translate(553.637109 538.426758) scale(0.075 -0.075)">
+    <g style="fill: #0f766e" transform="translate(651.50625 592.561875) scale(0.08 -0.08)">
      <use xlink:href="#Helvetica-Bold-26"/>
      <use xlink:href="#Helvetica-Bold-4b" transform="translate(72.21875 0)"/>
      <use xlink:href="#Helvetica-Bold-48" transform="translate(133.296875 0)"/>
@@ -3992,7 +4107,7 @@ z
    </g>
    <g id="text_41">
     <!-- Statewide rollout in 20 Districts; Automated consumable replenishment live -->
-    <g style="fill: #475569" transform="translate(490.300742 559.760078) scale(0.065 -0.065)">
+    <g style="fill: #475569" transform="translate(582.846953 617.495469) scale(0.07 -0.07)">
      <use xlink:href="#Helvetica-36"/>
      <use xlink:href="#Helvetica-57" transform="translate(66.703125 0)"/>
      <use xlink:href="#Helvetica-44" transform="translate(94.484375 0)"/>
@@ -4071,7 +4186,7 @@ z
    </g>
    <g id="text_42">
     <!-- Final Handover (M12) -->
-    <g style="fill: #0f766e" transform="translate(790.079883 538.456055) scale(0.075 -0.075)">
+    <g style="fill: #0f766e" transform="translate(917.151875 592.593125) scale(0.08 -0.08)">
      <use xlink:href="#Helvetica-Bold-29"/>
      <use xlink:href="#Helvetica-Bold-4c" transform="translate(61.078125 0)"/>
      <use xlink:href="#Helvetica-Bold-51" transform="translate(88.859375 0)"/>
@@ -4096,7 +4211,7 @@ z
    </g>
    <g id="text_43">
     <!-- Full NHM Assam operational ownership &amp; open governance transfer -->
-    <g style="fill: #475569" transform="translate(730.09375 559.718437) scale(0.065 -0.065)">
+    <g style="fill: #475569" transform="translate(852.1625 617.450625) scale(0.07 -0.07)">
      <use xlink:href="#Helvetica-29"/>
      <use xlink:href="#Helvetica-58" transform="translate(61.078125 0)"/>
      <use xlink:href="#Helvetica-4f" transform="translate(116.6875 0)"/>
@@ -4165,8 +4280,8 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pd70af13ca3">
-   <rect x="7.2" y="7.2" width="1008" height="576"/>
+  <clipPath id="p29a56ddb7f">
+   <rect x="7.2" y="7.2" width="1152" height="648"/>
   </clipPath>
  </defs>
 </svg>
