@@ -169,8 +169,8 @@ export const TutorialModal: React.FC<TutorialModalProps> = ({
           </p>
           <ul className="list-disc list-inside space-y-1.5 text-slate-600">
             <li><strong>Visual Blueprints Gallery:</strong> Inspect and download all 16:9 widescreen technological framework infographics in high-res PNG (300 DPI) and Vector SVG formats.</li>
-            <li><strong>Proof of Work PDF (6 Pages):</strong> Complete technical architecture, clinical equations, KDIGO grid, and district capacity tables.</li>
-            <li><strong>Official NESFIC-D-28 Proposal PDF (10 Pages):</strong> All 12 portal sections, strictly audited under 500 words per section, complete with matching embedded figures.</li>
+            <li><strong>Proof of Work PDF (8 Pages):</strong> Complete technical architecture, clinical equations, KDIGO grid, and district capacity tables.</li>
+            <li><strong>Official NESFIC-D-28 Proposal PDF (13 Pages):</strong> All 12 portal sections, strictly audited under 500 words per section, complete with matching embedded figures.</li>
           </ul>
         </div>
       )

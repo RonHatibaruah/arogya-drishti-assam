@@ -1,5 +1,5 @@
 import React from 'react';
-import { ShieldAlert, Activity, FileText, Layers, Bell, CheckCircle2, Award, Printer, Image as ImageIcon, BookOpen, HelpCircle } from 'lucide-react';
+import { ShieldAlert, Activity, Layers, Bell, CheckCircle2, Image as ImageIcon, BookOpen, HelpCircle } from 'lucide-react';
 import { DistrictMetric } from '../types';
 
 interface HeaderProps {
@@ -7,7 +7,7 @@ interface HeaderProps {
   selectedDistrict: DistrictMetric;
   activeTab: 'overview' | 'forecasting' | 'dialysis' | 'triage' | 'simulator' | 'proposal' | 'pow' | 'gallery';
   setActiveTab: (tab: 'overview' | 'forecasting' | 'dialysis' | 'triage' | 'simulator' | 'proposal' | 'pow' | 'gallery') => void;
-  onOpenProposalModal: () => void;
+  onOpenProposalModal?: () => void;
   onOpenTutorialModal: () => void;
 }
 
@@ -16,7 +16,6 @@ export const Header: React.FC<HeaderProps> = ({
   selectedDistrict,
   activeTab,
   setActiveTab,
-  onOpenProposalModal,
   onOpenTutorialModal
 }) => {
   // Aggregate stats across Assam
@@ -110,20 +109,6 @@ export const Header: React.FC<HeaderProps> = ({
             <BookOpen className="w-4 h-4 text-teal-700" />
             <span>Tutorial Guide</span>
           </button>
-          <button
-            onClick={() => setActiveTab('pow')}
-            className="flex items-center gap-1.5 bg-gradient-to-r from-amber-600 to-amber-700 hover:from-amber-500 hover:to-amber-600 text-white font-semibold text-xs px-3.5 py-2 rounded-lg shadow-sm transition-all hover:scale-[1.02]"
-          >
-            <Printer className="w-4 h-4" />
-            <span>Proof of Work PDF</span>
-          </button>
-          <button
-            onClick={onOpenProposalModal}
-            className="flex items-center gap-1.5 bg-teal-700 hover:bg-teal-600 text-white font-medium text-xs px-3.5 py-2 rounded-lg shadow-sm transition-all hover:scale-[1.02]"
-          >
-            <FileText className="w-4 h-4" />
-            <span>12 Proposal Texts</span>
-          </button>
         </div>
       </div>
 
@@ -198,31 +183,7 @@ export const Header: React.FC<HeaderProps> = ({
           }`}
         >
           <ImageIcon className="w-3.5 h-3.5 text-teal-600" />
-          Visual Blueprints (6 Figures)
-        </button>
-
-        <button
-          onClick={() => setActiveTab('pow')}
-          className={`flex items-center gap-1.5 px-3 py-1.5 rounded-md font-medium whitespace-nowrap transition-colors ${
-            activeTab === 'pow'
-              ? 'bg-amber-100 text-amber-900 border border-amber-300 font-bold'
-              : 'text-amber-800 hover:text-amber-900 hover:bg-amber-50'
-          }`}
-        >
-          <Award className="w-3.5 h-3.5 text-amber-600" />
-          Proof of Work (PDF Doc)
-        </button>
-
-        <button
-          onClick={() => setActiveTab('proposal')}
-          className={`flex items-center gap-1.5 px-3 py-1.5 rounded-md font-medium whitespace-nowrap transition-colors ${
-            activeTab === 'proposal'
-              ? 'bg-teal-50 text-teal-800 border border-teal-300 font-bold'
-              : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100'
-          }`}
-        >
-          <FileText className="w-3.5 h-3.5" />
-          Official NESFIC-D-28 Text (12 Sections)
+          Visual Blueprints (10 Figures)
         </button>
       </div>
     </header>
