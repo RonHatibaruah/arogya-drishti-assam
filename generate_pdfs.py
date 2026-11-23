@@ -1,4 +1,5 @@
 import os
+import matplotlib
 from reportlab.lib.pagesizes import A4
 from reportlab.platypus import (
     SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, PageBreak, KeepTogether, HRFlowable, Image
@@ -6,7 +7,30 @@ from reportlab.platypus import (
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib import colors
 from reportlab.pdfgen import canvas
+from reportlab.pdfbase import pdfmetrics
+from reportlab.pdfbase.ttfonts import TTFont
 from src_proposal_texts import PROPOSAL_SECTIONS_DATA
+
+# Configure TrueType font with native Indian Rupee symbol (U+20B9) support
+os.environ['MPLCONFIGDIR'] = '/tmp/mpl_cache'
+font_dir = os.path.dirname(matplotlib.__file__)
+dejavu_path = os.path.join(font_dir, 'mpl-data', 'fonts', 'ttf', 'DejaVuSans.ttf')
+dejavu_bold_path = os.path.join(font_dir, 'mpl-data', 'fonts', 'ttf', 'DejaVuSans-Bold.ttf')
+dejavu_oblique_path = os.path.join(font_dir, 'mpl-data', 'fonts', 'ttf', 'DejaVuSans-Oblique.ttf')
+dejavu_boldoblique_path = os.path.join(font_dir, 'mpl-data', 'fonts', 'ttf', 'DejaVuSans-BoldOblique.ttf')
+
+pdfmetrics.registerFont(TTFont('DejaVuSans', dejavu_path))
+pdfmetrics.registerFont(TTFont('DejaVuSans-Bold', dejavu_bold_path))
+pdfmetrics.registerFont(TTFont('DejaVuSans-Oblique', dejavu_oblique_path))
+pdfmetrics.registerFont(TTFont('DejaVuSans-BoldOblique', dejavu_boldoblique_path))
+
+pdfmetrics.registerFontFamily(
+    'DejaVuSans',
+    normal='DejaVuSans',
+    bold='DejaVuSans-Bold',
+    italic='DejaVuSans-Oblique',
+    boldItalic='DejaVuSans-BoldOblique'
+)
 
 class NumberedCanvas(canvas.Canvas):
     def __init__(self, *args, **kwargs):
@@ -27,13 +51,13 @@ class NumberedCanvas(canvas.Canvas):
 
     def draw_page_decorations(self, total_pages):
         self.saveState()
-        self.setFont("Helvetica", 8)
+        self.setFont("DejaVuSans", 8)
         self.setFillColor(colors.HexColor("#64748b"))
 
         # Running header on page 2+
         if self._pageNumber > 1:
             self.drawString(54, 800, "GOVERNMENT OF ASSAM • NHM ASSAM • NESFIC-D-28")
-            self.drawRightString(A4[0] - 54, 800, "আৰোগ্য-দৃষ্টি অসম (Arogya-Drishti Assam)")
+            self.drawRightString(A4[0] - 54, 800, "Arogya-Drishti Assam (NESFIC-D-28)")
             self.setStrokeColor(colors.HexColor("#cbd5e1"))
             self.setLineWidth(0.5)
             self.line(54, 792, A4[0] - 54, 792)
@@ -58,21 +82,21 @@ def get_styles():
     c_muted = colors.HexColor("#64748b")
 
     styles = {
-        'DocTitle': ParagraphStyle('DocTitle', parent=base['Heading1'], fontName='Helvetica-Bold', fontSize=20, leading=24, textColor=c_dark, spaceAfter=3),
-        'DocSubtitle': ParagraphStyle('DocSubtitle', parent=base['Normal'], fontName='Helvetica-Bold', fontSize=11, leading=15, textColor=c_teal, spaceAfter=4),
-        'DocMeta': ParagraphStyle('DocMeta', parent=base['Normal'], fontName='Helvetica-Bold', fontSize=8.5, leading=12, textColor=c_muted, spaceAfter=6),
+        'DocTitle': ParagraphStyle('DocTitle', parent=base['Heading1'], fontName='DejaVuSans-Bold', fontSize=20, leading=24, textColor=c_dark, spaceAfter=3),
+        'DocSubtitle': ParagraphStyle('DocSubtitle', parent=base['Normal'], fontName='DejaVuSans-Bold', fontSize=11, leading=15, textColor=c_teal, spaceAfter=4),
+        'DocMeta': ParagraphStyle('DocMeta', parent=base['Normal'], fontName='DejaVuSans-Bold', fontSize=8.5, leading=12, textColor=c_muted, spaceAfter=6),
         
-        'SectionHeader': ParagraphStyle('SectionHeader', parent=base['Heading2'], fontName='Helvetica-Bold', fontSize=12, leading=16, textColor=c_dark, spaceBefore=10, spaceAfter=4),
-        'SubSectionHeader': ParagraphStyle('SubSectionHeader', parent=base['Heading3'], fontName='Helvetica-Bold', fontSize=9.5, leading=13, textColor=c_teal, spaceBefore=6, spaceAfter=3),
+        'SectionHeader': ParagraphStyle('SectionHeader', parent=base['Heading2'], fontName='DejaVuSans-Bold', fontSize=12, leading=16, textColor=c_dark, spaceBefore=10, spaceAfter=4),
+        'SubSectionHeader': ParagraphStyle('SubSectionHeader', parent=base['Heading3'], fontName='DejaVuSans-Bold', fontSize=9.5, leading=13, textColor=c_teal, spaceBefore=6, spaceAfter=3),
         
-        'Body': ParagraphStyle('Body', parent=base['Normal'], fontName='Helvetica', fontSize=8.2, leading=11.8, textColor=c_slate, spaceAfter=4),
-        'BodyBold': ParagraphStyle('BodyBold', parent=base['Normal'], fontName='Helvetica-Bold', fontSize=8.2, leading=11.8, textColor=c_dark, spaceAfter=4),
-        'FigureCaption': ParagraphStyle('FigureCaption', parent=base['Normal'], fontName='Helvetica-Bold', fontSize=7.5, leading=10.5, textColor=colors.HexColor("#475569"), alignment=1, spaceBefore=3, spaceAfter=6),
+        'Body': ParagraphStyle('Body', parent=base['Normal'], fontName='DejaVuSans', fontSize=8.2, leading=11.8, textColor=c_slate, spaceAfter=4),
+        'BodyBold': ParagraphStyle('BodyBold', parent=base['Normal'], fontName='DejaVuSans-Bold', fontSize=8.2, leading=11.8, textColor=c_dark, spaceAfter=4),
+        'FigureCaption': ParagraphStyle('FigureCaption', parent=base['Normal'], fontName='DejaVuSans-Bold', fontSize=7.5, leading=10.5, textColor=colors.HexColor("#475569"), alignment=1, spaceBefore=3, spaceAfter=6),
         
-        'TableHead': ParagraphStyle('TableHead', parent=base['Normal'], fontName='Helvetica-Bold', fontSize=7.8, leading=9.8, textColor=colors.white),
-        'TableCell': ParagraphStyle('TableCell', parent=base['Normal'], fontName='Helvetica', fontSize=7.2, leading=9.2, textColor=c_dark),
-        'TableCellBold': ParagraphStyle('TableCellBold', parent=base['Normal'], fontName='Helvetica-Bold', fontSize=7.2, leading=9.2, textColor=c_dark),
-        'TableAlertCell': ParagraphStyle('TableAlertCell', parent=base['Normal'], fontName='Helvetica-Bold', fontSize=7.2, leading=9.2, textColor=colors.HexColor("#b91c1c"))
+        'TableHead': ParagraphStyle('TableHead', parent=base['Normal'], fontName='DejaVuSans-Bold', fontSize=7.8, leading=9.8, textColor=colors.white),
+        'TableCell': ParagraphStyle('TableCell', parent=base['Normal'], fontName='DejaVuSans', fontSize=7.2, leading=9.2, textColor=c_dark),
+        'TableCellBold': ParagraphStyle('TableCellBold', parent=base['Normal'], fontName='DejaVuSans-Bold', fontSize=7.2, leading=9.2, textColor=c_dark),
+        'TableAlertCell': ParagraphStyle('TableAlertCell', parent=base['Normal'], fontName='DejaVuSans-Bold', fontSize=7.2, leading=9.2, textColor=colors.HexColor("#b91c1c"))
     }
     return styles
 
