@@ -32,6 +32,18 @@ pdfmetrics.registerFontFamily(
     boldItalic='DejaVuSans-BoldOblique'
 )
 
+# Register Unicode Font for Assamese / Indic Script Support
+arial_unicode_paths = [
+    '/System/Library/Fonts/Supplemental/Arial Unicode.ttf',
+    '/Library/Fonts/Arial Unicode.ttf'
+]
+HAS_ARIAL_UNICODE = False
+for aup in arial_unicode_paths:
+    if os.path.exists(aup):
+        pdfmetrics.registerFont(TTFont('ArialUnicode', aup))
+        HAS_ARIAL_UNICODE = True
+        break
+
 class NumberedCanvas(canvas.Canvas):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
@@ -115,7 +127,10 @@ def create_proof_of_work_pdf(filename="NESFIC_D28_Proof_of_Work_Arogya_Drishti.p
 
     # ================= PAGE 1 =================
     story.append(Paragraph("GOVERNMENT OF ASSAM • HEALTH & FAMILY WELFARE DEPARTMENT", styles['DocMeta']))
-    story.append(Paragraph("আৰোগ্য-দৃষ্টি অসম (Arogya-Drishti Assam)", styles['DocTitle']))
+    if HAS_ARIAL_UNICODE:
+        story.append(Paragraph('<font name="ArialUnicode">আৰোগ্য-দৃষ্টি অসম</font> (Arogya-Drishti Assam)', styles['DocTitle']))
+    else:
+        story.append(Paragraph("Arogya-Drishti Assam", styles['DocTitle']))
     story.append(Paragraph("Proof of Work, Technical Architecture & Clinical Evidence Whitepaper", styles['DocSubtitle']))
     story.append(Paragraph("Challenge Track: <b>NESFIC-D-28</b> • Cross-Programme NCD Analytics for Better Planning and Case Identification", styles['Body']))
     
@@ -456,7 +471,10 @@ def create_proposal_pdf(filename="NESFIC_D28_Official_Proposal_Arogya_Drishti.pd
     story.append(Paragraph("GOVERNMENT OF ASSAM • HEALTH & FAMILY WELFARE DEPARTMENT", styles['DocMeta']))
     story.append(Paragraph("NESFIC-2026 Official Proposal Submission", styles['DocTitle']))
     story.append(Paragraph("Cross-Programme NCD Analytics for Better Planning and Case Identification", styles['DocSubtitle']))
-    story.append(Paragraph("Challenge ID: <b>NESFIC-D-28</b> • Platform: <b>Arogya-Drishti Assam (আৰোগ্য-দৃষ্টি অসম)</b>", styles['Body']))
+    if HAS_ARIAL_UNICODE:
+        story.append(Paragraph('Challenge ID: <b>NESFIC-D-28</b> • Platform: <b>Arogya-Drishti Assam (<font name="ArialUnicode">আৰোগ্য-দৃষ্টি অসম</font>)</b>', styles['Body']))
+    else:
+        story.append(Paragraph("Challenge ID: <b>NESFIC-D-28</b> • Platform: <b>Arogya-Drishti Assam</b>", styles['Body']))
     story.append(Spacer(1, 4))
 
     # Comprehensive 10-Figure mapping for proposal sections (16:9 Widescreen Technological Infographics)
