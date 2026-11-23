@@ -14,13 +14,14 @@ import {
   ArrowRight,
   Sparkles,
   ExternalLink,
-  Laptop
+  Laptop,
+  Settings
 } from 'lucide-react';
 
 interface TutorialModalProps {
   isOpen: boolean;
   onClose: () => void;
-  onNavigateTab: (tab: 'overview' | 'forecasting' | 'dialysis' | 'triage' | 'simulator' | 'proposal' | 'pow' | 'gallery') => void;
+  onNavigateTab: (tab: 'overview' | 'forecasting' | 'dialysis' | 'triage' | 'simulator' | 'proposal' | 'pow' | 'gallery' | 'admin') => void;
 }
 
 export const TutorialModal: React.FC<TutorialModalProps> = ({
@@ -171,6 +172,26 @@ export const TutorialModal: React.FC<TutorialModalProps> = ({
             <li><strong>Visual Blueprints Gallery:</strong> Inspect and download all 16:9 widescreen technological framework infographics in high-res PNG (300 DPI) and Vector SVG formats.</li>
             <li><strong>Proof of Work PDF (8 Pages):</strong> Complete technical architecture, clinical equations, KDIGO grid, and district capacity tables.</li>
             <li><strong>Official NESFIC-D-28 Proposal PDF (13 Pages):</strong> All 12 portal sections, strictly audited under 500 words per section, complete with matching embedded figures.</li>
+          </ul>
+        </div>
+      )
+    },
+    {
+      title: "8. Admin Console & Platform Governance",
+      tab: 'admin' as const,
+      icon: Settings,
+      badge: "Governance & Master Data",
+      summary: "District Capacity Configuration, Clinical Threshold Tuning & ABDM Ingestion",
+      content: (
+        <div className="space-y-3 text-xs text-slate-700 leading-relaxed">
+          <p>
+            The <strong>Admin Console</strong> provides authorized health administrators with full control over operational master data without touching codebase files:
+          </p>
+          <ul className="list-disc list-inside space-y-1.5 text-slate-600">
+            <li><strong>District Infrastructure Manager:</strong> Update hemodialysis machine inventories, operational centers, and screening progress across all 35 Assam districts.</li>
+            <li><strong>Clinical & Cost Tuner:</strong> Adjust KFRE renal alert thresholds (Tier 1 & 2), PMNDP session costs (₹2,100), and RO water loads in real-time.</li>
+            <li><strong>Role-Based Access Control (RBAC):</strong> Switch evaluator roles between State Mission Director, District Nodal Officer, and Facility Medical Officer.</li>
+            <li><strong>ABDM Pipeline Simulator:</strong> Ingest simulated CPHC-NCD screening batches and inspect DPDP Act 2023 compliant audit logs.</li>
           </ul>
         </div>
       )

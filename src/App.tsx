@@ -7,16 +7,20 @@ import { PatientRiskTriage } from './components/PatientRiskTriage';
 import { PolicySimulator } from './components/PolicySimulator';
 import { ProofOfWorkDocument } from './components/ProofOfWorkDocument';
 import { FigureGallery } from './components/FigureGallery';
+import { AdminConsole } from './components/AdminConsole';
 import { ProposalViewerModal, PROPOSAL_SECTIONS } from './components/ProposalViewerModal';
 import { TutorialModal } from './components/TutorialModal';
 import { ASSAM_DISTRICTS } from './data/assamDistrictsData';
 import { DistrictMetric, PolicyInterventionParams } from './types';
+import { AdminDataProvider, useAdminData } from './context/AdminDataContext';
 import { Download, FileText, ShieldCheck, Check } from 'lucide-react';
 
-export const App: React.FC = () => {
-  const [districts] = useState<DistrictMetric[]>(ASSAM_DISTRICTS);
-  const [selectedDistrict, setSelectedDistrict] = useState<DistrictMetric>(ASSAM_DISTRICTS[0]);
-  const [activeTab, setActiveTab] = useState<'overview' | 'forecasting' | 'dialysis' | 'triage' | 'simulator' | 'proposal' | 'pow' | 'gallery'>('overview');
+const AppContent: React.FC = () => {
+  const { districts } = useAdminData();
+  const [selectedDistrictId, setSelectedDistrictId] = useState<string>(districts[0]?.id || 'kamrup_metro');
+  const selectedDistrict = districts.find((d) => d.id === selectedDistrictId) || districts[0] || ASSAM_DISTRICTS[0];
+
+  const [activeTab, setActiveTab] = useState<'overview' | 'forecasting' | 'dialysis' | 'triage' | 'simulator' | 'proposal' | 'pow' | 'gallery' | 'admin'>('overview');
   const [isProposalModalOpen, setIsProposalModalOpen] = useState<boolean>(false);
   const [isTutorialModalOpen, setIsTutorialModalOpen] = useState<boolean>(false);
   const [copiedId, setCopiedId] = useState<number | null>(null);
@@ -65,7 +69,7 @@ export const App: React.FC = () => {
           <DistrictHeatmap
             districts={districts}
             selectedDistrict={selectedDistrict}
-            onSelectDistrict={(d) => setSelectedDistrict(d)}
+            onSelectDistrict={(d) => setSelectedDistrictId(d.id)}
             onNavigateToForecast={() => setActiveTab('forecasting')}
             onNavigateToDialysis={() => setActiveTab('dialysis')}
           />
@@ -94,12 +98,16 @@ export const App: React.FC = () => {
           />
         )}
 
-        {activeTab === 'pow' && (
-          <ProofOfWorkDocument />
-        )}
-
         {activeTab === 'gallery' && (
           <FigureGallery />
+        )}
+
+        {activeTab === 'admin' && (
+          <AdminConsole />
+        )}
+
+        {activeTab === 'pow' && (
+          <ProofOfWorkDocument />
         )}
 
         {activeTab === 'proposal' && (
@@ -234,5 +242,13 @@ export const App: React.FC = () => {
         onNavigateTab={(tab) => setActiveTab(tab)}
       />
     </div>
+  );
+};
+
+export const App: React.FC = () => {
+  return (
+    <AdminDataProvider>
+      <AppContent />
+    </AdminDataProvider>
   );
 };

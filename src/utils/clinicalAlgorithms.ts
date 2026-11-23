@@ -160,7 +160,9 @@ export function generateProgressionProjections(
  */
 export function calculateDialysisResourceNeeds(
   projectedESRDCases: number,
-  existingMachines: number
+  existingMachines: number,
+  costPerSessionINR: number = 2100,
+  roWaterPerSessionLiters: number = 120
 ): ResourceRequirement {
   // Standard dialysis protocol: 3 sessions/week = 156 sessions/year per patient
   // 1 machine running 2 shifts/day (6 days/week) handles ~6 to 7 patients annually
@@ -178,12 +180,12 @@ export function calculateDialysisResourceNeeds(
   // 1 Medical Officer / Nephrologist per 15 machines
   const doctorsRequired = Math.ceil(machinesNeededTwoShifts / 15);
 
-  // Consumables: dialyzer, blood tubing, A/B concentrates, heparin, erythropoietin ~₹1,450 per session
+  // Consumables: dialyzer, blood tubing, A/B concentrates, heparin, erythropoietin
   const totalSessionsAnnual = projectedESRDCases * 156;
-  const annualConsumablesCostCrores = Number(((totalSessionsAnnual * 1450) / 10000000).toFixed(2));
+  const annualConsumablesCostCrores = Number(((totalSessionsAnnual * costPerSessionINR) / 10000000).toFixed(2));
 
-  // RO water: ~120 Liters of ultra-pure water per hemodialysis session
-  const roWaterDailyLiters = Math.round((totalSessionsAnnual / 312) * 120);
+  // RO water: ultra-pure water per hemodialysis session
+  const roWaterDailyLiters = Math.round((totalSessionsAnnual / 312) * roWaterPerSessionLiters);
 
   return {
     hemodialysisMachinesRequired: machinesNeededTwoShifts,

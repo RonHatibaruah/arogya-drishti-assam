@@ -1,12 +1,13 @@
 import React from 'react';
-import { ShieldAlert, Activity, Layers, Bell, CheckCircle2, Image as ImageIcon, BookOpen, HelpCircle } from 'lucide-react';
+import { ShieldAlert, Activity, Layers, Bell, CheckCircle2, Image as ImageIcon, BookOpen, HelpCircle, Settings, UserCheck } from 'lucide-react';
 import { DistrictMetric } from '../types';
+import { useAdminData } from '../context/AdminDataContext';
 
 interface HeaderProps {
   districts: DistrictMetric[];
   selectedDistrict: DistrictMetric;
-  activeTab: 'overview' | 'forecasting' | 'dialysis' | 'triage' | 'simulator' | 'proposal' | 'pow' | 'gallery';
-  setActiveTab: (tab: 'overview' | 'forecasting' | 'dialysis' | 'triage' | 'simulator' | 'proposal' | 'pow' | 'gallery') => void;
+  activeTab: 'overview' | 'forecasting' | 'dialysis' | 'triage' | 'simulator' | 'proposal' | 'pow' | 'gallery' | 'admin';
+  setActiveTab: (tab: 'overview' | 'forecasting' | 'dialysis' | 'triage' | 'simulator' | 'proposal' | 'pow' | 'gallery' | 'admin') => void;
   onOpenProposalModal?: () => void;
   onOpenTutorialModal: () => void;
 }
@@ -18,6 +19,8 @@ export const Header: React.FC<HeaderProps> = ({
   setActiveTab,
   onOpenTutorialModal
 }) => {
+  const { currentUser } = useAdminData();
+
   // Aggregate stats across Assam
   const totalScreened = districts.reduce((acc, d) => acc + d.screenedPopulation, 0);
   const totalDiabetics = districts.reduce((acc, d) => acc + d.confirmedDiabetics, 0);
@@ -47,6 +50,15 @@ export const Header: React.FC<HeaderProps> = ({
           >
             <HelpCircle className="w-3.5 h-3.5 text-teal-700" />
             <span>Platform Tutorial & Guide</span>
+          </button>
+          <span className="text-slate-300">•</span>
+          <button
+            onClick={() => setActiveTab('admin')}
+            className="flex items-center gap-1 font-medium text-slate-700 bg-white hover:bg-slate-50 px-2 py-0.5 rounded border border-slate-300 transition-colors shadow-2xs cursor-pointer"
+            title="Click to view active role session and administrative controls"
+          >
+            <UserCheck className="w-3.5 h-3.5 text-indigo-600" />
+            <span>Session: <strong className="text-slate-900">{currentUser.name}</strong> ({currentUser.role})</span>
           </button>
           <span className="text-slate-300">•</span>
           <span className="flex items-center gap-1 font-medium text-emerald-800 bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200">
@@ -108,6 +120,18 @@ export const Header: React.FC<HeaderProps> = ({
           >
             <BookOpen className="w-4 h-4 text-teal-700" />
             <span>Tutorial Guide</span>
+          </button>
+          <button
+            onClick={() => setActiveTab('admin')}
+            className={`flex items-center gap-1.5 font-semibold text-xs px-3.5 py-2 rounded-lg border transition-all hover:scale-[1.02] cursor-pointer ${
+              activeTab === 'admin'
+                ? 'bg-slate-900 text-white border-slate-900 shadow-sm'
+                : 'bg-white hover:bg-slate-50 text-slate-800 border-slate-300 shadow-2xs'
+            }`}
+            title="Open Administrative & Master Data Control Center"
+          >
+            <Settings className="w-4 h-4 text-teal-600" />
+            <span>Admin Console</span>
           </button>
         </div>
       </div>
@@ -184,6 +208,18 @@ export const Header: React.FC<HeaderProps> = ({
         >
           <ImageIcon className="w-3.5 h-3.5 text-teal-600" />
           Visual Blueprints (10 Figures)
+        </button>
+
+        <button
+          onClick={() => setActiveTab('admin')}
+          className={`flex items-center gap-1.5 px-3 py-1.5 rounded-md font-medium whitespace-nowrap transition-colors ${
+            activeTab === 'admin'
+              ? 'bg-slate-900 text-white font-bold shadow-xs'
+              : 'text-slate-700 hover:text-slate-900 hover:bg-slate-100 font-semibold'
+          }`}
+        >
+          <Settings className="w-3.5 h-3.5 text-teal-400" />
+          Admin Console
         </button>
       </div>
     </header>

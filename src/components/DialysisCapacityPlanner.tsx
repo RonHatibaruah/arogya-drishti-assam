@@ -2,6 +2,7 @@ import React from 'react';
 import { ShieldAlert, Droplets, Users, Stethoscope, Package, AlertCircle } from 'lucide-react';
 import { DistrictMetric } from '../types';
 import { calculateDialysisResourceNeeds } from '../utils/clinicalAlgorithms';
+import { useAdminData } from '../context/AdminDataContext';
 
 interface DialysisCapacityPlannerProps {
   selectedDistrict: DistrictMetric;
@@ -10,10 +11,13 @@ interface DialysisCapacityPlannerProps {
 export const DialysisCapacityPlanner: React.FC<DialysisCapacityPlannerProps> = ({
   selectedDistrict
 }) => {
+  const { clinicalParams } = useAdminData();
   const estimatedESRDCases = Math.round(selectedDistrict.projectedCKDStage3to5 * 0.12);
   const resourceNeeds = calculateDialysisResourceNeeds(
     estimatedESRDCases,
-    selectedDistrict.existingDialysisMachines
+    selectedDistrict.existingDialysisMachines,
+    clinicalParams.costPerDialysisSessionINR,
+    clinicalParams.roWaterPerSessionLiters
   );
 
   return (
