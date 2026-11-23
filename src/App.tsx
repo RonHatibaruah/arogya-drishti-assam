@@ -5,15 +5,16 @@ import { ProgressionForecaster } from './components/ProgressionForecaster';
 import { DialysisCapacityPlanner } from './components/DialysisCapacityPlanner';
 import { PatientRiskTriage } from './components/PatientRiskTriage';
 import { PolicySimulator } from './components/PolicySimulator';
+import { ProofOfWorkDocument } from './components/ProofOfWorkDocument';
 import { ProposalViewerModal, PROPOSAL_SECTIONS } from './components/ProposalViewerModal';
 import { ASSAM_DISTRICTS } from './data/assamDistrictsData';
 import { DistrictMetric, PolicyInterventionParams } from './types';
-import { Copy, Check, Download, FileText, ExternalLink, ShieldCheck } from 'lucide-react';
+import { Download, FileText, ShieldCheck } from 'lucide-react';
 
 export const App: React.FC = () => {
   const [districts] = useState<DistrictMetric[]>(ASSAM_DISTRICTS);
   const [selectedDistrict, setSelectedDistrict] = useState<DistrictMetric>(ASSAM_DISTRICTS[0]);
-  const [activeTab, setActiveTab] = useState<'overview' | 'forecasting' | 'dialysis' | 'triage' | 'simulator' | 'proposal'>('overview');
+  const [activeTab, setActiveTab] = useState<'overview' | 'forecasting' | 'dialysis' | 'triage' | 'simulator' | 'proposal' | 'pow'>('overview');
   const [isProposalModalOpen, setIsProposalModalOpen] = useState<boolean>(false);
   const [copiedId, setCopiedId] = useState<number | null>(null);
 
@@ -44,7 +45,7 @@ export const App: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col font-sans">
+    <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col font-sans print:bg-white print:text-black">
       {/* Top Header & Navigation */}
       <Header
         districts={districts}
@@ -55,7 +56,7 @@ export const App: React.FC = () => {
       />
 
       {/* Main Container */}
-      <main className="flex-1 max-w-7xl w-full mx-auto p-4 sm:p-6 space-y-6">
+      <main className="flex-1 max-w-7xl w-full mx-auto p-4 sm:p-6 space-y-6 print:p-0 print:max-w-none">
         {activeTab === 'overview' && (
           <DistrictHeatmap
             districts={districts}
@@ -87,6 +88,10 @@ export const App: React.FC = () => {
             policyParams={policyParams}
             setPolicyParams={setPolicyParams}
           />
+        )}
+
+        {activeTab === 'pow' && (
+          <ProofOfWorkDocument />
         )}
 
         {activeTab === 'proposal' && (
@@ -173,12 +178,11 @@ export const App: React.FC = () => {
                     >
                       {copiedId === section.id ? (
                         <>
-                          <Check className="w-3.5 h-3.5" />
+                          <ShieldCheck className="w-3.5 h-3.5" />
                           Copied!
                         </>
                       ) : (
                         <>
-                          <Copy className="w-3.5 h-3.5" />
                           Copy Text
                         </>
                       )}
@@ -196,7 +200,7 @@ export const App: React.FC = () => {
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-slate-800/80 bg-slate-950 py-4 px-6 text-xs text-slate-400 flex flex-col sm:flex-row items-center justify-between gap-3 mt-10">
+      <footer className="border-t border-slate-800/80 bg-slate-950 py-4 px-6 text-xs text-slate-400 flex flex-col sm:flex-row items-center justify-between gap-3 mt-10 print:hidden">
         <div>
           <span className="font-semibold text-slate-300">আৰোগ্য-দৃষ্টি অসম (Arogya-Drishti Assam)</span> • Developed for NESFIC-2026 Innovation Challenge (Track NESFIC-D-28)
         </div>

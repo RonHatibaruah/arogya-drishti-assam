@@ -1,12 +1,12 @@
 import React from 'react';
-import { ShieldAlert, Activity, FileText, Layers, Bell, CheckCircle2 } from 'lucide-react';
+import { ShieldAlert, Activity, FileText, Layers, Bell, CheckCircle2, Award, Printer } from 'lucide-react';
 import { DistrictMetric } from '../types';
 
 interface HeaderProps {
   districts: DistrictMetric[];
   selectedDistrict: DistrictMetric;
-  activeTab: 'overview' | 'forecasting' | 'dialysis' | 'triage' | 'simulator' | 'proposal';
-  setActiveTab: (tab: 'overview' | 'forecasting' | 'dialysis' | 'triage' | 'simulator' | 'proposal') => void;
+  activeTab: 'overview' | 'forecasting' | 'dialysis' | 'triage' | 'simulator' | 'proposal' | 'pow';
+  setActiveTab: (tab: 'overview' | 'forecasting' | 'dialysis' | 'triage' | 'simulator' | 'proposal' | 'pow') => void;
   onOpenProposalModal: () => void;
 }
 
@@ -24,7 +24,7 @@ export const Header: React.FC<HeaderProps> = ({
   const totalMachineShortfall = districts.reduce((acc, d) => acc + d.dialysisMachineShortfall, 0);
 
   return (
-    <header className="border-b border-slate-800 bg-slate-900/90 backdrop-blur sticky top-0 z-40">
+    <header className="border-b border-slate-800 bg-slate-900/90 backdrop-blur sticky top-0 z-40 print:hidden">
       {/* Top Govt Bar */}
       <div className="bg-slate-950/80 px-4 py-1.5 border-b border-slate-800/80 text-xs flex flex-wrap items-center justify-between text-slate-400">
         <div className="flex items-center gap-3">
@@ -93,11 +93,18 @@ export const Header: React.FC<HeaderProps> = ({
         {/* Action Button: Proposal & Proof of Work */}
         <div className="flex items-center gap-2">
           <button
+            onClick={() => setActiveTab('pow')}
+            className="flex items-center gap-1.5 bg-gradient-to-r from-amber-600 to-amber-700 hover:from-amber-500 hover:to-amber-600 text-white font-semibold text-xs px-3.5 py-2 rounded-lg shadow-md shadow-amber-950 border border-amber-400/40 transition-all hover:scale-[1.02]"
+          >
+            <Printer className="w-4 h-4" />
+            <span>Generate Proof of Work PDF</span>
+          </button>
+          <button
             onClick={onOpenProposalModal}
-            className="flex items-center gap-1.5 bg-gradient-to-r from-teal-600 to-emerald-600 hover:from-teal-500 hover:to-emerald-500 text-white font-medium text-xs px-3.5 py-2 rounded-lg shadow-md shadow-teal-900/30 border border-teal-400/30 transition-all hover:scale-[1.02]"
+            className="flex items-center gap-1.5 bg-gradient-to-r from-teal-600 to-emerald-600 hover:from-teal-500 hover:to-emerald-500 text-white font-medium text-xs px-3 py-2 rounded-lg shadow-md shadow-teal-900/30 border border-teal-400/30 transition-all hover:scale-[1.02]"
           >
             <FileText className="w-4 h-4" />
-            <span>NESFIC Proposal & Content</span>
+            <span>12 Proposal Texts</span>
           </button>
         </div>
       </div>
@@ -162,6 +169,18 @@ export const Header: React.FC<HeaderProps> = ({
         >
           <span className="w-2 h-2 rounded-full bg-purple-400"></span>
           Policy "What-If" Simulator
+        </button>
+
+        <button
+          onClick={() => setActiveTab('pow')}
+          className={`flex items-center gap-1.5 px-3 py-1.5 rounded-md font-medium whitespace-nowrap transition-colors ${
+            activeTab === 'pow'
+              ? 'bg-amber-500/20 text-amber-300 border border-amber-500/40 font-bold'
+              : 'text-amber-400 hover:text-amber-200 hover:bg-slate-800/50'
+          }`}
+        >
+          <Award className="w-3.5 h-3.5 text-amber-400" />
+          Proof of Work (PDF Ready)
         </button>
 
         <button
