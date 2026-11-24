@@ -13,7 +13,7 @@ import { TutorialModal } from './components/TutorialModal';
 import { ASSAM_DISTRICTS } from './data/assamDistrictsData';
 import { DistrictMetric, PolicyInterventionParams } from './types';
 import { AdminDataProvider, useAdminData } from './context/AdminDataContext';
-import { Download, FileText, ShieldCheck, Check } from 'lucide-react';
+import { Download, FileText, ShieldCheck, Check, Info } from 'lucide-react';
 
 const AppContent: React.FC = () => {
   const { districts } = useAdminData();
@@ -216,16 +216,53 @@ const AppContent: React.FC = () => {
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-slate-200 bg-white py-4 px-6 text-xs text-slate-500 flex flex-col sm:flex-row items-center justify-between gap-3 mt-10 print:hidden">
-        <div>
-          <span className="font-semibold text-slate-700">আৰোগ্য-দৃষ্টি অসম (Arogya-Drishti Assam)</span> • Developed for NESFIC-2026 Innovation Challenge (Track NESFIC-D-28)
-        </div>
-        <div className="flex items-center gap-4 text-[11px]">
-          <span>Health & Family Welfare Dept, Assam</span>
-          <span>•</span>
-          <span>Ayushman Bharat Digital Mission (ABDM)</span>
-          <span>•</span>
-          <span>PMNDP Dialysis Integration</span>
+      <footer className="border-t border-slate-200 bg-white py-6 px-6 mt-12 print:hidden text-xs text-slate-500">
+        <div className="max-w-7xl mx-auto space-y-4">
+          <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-3 pb-4 border-b border-slate-100">
+            <div>
+              <div className="flex items-center gap-2">
+                <span className="font-bold text-slate-800 text-sm">আৰোগ্য-দৃষ্টি অসম (Arogya-Drishti Assam)</span>
+                <span className="text-slate-300">|</span>
+                <span className="text-slate-600 font-medium">NESFIC-2026 Innovation Challenge (Track NESFIC-D-28)</span>
+              </div>
+              <p className="text-[11px] text-slate-500 mt-1">
+                Cross-Programme NCD &amp; Renal-Cardiovascular Intelligence Platform • Health &amp; Family Welfare Department, Government of Assam
+              </p>
+            </div>
+
+            <div className="flex flex-wrap items-center gap-3 text-[11px] text-slate-600">
+              <span className="bg-slate-100 px-2.5 py-1 rounded-md border border-slate-200 font-medium">
+                ABDM &amp; FHIR R4 Standard
+              </span>
+              <span className="bg-slate-100 px-2.5 py-1 rounded-md border border-slate-200 font-medium">
+                PMNDP Dialysis Forecaster
+              </span>
+              <span className="bg-slate-100 px-2.5 py-1 rounded-md border border-slate-200 font-medium">
+                DPDP Act 2023 Compliant
+              </span>
+            </div>
+          </div>
+
+          {/* Copyright & Lead Information */}
+          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 text-slate-600">
+            <div>
+              <span className="font-semibold text-slate-800">© 2026 Ron Hatibaruah.</span> All rights reserved.
+            </div>
+            <div className="text-[11px] text-slate-500 font-mono">
+              Designed &amp; Developed by Ron Hatibaruah • Project Lead, NESFIC-D-28
+            </div>
+          </div>
+
+          {/* Clinical & Regulatory Disclaimer */}
+          <div className="bg-slate-50 border border-slate-200/90 rounded-lg p-3.5 text-[11px] text-slate-600 leading-relaxed space-y-1">
+            <div className="flex items-center gap-1.5 font-bold text-slate-800 uppercase tracking-wider text-[10px]">
+              <Info className="w-3.5 h-3.5 text-teal-700" />
+              <span>Clinical &amp; Regulatory Disclaimer</span>
+            </div>
+            <p>
+              Arogya-Drishti Assam is an epidemiological analytics and clinical decision-support system engineered for proactive planning and early case triage. Algorithmic assessments (such as KDIGO staging and Kidney Failure Risk Equation scores) are predictive clinical decision-support aids designed for registered medical practitioners and public health administrators. They do not constitute formal medical diagnosis, and treatment decisions must always be validated by qualified healthcare personnel through clinical laboratory confirmation. Patient profiles displayed in demonstration environments utilize privacy-preserving synthetic cohorts complying with India’s Digital Personal Data Protection (DPDP) Act 2023 and Ayushman Bharat Digital Mission (ABDM) standards.
+            </p>
+          </div>
         </div>
       </footer>
 
