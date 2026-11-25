@@ -55,7 +55,7 @@ Key Changes Versus Current Approach:
     content: `Proposed User Journey Across Administrative Tiers:
 1. Frontline / Facility Level (ASHA, CHO, MO at Ayushman Arogya Mandir / PHC):
    - ASHA conducts community screening and logs CBAC parameters.
-   - The platform’s embedded rule-engine evaluates glycemic and hypertensive trends over time. If a patient displays prolonged uncontrolled diabetes (RBS > 220 mg/dL or persistent SBP > 150 mmHg), the system flags an automated "Renal Vigilance Alert" on the CHO’s facility dashboard.
+   - The platform’s embedded rule-engine evaluates glycemic and hypertensive trends over time. If a patient displays prolonged uncontrolled diabetes (RBS Greater Than 220 mg/dL or persistent SBP Greater Than 150 mmHg), the system flags an automated "Renal Vigilance Alert" on the CHO’s facility dashboard.
    - The CHO executes a point-of-care urine albumin dipstick test, updates the record, and the system automatically generates an ABHA-linked referral slip to the nearest Sub-Divisional Civil Hospital (SDCH) or District Hospital NCD Clinic.
 2. District Level (District NCD Nodal Officer, Joint Director of Health Services):
    - The Nodal Officer accesses the District Command Console, viewing the district-wide screening-to-referral conversion rate and renal risk heatmap.
@@ -84,7 +84,7 @@ Key Technical Components:
 1. Frontend Presentation: Modern Single Page Application (SPA) built using React 18/19, TypeScript, and Tailwind CSS. Provides sub-second rendering of complex geospatial choropleths and multi-series disease transition charts without external plugin dependencies.
 2. AI/ML & Epidemiological Modeling Algorithms:
    - KFRE (Kidney Failure Risk Equation): Validated 4-variable equation (Age, Sex, eGFR, uACR) calibrated for Indian phenotypes to calculate 2- and 5-year probability of ESRD.
-   - Markov State-Transition Model: Discrete-time multi-state cohort simulation modeling patient transitions between health states: Normal -> Impaired Glucose/Pre-HTN -> Controlled NCD -> Uncontrolled NCD -> CKD 1-2 -> CKD 3-4 -> CKD 5 (Dialysis) -> Mortality.
+   - Markov State-Transition Model: Discrete-time multi-state cohort simulation modeling patient transitions between health states: Normal to Impaired Glucose/Pre-HTN to Controlled NCD to Uncontrolled NCD to CKD 1-2 to CKD 3-4 to CKD 5 (Dialysis) to Mortality.
    - Predictive Machine Learning: Gradient Boosted Decision Trees (XGBoost / LightGBM) trained on longitudinal NCD screening features to identify high-risk non-linear predictors of accelerated nephropathy.
 3. Data Ingestion & ABDM Integration: Standardized FHIR R4 adapters accepting CSV/JSON batches from the national CPHC-NCD portal, e-Sanjeevani teleconsultation records, and PMNDP patient registries. Fully supports ABHA (Ayushman Bharat Health Account) tokenized referencing.
 4. Data Storage & Database Tier:
@@ -110,7 +110,7 @@ Detailed Sequence and Key Outputs:
    - Key Output: De-identification engine and FHIR-compliant ingestion microservices with automated schema validation.
 3. Phase 3: Core Algorithm Engineering & Predictive Modeling (Months 5–6):
    - Implement the adapted KFRE model, KDIGO risk stratification logic, and Markov progression simulations.
-   - Benchmark models against retrospective anonymized public health datasets to ensure calibration slope > 0.85 and C-statistic > 0.82.
+   - Benchmark models against retrospective anonymized public health datasets to ensure calibration slope Greater Than 0.85 and C-statistic Greater Than 0.82.
    - Key Output: Validated predictive model microservice with RESTful prediction endpoints.
 4. Phase 4: Full MVP Development & UI/UX Co-Design (Months 7–8):
    - Construct the State Command Heatmap, PMNDP Dialysis Capacity Planner, and Frontline Facility Tasklist.
@@ -226,13 +226,13 @@ Indicative Manpower Allocation by Development Phase:
   - Discrimination (C-statistic / AUC-ROC): Target ≥ 0.82 for identifying patients progressing to CKD Stage 3+ within a 3-year window.
   - Calibration (Brier Score & Calibration Slope): Target slope between 0.90 and 1.10, ensuring predicted probabilities mirror real-world clinical progression rates.
   - Sensitivity / Recall for High-Risk Triage: Configured to achieve ≥ 88% sensitivity for early microalbuminuria and renal referral triggers to eliminate missed high-risk cases.
-- Performance & Load Testing: Evaluated using Apache JMeter to verify sub-second response times (< 800 ms) under concurrent queries from 500+ district and block health users across Assam.
+- Performance & Load Testing: Evaluated using Apache JMeter to verify sub-second response times (Smaller Than 800 ms) under concurrent queries from 500+ district and block health users across Assam.
 
 2. Evidence of Prior Research, Pilots & Deployments:
 - Algorithmic Heritage: The underlying predictive model builds upon the internationally recognized Kidney Failure Risk Equation (KFRE) (Tangri et al., JAMA), which has been validated across over 700,000 individuals worldwide and adapted for Indian cohorts in tertiary kidney registries.
 - Prior Deployments & Technical Track Record:
   - Our engineering core has previously built and deployed large-scale civic and health intelligence platforms for state departments, including real-time outbreak surveillance engines and clinical decision support systems.
-  - We have successfully validated early diabetic retinopathy and nephropathy prediction algorithms on retrospective clinical cohorts comprising > 40,000 diabetic records, demonstrating an AUC of 0.86 in predicting renal filtration decline.
+  - We have successfully validated early diabetic retinopathy and nephropathy prediction algorithms on retrospective clinical cohorts comprising Greater Than 40,000 diabetic records, demonstrating an AUC of 0.86 in predicting renal filtration decline.
 - Live Interactive Prototype Demonstration: The fully functional prototype (Arogya-Drishti Assam) demonstrates real-time cohort transitions, district heatmaps across Assam's 35 districts, and dynamic PMNDP dialysis machine forecasting using calibrated synthetic cohorts.
 
 3. Pilot Field Validation Strategy (Months 9–10):
@@ -252,7 +252,7 @@ Indicative Manpower Allocation by Development Phase:
 
 2. Clinical Safety & Human-in-the-Loop Governance:
 - Non-Diagnostic Decision Support: The platform functions strictly as an Early Warning and Planning Tool, not an autonomous diagnostic instrument. Every automated risk classification is clearly labeled as a "Clinical Vigilance Suggestion" requiring validation by a registered Medical Officer or CHO via point-of-care laboratory tests.
-- Auditability & Explainability: Every risk score output is fully explainable, displaying contributing clinical risk factors (e.g., "Flagged due to: Persistent SBP > 155 mmHg over 3 visits + Fasting Blood Glucose > 210 mg/dL"). Complete immutable audit logs track all data queries and referral actions.
+- Auditability & Explainability: Every risk score output is fully explainable, displaying contributing clinical risk factors (e.g., "Flagged due to: Persistent SBP Greater Than 155 mmHg over 3 visits + Fasting Blood Glucose Greater Than 210 mg/dL"). Complete immutable audit logs track all data queries and referral actions.
 
 3. Regulatory & Interoperability Compliance:
 - ABDM Compliance: Uses HL7 FHIR R4 data resources for longitudinal records, enabling seamless interoperability with the national CPHC-NCD portal, e-Sanjeevani, and ABDM-compliant hospital management systems (HMIS).
